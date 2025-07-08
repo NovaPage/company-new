@@ -1,0 +1,18 @@
+{
+  "home": {
+    "heroTitle": "Desarrollo moderno con NovaPage",
+    "heroDescription": "Creamos experiencias digitales con tecnologías de vanguardia, diseño sensible y enfoque centrado en el usuario."
+  },
+  "servicesHome": {
+    "title": "Servicios Especializados",
+    "service1": {
+      "title": "Web Apps Inteligentes",
+      "point1": "Frontend personalizado",
+      "point2": "Backends escalables",
+      "point3": "Integración API y RPA",
+      "point4": "Consultoría técnica",
+      "point5": "Automatización con IA"
+    },
+    "seeDetails": "Ver más detalles"
+  }
+}
