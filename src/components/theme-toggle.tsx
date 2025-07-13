@@ -32,7 +32,6 @@ export function ThemeToggle() {
         w-16 h-8
         rounded-full
         bg-primary
-        peer-checked:bg-accent
         transition-all duration-500
         
         after:content-['✨']

@@ -1,4 +1,10 @@
 {
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
   "home": {
     "heroTitle": "Desarrollo moderno con NovaPage",
     "heroDescription": "Creamos experiencias digitales con tecnologías de vanguardia, diseño sensible y enfoque centrado en el usuario."

@@ -2,21 +2,21 @@
 
 import { useLanguage } from '@/providers/LanguageProvider'
 import { Globe } from 'lucide-react'
-import { useState, useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 const SUPPORTED_LANGUAGES = [
-  { code: 'es', label: 'Español', emoji: '🇪🇸' },
-  { code: 'en', label: 'English', emoji: '🇺🇸' },
-  { code: 'pt', label: 'Português', emoji: '🇧🇷' },
+  { code: 'es', emoji: '🇪🇸' },
+  { code: 'en', emoji: '🇺🇸' },
+  { code: 'pt', emoji: '🇧🇷' },
 ] as const
 
 type SupportedLocale = (typeof SUPPORTED_LANGUAGES)[number]['code']
 
 export function LanguageSwitcher() {
-  const { setLocale, locale } = useLanguage()
+  const { locale, setLocale } = useLanguage()
   const [show, setShow] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
-  const hideTimeout = useRef<NodeJS.Timeout | undefined>(undefined)
+  const hideTimeout = useRef<NodeJS.Timeout | null>(null)
 
   useEffect(() => {
     const update = () => setIsMobile(window.innerWidth < 768)
@@ -29,69 +29,75 @@ export function LanguageSwitcher() {
     if (isMobile) setShow((prev) => !prev)
   }
 
-  const selectLanguage = (code: SupportedLocale) => {
-    setLocale(code)
-    setShow(false)
-  }
-
-  const isActive = (code: SupportedLocale) => code === locale
-
   const handleEnter = () => {
     if (!isMobile) {
-      clearTimeout(hideTimeout.current)
+      if (hideTimeout.current) {
+        clearTimeout(hideTimeout.current)
+      }
       setShow(true)
     }
   }
 
   const handleLeave = () => {
     if (!isMobile) {
-      hideTimeout.current = setTimeout(() => setShow(false), 100)
+      hideTimeout.current = setTimeout(() => setShow(false), 150)
     }
+  }
+
+  const selectLanguage = (code: SupportedLocale) => {
+    setLocale(code)
+    setShow(false)
   }
 
   return (
     <div
-      className="relative ml-4 z-50"
+      className="relative z-50"
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
     >
-      {/* Botón Globo */}
+      {/* Globe button */}
       <button
         aria-label="Cambiar idioma"
         onClick={toggleMenu}
         className={`
           transition-transform duration-200 hover:scale-125
-          ${show ? 'text-accent' : 'text-foreground'}
+          text-black dark:text-white
+          hover:text-secondary dark:hover:text-primary
         `}
       >
-        <Globe className={`w-6 h-6 ${show ? 'stroke-accent' : 'stroke-foreground'}`} />
+        <Globe className="w-6 h-6 stroke-current cursor-pointer" />
       </button>
 
-      {/* Panel animado y estable */}
+      {/* Dropdown */}
       <div
         className={`
           absolute top-10 left-1/2 -translate-x-1/2
-          w-40 sm:w-44 px-4 py-2 space-y-1 rounded-xl shadow-xl border border-border
-          transition-all duration-300 ease-in-out
-          bg-foreground text-background dark:bg-background dark:text-foreground
-          ${show ? 'opacity-100 pointer-events-auto scale-100' : 'opacity-0 pointer-events-none scale-95'}
+          min-w-[6rem] px-3 py-2
+          rounded-xl shadow-lg border border-border
+          transition-all duration-200 ease-in-out
+          bg-popover text-popover-foreground
+          dark:bg-background dark:text-foreground
+          ${show ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}
         `}
       >
-        {SUPPORTED_LANGUAGES.map(({ code, emoji }) => (
-          <button
-            key={code}
-            onClick={() => selectLanguage(code)}
-            className={`
-              flex items-center w-full text-sm font-semibold
-              hover:text-primary transition-colors
-              ${isActive(code) ? 'text-primary' : ''}
-            `}
-          >
-            <span className="text-lg">{emoji}</span>
-
-            {isActive(code) && <span className="ml-auto text-xs">●</span>}
-          </button>
-        ))}
+        {SUPPORTED_LANGUAGES.map(({ code, emoji }) => {
+          const isActive = locale === code
+          return (
+            <button
+              key={code}
+              onClick={() => selectLanguage(code)}
+              className={`
+                flex items-center justify-between w-full text-sm font-medium cursor-pointer
+                rounded-md px-2 py-1.5
+                transition-colors duration-200
+                ${isActive ? 'text-primary' : 'text-muted-foreground hover:text-foreground'}
+              `}
+            >
+              <span className="text-lg">{emoji}</span>
+              {isActive && <span className="text-xs text-primary">●</span>}
+            </button>
+          )
+        })}
       </div>
     </div>
   )

@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+
 @font-face {
   font-family: 'Efourpro';
   src: url('/fonts/Efourpro-OPrP.ttf') format('opentype');
@@ -141,6 +143,12 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: 'Efourpro';
+    font-family: 'Prompt', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-efour {
+    font-family: 'Efourpro', sans-serif;
   }
 }
