@@ -5,9 +5,9 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Menu } from 'lucide-react'
 import { motion } from 'framer-motion'
-import { navFade } from './animations'
-import { LanguageSwitcher } from './LanguageSwitcher'
-import { ThemeToggle } from './theme-toggle'
+import { navFade } from '../animations/animations'
+import { LanguageSwitcher } from '../utils/LanguageSwitcher'
+import { ThemeToggle } from '../utils/theme-toggle'
 import { useTranslation } from '@/hooks/useTranslation'
 
 import {

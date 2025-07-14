@@ -4,13 +4,19 @@ import { useEffect, useState } from 'react'
 
 export function ThemeToggle() {
   const [isDark, setIsDark] = useState(false)
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
+    // 1. Lee si ya está en dark mode por clase (o localStorage por compatibilidad)
+    const classDark = document.documentElement.classList.contains('dark')
     const savedTheme = localStorage.getItem('theme')
-    if (savedTheme === 'dark') {
-      document.documentElement.classList.add('dark')
+
+    if (classDark || savedTheme === 'dark') {
       setIsDark(true)
+    } else {
+      setIsDark(false)
     }
+    setMounted(true)
   }, [])
 
   const toggleTheme = () => {
@@ -19,6 +25,8 @@ export function ThemeToggle() {
     localStorage.setItem('theme', newTheme)
     setIsDark(!isDark)
   }
+
+  if (!mounted) return null
 
   return (
     <label className="relative inline-flex justify-center items-center cursor-pointer scale-90">

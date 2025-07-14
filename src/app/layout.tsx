@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { LanguageProvider } from "@/providers/LanguageProvider";
-import { NavBar } from "@/components/nav";
-import { ThemeProvider } from "@/components/theme-provider";
+import { NavBar } from "@/components/layout/nav";
+import { ThemeProvider } from "@/components/utils/theme-provider";
 
 
 export const metadata: Metadata = {

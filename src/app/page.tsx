@@ -1,7 +1,7 @@
 'use client'
 
 import { Shirt, Home as HomeIcon, Layers3, Handshake, Sparkle } from "lucide-react";
-import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { LanguageSwitcher } from "@/components/utils/LanguageSwitcher";
 import Link from "next/link";
 import { useTranslation } from "@/hooks/useTranslation";
 import Image from "next/image";
