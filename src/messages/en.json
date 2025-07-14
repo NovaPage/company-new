@@ -1,5 +1,429 @@
 {
-  "navbar": {
-    
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "profile": "Profile"
+  },
+  "profile": {
+    "header": {
+      "name": "CESAR PEREZ",
+      "role": "Mid-Level Software Engineer | Cloud Development & AI Automation Specialist",
+      "location": "Cali, Colombia",
+      "phone": "+(57) 321 622 16 06",
+      "email": "perezcastro.1228@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/cesar-perez-327032241/",
+      "github": "https://github.com/NovaPage",
+      "photoAlt": "Professional photo of Cesar Perez"
+    },
+    "summary": {
+      "title": "Professional Summary",
+      "paragraph": "Mid-Level Software Engineer and Cloud Solutions Architect with a strong background in designing and implementing scalable and secure architectures on Microsoft Azure. Expert in Full-Stack development (React, Next.js, Python/FastAPI), building systems with advanced enterprise authentication (Microsoft Entra ID), and API optimization. Pioneer in process automation and Artificial Intelligence application, using advanced tools for autonomous code creation, testing and correction, as well as copilot-based solutions. My self-taught approach and commitment to DevOps practices (GitFlow, CI/CD) allow me to transform complex challenges into efficient, robust solutions. I am driven by innovation and a constant search for strategic value through technology."
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "cloud": {
+        "title": "Cloud Computing & DevOps",
+        "point1": "Microsoft Azure (Azure Functions, Service Bus, Cosmos DB, domain and DNS management)",
+        "point2": "Containerization and deployment: Docker, VPS",
+        "point3": "Azure DevOps, GitFlow, CI/CD pipelines",
+        "point4": "Environment and resource management, monitoring (UptimeRobot, Mixpanel)",
+        "point5": "Deployment automation and multitenant workflows"
+      },
+      "ai": {
+        "title": "AI & Automation",
+        "point1": "Agent orchestration: Autogen, CrewAI, Langchain",
+        "point2": "Automation with Make.com, n8n and Power Automate",
+        "point3": "Copilot and LLM assistant development (GPTs, Gemini, OpenAI)",
+        "point4": "Document processing and vectorization (downloads, extraction, indexing)",
+        "point5": "Code scaffolding and automatic testing with AI"
+      },
+      "backend": {
+        "title": "Backend Development",
+        "point1": "Python (FastAPI), TypeScript, JavaScript, SQL",
+        "point2": "RESTful API design: pagination, security, documentation (Swagger)",
+        "point3": "Custom middlewares, token validation and refresh",
+        "point4": "Clean Architecture patterns (Router, Service, Repository, Client, Mapper)",
+        "point5": "Messaging: Azure Service Bus, SQS, topic patterns"
+      },
+      "frontend": {
+        "title": "Frontend Development",
+        "point1": "React, Next.js, Angular, Vue.js, Nuxt.js",
+        "point2": "Tailwind CSS, Bootstrap, dynamic layouts, i18n",
+        "point3": "Reusable components and advanced forms",
+        "point4": "Enterprise API consumption and integration"
+      },
+      "database": {
+        "title": "Databases",
+        "point1": "Cosmos DB: advanced NoSQL modeling, denormalization, embedding",
+        "point2": "MongoDB, Supabase (Auth, Database), Firebase",
+        "point3": "Offset/cursor pagination, query optimization",
+        "point4": "Redis usage and Singleton patterns for cache and performance"
+      },
+      "security": {
+        "title": "Security & Authentication",
+        "point1": "Microsoft Entra ID/Azure AD: JWT, Scopes, redirections, SSO",
+        "point2": "Row-level Security, role and permission management (Supabase/Azure)",
+        "point3": "OAuth 2.0, OpenID Connect, header centralization in middleware",
+        "point4": "Error testing and documentation, endpoint protection"
+      },
+      "architecture": {
+        "title": "Architecture & Code Quality",
+        "point1": "Clean Architecture patterns, DTOs, DAOs, Mappers",
+        "point2": "Separation and modular organization by entity",
+        "point3": "Test-Driven Development (TDD), unit and integration testing",
+        "point4": "Custom error management, logs, and best practices (PEP8, English)"
+      }
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "job1": {
+        "company": "Vip Reservas",
+        "city": "Cali, Colombia (Remote)",
+        "role": "Cloud Development & AI Automation Specialist",
+        "period": "February 2025 – Present",
+        "point1": "Technical leadership in the design and implementation of scalable, secure architectures on Microsoft Azure (Functions, Cosmos DB, Service Bus, serverless resources).",
+        "point2": "Full-Stack development with Next.js, React, and Python/FastAPI, integrating automation workflows and intelligent data processing.",
+        "point3": "Orchestration of multi-agent systems and advanced integration of generative AI (OpenAI, Copilot, n8n, RPA, CrewAI) for optimization of internal processes and customer services.",
+        "point4": "Continuous improvement and implementation of CI/CD pipelines in Azure DevOps, automating validations, deployments, and monitoring.",
+        "point5": "Advanced enterprise authentication management and granular access control using Microsoft Entra ID, including security policies and protection of critical endpoints.",
+        "point6": "Rigorous application of Clean Architecture, TDD, observability (logs, traceability), and continuous refactoring to ensure code quality and maintainability.",
+        "point7": "Training, support, and mentoring to development teams in modern practices of AI, automation, and cloud, facilitating the adoption of new technologies."
+      },
+      "job2": {
+        "company": "Freelance Development",
+        "city": "Cali, Colombia (Remote)",
+        "role": "Mid-Level Software Engineer",
+        "period": "2023 – Present",
+        "point1": "Execution of Full-Stack web development projects using Next.js and Angular for modern, highly interactive applications.",
+        "point2": "Design and construction of relational and NoSQL databases, as well as integration of robust authentication and authorization systems using Supabase (Auth and Database).",
+        "point3": "Implementation of RESTful APIs and efficient management of states, data flows, and business logic on both frontend and backend.",
+        "point4": "Direct collaboration with clients for requirements gathering, MVP definition, and delivery of functional products under agile methodologies.",
+        "point5": "Deployment and maintenance of solutions, focusing on performance, scalability, and user experience.",
+        "point6": "Application of unit testing, version management (Git), and continuous integration workflows to ensure deliverable quality.",
+        "point7": "Development of responsive, accessible interfaces, visual experience design, and optimization of flows for mobile and desktop devices."
+      },
+      "job3": {
+        "company": "BONDII",
+        "city": "Cali, Colombia",
+        "role": "Frontend Developer & IT Support Specialist",
+        "period": "May 2024 – December 2024",
+        "point1": "Development and optimization of advanced features in Vue.js and Nuxt.js for high-impact applications.",
+        "point2": "Translation of mockups and prototypes in Canva into functional interfaces, ensuring design coherence and usability.",
+        "point3": "Preparation of SQL queries and analytical reports in Excel for business decision-making.",
+        "point4": "Proactive management of IT incidents and comprehensive technical support to ensure system availability and operational continuity."
+      },
+      "job4": {
+        "company": "Political Campaign",
+        "city": "Cali, Colombia",
+        "role": "Frontend Developer & Designer",
+        "period": "September 2023 – November 2023",
+        "point1": "Development of a web platform for campaign statistics visualization using Angular and Laravel, with data integration in Firebase.",
+        "point2": "Design, editing, and publishing of visual resources and communication manuals for social networks and internal use."
+      },
+      "job5": {
+        "company": "Cheo Producciones",
+        "city": "Cali, Colombia",
+        "role": "Audiovisual Media Assistant",
+        "period": "March 2023 – September 2023",
+        "point1": "Management and operation of professional photography and video equipment for corporate content production and events.",
+        "point2": "Editing, post-production, and delivery of high-quality audiovisual material using Photoshop, Premiere, and After Effects."
+      }
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "proj1": {
+        "name": "Full-Stack Web Platform with Advanced Authentication and Analytics (Nakamototrading)",
+        "description": "Comprehensive development of a responsive web platform with Next.js and internal API for key functions. Includes a secure registration/login system managed with Supabase Auth, user metrics tracking in Supabase Database, and a CDN for efficient content delivery.",
+        "tech1": "Next.js",
+        "tech2": "Supabase (Auth, Database)",
+        "tech3": "JavaScript/TypeScript",
+        "tech4": "HTML, CSS",
+        "tech5": "API (Next.js)",
+        "tech6": "CDN",
+        "achievement1": "Building modern and scalable web applications.",
+        "achievement2": "Implementation of secure authentication and robust user flows.",
+        "achievement3": "Efficient database management and modeling.",
+        "achievement4": "Performance optimization and user experience.",
+        "video": "https://drive.google.com/file/d/12XrRDJv5ZVK6nl1JL-bP9NLRprE1DYxN/view?usp=sharing"
+      },
+      "proj2": {
+        "name": "Evana - Intelligent Family Assistant (AI Agent System)",
+        "description": "Design and implementation of a modular architecture for an intelligent agent system (Autogen) capable of supporting complex tasks. Includes a FastAPI backend for the API, Azure Functions as serverless external tools for agents, and an Angular frontend (in development). This system demonstrates advanced AI orchestration for task automation and intelligent support.",
+        "tech1": "Python (FastAPI)",
+        "tech2": "Autogen",
+        "tech3": "Azure Functions",
+        "tech4": "Angular",
+        "tech5": "Docker",
+        "tech6": "Git",
+        "achievement1": "Design of complex agent-based AI systems.",
+        "achievement2": "Development of scalable and secure backend.",
+        "achievement3": "Advanced integration of serverless services as tools for AI.",
+        "achievement4": "Professional version control and environment management.",
+        "video": "https://drive.google.com/file/d/1bkbEuntrkygpzAluEbabcyDD5JvdhOSh/view?usp=sharing"
+      }
+    },
+    "education": {
+      "title": "Education & Continuing Training",
+      "degreesTitle": "Official Degrees",
+      "degree1_degree": "High School Diploma",
+      "degree1_institution": "Luis Fernando Caicedo Educational Institution",
+      "degree1_year": "2022",
+      "degree2_degree": "Technician in Industrial Mechanics",
+      "degree2_institution": "Santo Tomás Educational Institution - CASD Program",
+      "degree2_year": "2022",
+
+      "bootcampsTitle": "Bootcamps & Relevant Courses",
+      "bootcamp1_name": "Frontend Developer",
+      "bootcamp1_institution": "EOS Bootcamp",
+      "bootcamp1_year": "2023",
+      "bootcamp2_name": "Essential Skills, Entrepreneurship and Front-End Development",
+      "bootcamp2_institution": "Jóvenes Creativos",
+      "bootcamp2_year": "2022",
+      "bootcamp3_name": "HTML Fundamentals, Web Page Design (PHP, MySQL, JavaScript)",
+      "bootcamp3_institution": "SENA",
+      "bootcamp3_year": "2022",
+
+      "selfLearningTitle": "Intensive Self-Learning",
+      "selfLearning1": "Advanced Software Engineering: architecture, design patterns, code quality, testing (TDD, unit, integration), refactoring.",
+      "selfLearning2": "Cloud & DevOps: Microsoft Azure (resource management, messaging services, scalable functions), CI/CD, containerization (Docker), logs and monitoring.",
+      "selfLearning3": "Applied Artificial Intelligence: autonomous agents, natural language processing, code and content generation with LLMs, AI copilots.",
+      "selfLearning4": "Enterprise Security: authentication (Microsoft Entra ID, OpenID Connect, OAuth 2.0), API protection, permission management.",
+      "selfLearning5": "NoSQL Databases: advanced modeling in Cosmos DB and MongoDB."
+    },
+    "certifications": {
+      "title": "Certifications",
+      "certs": {
+        "cert1": {
+          "title": "SQL and Relational Databases 101",
+          "entity": "IBM / Cognitive Class",
+          "date": "January 2023",
+          "details": "Fundamentals of SQL and relational databases successfully completed. Official certificate issued by IBM Developer Skills Network."
+        },
+        "cert2": {
+          "title": "Frontend Developer",
+          "entity": "EOS Bootcamp",
+          "date": "December 2022",
+          "details": "Certification after passing the intensive frontend development bootcamp, covering HTML, CSS, JavaScript, React, and UI/UX best practices."
+        },
+        "cert3": {
+          "title": "HTML Fundamentals",
+          "entity": "SENA",
+          "date": "July 2022",
+          "details": "50-hour course on HTML fundamentals issued by the National Learning Service (SENA)."
+        },
+        "cert4": {
+          "title": "Information Systems Design and Development",
+          "entity": "SENA",
+          "date": "July 2022",
+          "details": "144-hour training in efficient information systems modeling and construction."
+        },
+        "cert5": {
+          "title": "Website Design",
+          "entity": "SENA",
+          "date": "December 2021",
+          "details": "80-hour course on modern website design and development."
+        },
+        "cert6": {
+          "title": "Generation of Innovative STEAM Learning Environments",
+          "entity": "SENA",
+          "date": "November 2022",
+          "details": "Certificate for the development of computational thinking and STEAM educational environments."
+        },
+        "cert7": {
+          "title": "Appropriation of Research Project Results and Products",
+          "entity": "SENA",
+          "date": "November 2022",
+          "details": "144 hours, oriented to applied research project management."
+        },
+        "cert8": {
+          "title": "Application of Electronics in Science and Technology Projects",
+          "entity": "SENA",
+          "date": "December 2022",
+          "details": "144 hours of training focused on the integration of electronics in technology projects."
+        },
+        "cert9": {
+          "title": "Research and Development for All",
+          "entity": "SENA",
+          "date": "December 2022",
+          "details": "12 hours in research methods and scientific dissemination."
+        },
+        "cert10": {
+          "title": "Symposium on Innovation and Research in Basic and Applied Sciences",
+          "entity": "SENA",
+          "date": "November 2022",
+          "details": "Participation and recognition in national innovation symposium."
+        },
+        "cert11": {
+          "title": "Web Page Design Using PHP and MySQL",
+          "entity": "SENA",
+          "date": "May 2021",
+          "details": "40 hours in web development with PHP and MySQL."
+        },
+        "cert12": {
+          "title": "Web Page Design with HTML and JavaScript",
+          "entity": "SENA",
+          "date": "October 2020",
+          "details": "40 hours in modern web design and programming."
+        },
+        "cert13": {
+          "title": "Jóvenes Creativos: Essential Skills, Entrepreneurship and Front-End Development",
+          "entity": "Fundación Rofé / Sofka / Cali City Hall",
+          "date": "December 2022",
+          "details": "Comprehensive program in business skills and frontend development."
+        },
+        "cert14": {
+          "title": "AI Fundamentals",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Introductory course on artificial intelligence fundamentals."
+        },
+        "cert15": {
+          "title": "Azure AI Services Fundamentals",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Introduction and management of Azure cognitive services."
+        },
+        "cert16": {
+          "title": "Introduction to AI Agent Development in Azure",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Hands-on training in developing and deploying AI agents using Azure AI."
+        },
+        "cert17": {
+          "title": "Responsible Generative AI Implementation in Azure AI Foundry",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Best practices in responsible generative AI development on Microsoft cloud."
+        },
+        "cert18": {
+          "title": "Planning and Preparing for AI Solution Development in Azure",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Methodologies and best practices for planning and starting AI solution development on Azure."
+        },
+        "cert19": {
+          "title": "Implementing a Responsible Generative AI Solution in Azure AI Foundry",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Responsible development of generative AI solutions on Azure AI Foundry platform."
+        },
+        "cert20": {
+          "title": "Introduction to Generative AI",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Fundamentals and use cases of generative AI and practical applications."
+        },
+        "cert21": {
+          "title": "Azure AI Knowledge Mining and Search Basics",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Fundamentals of knowledge mining and intelligent search engines using Azure AI."
+        },
+        "cert22": {
+          "title": "Introduction to Identity and Access Labs",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Practical labs for identity management and enterprise access control in Azure."
+        },
+        "cert23": {
+          "title": "Overview of Microsoft Entra Identity Governance and Protection Features",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Key features for identity protection and governance in Microsoft Entra ID."
+        },
+        "cert24": {
+          "title": "Describing Microsoft Entra Access Management Features",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Advanced access and privilege management in the Microsoft Entra platform."
+        },
+        "cert25": {
+          "title": "Overview of Microsoft Entra ID Authentication Features",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Authentication protocols and mechanisms in Microsoft Entra ID."
+        },
+        "cert26": {
+          "title": "Create, Configure, and Manage Identities",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Identity management in enterprise and cloud environments with Azure and Entra ID."
+        },
+        "cert27": {
+          "title": "Azure AI Document Intelligence Basics",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Introduction to document processing and knowledge extraction with Azure AI Document Intelligence."
+        },
+        "cert28": {
+          "title": "Language Translation Fundamentals",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Basics of multilingual processing and translation services with Azure AI."
+        },
+        "cert29": {
+          "title": "Azure AI Speech Basics",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Use and potential of Azure speech services for transcription and synthesis."
+        },
+        "cert30": {
+          "title": "Conversational Language Recognition Basics",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Fundamentals of NLU/NLP and conversational recognition in Azure AI."
+        },
+        "cert31": {
+          "title": "Question Answering Service Basics with Azure AI Language",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "QnA services, search, and automatic answers with Azure AI Language."
+        },
+        "cert32": {
+          "title": "Text Analysis Service Basics with Azure AI Language",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Automatic analysis of sentiment, entities, and topics in texts using Azure AI."
+        },
+        "cert33": {
+          "title": "Optical Character Recognition Basics",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Advanced OCR and smart document digitization using Azure AI."
+        },
+        "cert34": {
+          "title": "Facial Recognition Basics",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Facial recognition and biometric detection technologies with Azure Cognitive Services."
+        },
+        "cert35": {
+          "title": "Computer Vision Basics",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Foundations, APIs, and use cases of Computer Vision in Azure AI."
+        },
+        "cert36": {
+          "title": "Machine Learning Basics",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Principles of machine learning, pipelines, and MLOps in Azure cloud."
+        },
+        "cert37": {
+          "title": "Cloud Computing Overview",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Cloud computing basics, resource deployment, and administration in Azure."
+        },
+        "cert38": {
+          "title": "Preparing to Develop Artificial Intelligence Solutions in Azure",
+          "entity": "Microsoft Learn",
+          "date": "2025",
+          "details": "Preparing environments and resources for AI development in Azure."
+        }
+      }
+    }
   }
 }

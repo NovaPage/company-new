@@ -47,7 +47,7 @@ export function NavBar() {
               height={40}
               className="rounded-full"
             />
-            <span className="text-2xl font-semibold tracking-wide text-primary font-efour hidden md:inline-block">
+            <span className="text-2xl tracking-wider text-primary font-efour hidden md:inline-block">
               NovaPage
             </span>
           </Link>
