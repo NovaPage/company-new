@@ -89,8 +89,9 @@
       ]
     },
     "cta": {
-      "title": "¿Listo para llevar tu proyecto al siguiente nivel? En NovaPage te acompañamos en cada paso.",
-      "button": "Contacta a NovaPage"
+      "title": "¿Listo para llevar tu proyecto al siguiente nivel?",
+      "subtitle": "En NovaPage te acompañamos en cada paso.",
+      "button": "Contactanos"
     }
   },
   "profile": {

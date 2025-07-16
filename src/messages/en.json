@@ -6,6 +6,94 @@
     "contact": "Contact",
     "profile": "Profile"
   },
+  "home": {
+    "hero": {
+      "title": "We develop digital solutions",
+      "subtitle": "We turn your ideas into robust, secure, and scalable applications.",
+      "impact": "Tailored technology: efficiency, innovation, and automation, all in one place.",
+      "seeProjects": "See projects",
+      "freeConsult": "Request a free consultation"
+    },
+    "benefits": {
+      "title": "Why choose NovaPage?",
+      "customTitle": "100% Custom Solutions",
+      "customDesc": "We don't offer templates. Every project is unique and tailored to your needs.",
+      "aiTitle": "AI-powered automation and efficiency",
+      "aiDesc": "We optimize processes with artificial intelligence to save time and resources.",
+      "secureTitle": "Secure and scalable infrastructure",
+      "secureDesc": "We design architectures ready to grow, protected from day one."
+    },
+    "about": {
+      "title": "Who we are",
+      "description": "NovaPage is a digital studio specialized in custom software development, automation, and cloud architectures. We were born in Colombia and operate remotely for companies of any size seeking innovation, security, and results.",
+      "founder": "Founded by César Pérez, a software engineer passionate about efficient and secure technology."
+    },
+    "projects": {
+      "title": "Our recent work",
+      "intro": "We have collaborated in developing technological solutions for companies in various industries, always prioritizing efficiency, security, and innovation.",
+      "privacy": "Some success stories are not shown due to confidentiality agreements, but we can share details in a personalized meeting.",
+      "list": [
+        {
+          "name": "Trading Education Platform",
+          "company": "",
+          "description": "We created a specialized trading course platform, modern and scalable, with a smooth user experience. It includes secure authentication, detailed progress tracking in modules, and exclusive access for premium users.",
+          "technologies": [
+            "Next.js",
+            "Supabase (Auth & Database)",
+            "JavaScript / TypeScript",
+            "HTML, CSS",
+            "Internal API",
+            "CDN"
+          ],
+          "bullets": [
+            "Comprehensive authentication system and role-based access.",
+            "User progress tracking in each module or video.",
+            "Optimized learning experience adapted to modern devices."
+          ]
+        },
+        {
+          "name": "Evana – Intelligent Family Assistant",
+          "company": "",
+          "description": "We led the design and development of an intelligent agent system capable of automating complex tasks and providing advanced support to families and organizations. Includes modular orchestration, robust backend, and serverless tools for greater efficiency and scalability.",
+          "technologies": [
+            "Python (FastAPI)",
+            "Autogen",
+            "Azure Functions",
+            "Angular",
+            "Docker",
+            "Git"
+          ],
+          "bullets": [
+            "Advanced agent-based AI systems.",
+            "Secure, modular, and high-performance backend.",
+            "Integration of cloud services and professional version control."
+          ]
+        },
+        {
+          "name": "Confidential Projects",
+          "company": "",
+          "description": "We have contributed to strategic initiatives for technology and automation companies. Due to confidentiality agreements, we do not show details publicly, but we are ready to share our experience in a personalized meeting.",
+          "technologies": [
+            "Cloud",
+            "Automation",
+            "Custom backend",
+            "Microservices",
+            "Secure integrations"
+          ],
+          "bullets": [
+            "Proven experience in high-impact challenges.",
+            "Custom solutions and results-oriented approach.",
+            "Transparency and trust in every collaboration."
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to take your project to the next level?",
+      "subtitle": "At NovaPage, we support you every step of the way.",
+      "button": "Get started"
+    }
+  },
   "profile": {
     "header": {
       "name": "CESAR PEREZ",

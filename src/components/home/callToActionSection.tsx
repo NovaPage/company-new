@@ -23,6 +23,16 @@ export default function CallToActionSection() {
             className="text-3xl md:text-4xl font-efour text-primary mb-12 tracking-wide text-center"
          />
       </motion.h2>
+   
+      <motion.p
+        className="text-base md:text-lg text-muted-foreground text-center max-w-2xl mb-4 font-normal"
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.1, type: 'spring' }}
+        viewport={{ once: true }}
+      >
+        {t('home.cta.subtitle')}
+      </motion.p>
 
       <motion.div
         variants={fadeUp}

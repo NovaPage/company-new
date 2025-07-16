@@ -6,6 +6,94 @@
     "contact": "Contato",
     "profile": "Perfil"
   },
+    "home": {
+    "hero": {
+      "title": "Desenvolvemos soluções digitais",
+      "subtitle": "Transformamos suas ideias em aplicações robustas, seguras e prontas para crescer.",
+      "impact": "Tecnologia sob medida: eficiência, inovação e automação, tudo em um só lugar.",
+      "seeProjects": "Ver projetos",
+      "freeConsult": "Solicitar consultoria gratuita"
+    },
+    "benefits": {
+      "title": "Por que escolher a NovaPage?",
+      "customTitle": "Soluções 100% personalizadas",
+      "customDesc": "Não oferecemos modelos prontos. Cada projeto é único e adaptado às suas necessidades.",
+      "aiTitle": "Automação com IA e eficiência",
+      "aiDesc": "Otimizamos processos com inteligência artificial para economizar tempo e recursos.",
+      "secureTitle": "Infraestrutura segura e escalável",
+      "secureDesc": "Desenhamos arquiteturas prontas para crescer, protegidas desde o primeiro dia."
+    },
+    "about": {
+      "title": "Quem somos",
+      "description": "A NovaPage é um estúdio digital especializado no desenvolvimento de software sob medida, automação e arquiteturas em nuvem. Nascemos na Colômbia e operamos remotamente para empresas de todos os portes que buscam inovação, segurança e resultados.",
+      "founder": "Fundada por César Pérez, engenheiro de software apaixonado por tecnologia eficiente e segura."
+    },
+    "projects": {
+      "title": "Nosso trabalho recente",
+      "intro": "Colaboramos no desenvolvimento de soluções tecnológicas para empresas de diversos setores, sempre priorizando eficiência, segurança e inovação.",
+      "privacy": "Alguns casos de sucesso não são exibidos devido a acordos de confidencialidade, mas podemos compartilhar detalhes em uma reunião personalizada.",
+      "list": [
+        {
+          "name": "Plataforma Educacional de Trading",
+          "company": "",
+          "description": "Criamos uma plataforma de cursos especializada em trading, moderna e escalável, com uma experiência de usuário fluida. Inclui autenticação segura, acompanhamento detalhado do progresso nos módulos e acesso exclusivo para usuários premium.",
+          "technologies": [
+            "Next.js",
+            "Supabase (Auth & Database)",
+            "JavaScript / TypeScript",
+            "HTML, CSS",
+            "API interna",
+            "CDN"
+          ],
+          "bullets": [
+            "Sistema de autenticação completo e acesso segmentado por perfil.",
+            "Acompanhamento do progresso dos usuários em cada módulo ou vídeo.",
+            "Experiência de aprendizado otimizada e adaptada a dispositivos modernos."
+          ]
+        },
+        {
+          "name": "Evana – Assistente Familiar Inteligente",
+          "company": "",
+          "description": "Lideramos o design e desenvolvimento de um sistema de agentes inteligentes capaz de automatizar tarefas complexas e oferecer suporte avançado a famílias e organizações. Inclui orquestração modular, backend robusto e ferramentas serverless para maior eficiência e escalabilidade.",
+          "technologies": [
+            "Python (FastAPI)",
+            "Autogen",
+            "Azure Functions",
+            "Angular",
+            "Docker",
+            "Git"
+          ],
+          "bullets": [
+            "Sistemas avançados de IA baseados em agentes.",
+            "Backend seguro, modular e de alto desempenho.",
+            "Integração de serviços cloud e controle de versões profissional."
+          ]
+        },
+        {
+          "name": "Projetos sob confidencialidade",
+          "company": "",
+          "description": "Contribuímos em iniciativas estratégicas para empresas de tecnologia e automação. Por acordos de confidencialidade, não exibimos detalhes publicamente, mas estamos prontos para compartilhar nossa experiência em uma reunião personalizada.",
+          "technologies": [
+            "Cloud",
+            "Automação",
+            "Backend sob medida",
+            "Microsserviços",
+            "Integrações seguras"
+          ],
+          "bullets": [
+            "Experiência comprovada em desafios de alto impacto.",
+            "Soluções personalizadas e foco em resultados.",
+            "Transparência e confiança em cada colaboração."
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Pronto para levar seu projeto para o próximo nível?",
+      "subtitle": "Na NovaPage, acompanhamos você em cada etapa.",
+      "button": "Contate-nos"
+    }
+  },
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
