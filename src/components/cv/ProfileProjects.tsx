@@ -2,7 +2,7 @@
 
 import { useTranslation } from '@/hooks/useTranslation'
 import { motion } from 'framer-motion'
-import { GradientButton } from '../ui/GradientButton'
+import { GradientButton } from '@/components/ui/GradientButton'
 
 const projectsKeys = ['proj1', 'proj2'] as const
 

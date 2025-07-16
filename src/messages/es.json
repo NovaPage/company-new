@@ -13,6 +13,84 @@
       "impact": "Tecnología a la medida: eficiencia, innovación y automatización, todo en un solo lugar.",
       "seeProjects": "Ver proyectos",
       "freeConsult": "Solicitar consultoría gratuita"
+    },
+    "benefits": {
+      "title": "¿Por qué elegir NovaPage?",
+      "customTitle": "Soluciones 100% personalizadas",
+      "customDesc": "No ofrecemos plantillas. Cada proyecto es único y adaptado a tus necesidades.",
+      "aiTitle": "Automatización con IA y eficiencia",
+      "aiDesc": "Optimizamos procesos con inteligencia artificial para ahorrar tiempo y recursos.",
+      "secureTitle": "Infraestructura segura y escalable",
+      "secureDesc": "Diseñamos arquitecturas listas para crecer, protegidas desde el primer día."
+    },
+    "about": {
+      "title": "Quiénes somos",
+      "description": "NovaPage es un estudio digital especializado en el desarrollo de software a la medida, automatización y arquitecturas cloud. Nacimos en Colombia y operamos de forma remota para empresas de cualquier tamaño que buscan innovación, seguridad y resultados.",
+      "founder": "Fundado por César Pérez, ingeniero de software apasionado por la tecnología eficiente y segura."
+    },
+    "projects": {
+      "title": "Nuestro trabajo reciente",
+      "intro": "Hemos colaborado en el desarrollo de soluciones tecnológicas para compañías de diversas industrias, siempre priorizando la eficiencia, la seguridad y la innovación.",
+      "privacy": "Algunos casos de éxito no se muestran por acuerdos de confidencialidad, pero podemos compartir detalles en una reunión personalizada.",
+      "list": [
+        {
+          "name": "Plataforma Educativa de Trading",
+          "company": "",
+          "description": "Creamos una plataforma de cursos especializada en trading, moderna y escalable, con una experiencia de usuario fluida. Incluye autenticación segura, seguimiento detallado del progreso en los módulos y acceso exclusivo para usuarios premium.",
+          "technologies": [
+            "Next.js",
+            "Supabase (Auth & Database)",
+            "JavaScript / TypeScript",
+            "HTML, CSS",
+            "API interna",
+            "CDN"
+          ],
+          "bullets": [
+            "Sistema de autenticación completo y acceso segmentado por rol.",
+            "Seguimiento del avance de los usuarios en cada módulo o video.",
+            "Experiencia de aprendizaje optimizada y adaptada a dispositivos modernos."
+          ]
+        },
+        {
+          "name": "Evana – Asistente Familiar Inteligente",
+          "company": "",
+          "description": "Lideramos el diseño y desarrollo de un sistema de agentes inteligentes capaz de automatizar tareas complejas y brindar soporte avanzado a familias y organizaciones. Incluye orquestación modular, backend robusto y herramientas serverless para mayor eficiencia y escalabilidad.",
+          "technologies": [
+            "Python (FastAPI)",
+            "Autogen",
+            "Azure Functions",
+            "Angular",
+            "Docker",
+            "Git"
+          ],
+          "bullets": [
+            "Sistemas avanzados de IA basados en agentes.",
+            "Backend seguro, modular y de alto desempeño.",
+            "Integración de servicios cloud y control de versiones profesional."
+          ]
+        },
+        {
+          "name": "Proyectos bajo confidencialidad",
+          "company": "",
+          "description": "Hemos contribuido en iniciativas estratégicas para empresas tecnológicas y de automatización. Por acuerdos de confidencialidad, no mostramos detalles en público, pero estamos listos para compartir nuestra experiencia en una reunión personalizada.",
+          "technologies": [
+            "Cloud",
+            "Automatización",
+            "Backend a medida",
+            "Microservicios",
+            "Integraciones seguras"
+          ],
+          "bullets": [
+            "Experiencia probada en retos de alto impacto.",
+            "Soluciones personalizadas y enfoque en resultados.",
+            "Transparencia y confianza en cada colaboración."
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para llevar tu proyecto al siguiente nivel? En NovaPage te acompañamos en cada paso.",
+      "button": "Contacta a NovaPage"
     }
   },
   "profile": {
