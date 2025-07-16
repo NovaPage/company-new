@@ -6,6 +6,15 @@
     "contact": "Contacto",
     "profile": "Perfil"
   },
+  "home": {
+    "hero": {
+      "title": "Desarrollamos soluciones digitales",
+      "subtitle": "Convertimos tus ideas en aplicaciones robustas, seguras y listas para crecer.",
+      "impact": "Tecnología a la medida: eficiencia, innovación y automatización, todo en un solo lugar.",
+      "seeProjects": "Ver proyectos",
+      "freeConsult": "Solicitar consultoría gratuita"
+    }
+  },
   "profile": {
     "header": {
       "name": "CESAR PEREZ",

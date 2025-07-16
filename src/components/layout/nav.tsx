@@ -17,6 +17,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet'
+import { WavyText } from '../animations/WavyText'
 
 export function NavBar() {
   const pathname = usePathname()
@@ -47,9 +48,10 @@ export function NavBar() {
               height={40}
               className="rounded-full"
             />
-            <span className="text-2xl tracking-wider text-primary font-efour hidden md:inline-block">
-              NovaPage
-            </span>
+            <WavyText
+              text="NovaPage"
+              className="text-2xl tracking-wider text-primary font-efour hidden md:inline-block"
+            />
           </Link>
         </div>
 
