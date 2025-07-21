@@ -94,6 +94,392 @@
       "button": "Contactanos"
     }
   },
+    "services": {
+      "hero": {
+        "title": "Servicios digitales",
+        "subtitle": "Soluciones inteligentes, escalables y a la medida para hacer crecer tu negocio.",
+        "imgAlt": "Ilustración de servicios digitales NovaPage"
+      },
+      "categories": {
+        "seeMore": "Ver más",
+        "web": {
+          "title": "Desarrollo Web y de Aplicaciones",
+          "desc": "Impulsa tu negocio con sitios web y aplicaciones diseñados a la medida: rápidos, seguros y listos para crecer. Resolvemos desde tu presencia digital hasta la gestión de procesos internos."
+        },
+        "automation": {
+          "title": "Automatización de Procesos y RPA",
+          "desc": "Ahorra tiempo y elimina errores automatizando tareas repetitivas o complejas. Digitaliza procesos clave y haz tu operación más ágil y escalable, sin importar el tamaño de tu empresa."
+        },
+        "ai": {
+          "title": "Soluciones de Inteligencia Artificial y Asistentes Digitales",
+          "desc": "Transforma la atención al cliente y la toma de decisiones con IA adaptada a tu negocio. Integramos chatbots, asistentes y sistemas inteligentes para automatizar y anticipar necesidades."
+        },
+        "cloud": {
+          "title": "Consultoría y Migración Cloud",
+          "desc": "Moderniza tu empresa migrando a la nube de forma segura y eficiente. Optimizamos tu infraestructura y controlamos costos para que tus sistemas sean flexibles, seguros y siempre disponibles."
+        }
+      },
+      "web": {
+        "title": "Desarrollo Web y de Aplicaciones",
+        "intro": "En NovaPage convertimos tus ideas en experiencias digitales de alto impacto. Creamos sitios web y aplicaciones para todo tipo de necesidad y presupuesto: desde páginas institucionales simples y rápidas, hasta plataformas empresariales robustas y sistemas internos personalizados.",
+        "sections": [
+          {
+            "title": "¿Qué podemos construir para ti?",
+            "items": [
+              {
+                "title": "Sitios web corporativos e institucionales",
+                "desc": "Muestra tu empresa o negocio al mundo con páginas modernas, rápidas, optimizadas para Google y 100% adaptadas a dispositivos móviles. Perfecto para quienes necesitan presencia online profesional y confiable, sin complicaciones."
+              },
+              {
+                "title": "E-commerce y tiendas virtuales",
+                "desc": "Vende productos o servicios en línea con total seguridad y facilidad de administración. Incluimos catálogos, pasarelas de pago, reportes y herramientas de marketing integradas."
+              },
+              {
+                "title": "Landing pages y micrositios",
+                "desc": "Ideales para campañas, eventos, lanzamientos o promociones. Se desarrollan en tiempo récord, se adaptan a cualquier imagen de marca y están listas para captar clientes desde el primer día."
+              },
+              {
+                "title": "Plataformas y sistemas empresariales",
+                "desc": "Creamos portales internos, sistemas de gestión, dashboards personalizados y aplicaciones complejas integradas con tus procesos y bases de datos. Automatiza tareas, mejora la colaboración y gana visibilidad total de tu operación."
+              },
+              {
+                "title": "Aplicaciones web avanzadas y progresivas (PWA)",
+                "desc": "Soluciones a medida, escalables y listas para crecer. Integramos funcionalidades inteligentes, notificaciones, acceso offline, APIs, y más. Conectamos tu web con sistemas externos como ERPs, CRMs, servicios cloud y herramientas de IA."
+              }
+            ]
+          },
+          {
+            "title": "¿Cómo lo hacemos?",
+            "items": [
+              {
+                "title": "Diagnóstico inicial personalizado",
+                "desc": "Escuchamos tus objetivos y necesidades, analizamos el contexto de tu negocio y proponemos la mejor solución técnica y visual, siempre ajustada a tu presupuesto."
+              },
+              {
+                "title": "Diseño UI/UX centrado en el usuario",
+                "desc": "Creamos interfaces intuitivas, atractivas y alineadas con tu identidad de marca, pensando en la mejor experiencia para tu cliente o usuario final."
+              },
+              {
+                "title": "Desarrollo ágil con tecnologías líderes",
+                "desc": "Trabajamos con herramientas modernas como React, Next.js, TypeScript, Python/FastAPI, TailwindCSS, Supabase, Azure y más. Así garantizamos rapidez, seguridad y fácil mantenimiento."
+              },
+              {
+                "title": "Integraciones a medida",
+                "desc": "Conectamos tu web o app con sistemas de pago, redes sociales, WhatsApp, bases de datos, ERPs, CRMs, o cualquier herramienta clave para tu operación. Todo funciona en un solo ecosistema digital."
+              },
+              {
+                "title": "Optimización y pruebas exhaustivas",
+                "desc": "Cada proyecto pasa por pruebas técnicas y de experiencia real en múltiples dispositivos y navegadores, asegurando velocidad, seguridad y máxima compatibilidad."
+              },
+              {
+                "title": "Despliegue seguro y soporte",
+                "desc": "Nos encargamos del lanzamiento en la nube, servidores de alto rendimiento o el proveedor que prefieras. Te ofrecemos opciones de hosting y mantenimiento para que tu proyecto esté siempre seguro, actualizado y respaldado."
+              }
+            ]
+          },
+          {
+            "title": "¿Por qué elegir NovaPage?",
+            "items": [
+              {
+                "title": "Soluciones 100% a la medida",
+                "desc": "Nos adaptamos a cualquier necesidad, desde proyectos pequeños hasta sistemas empresariales complejos."
+              },
+              {
+                "title": "Entrega rápida y resultados comprobables",
+                "desc": "Puedes tener tu web o app lista en días o semanas, dependiendo del alcance."
+              },
+              {
+                "title": "Acompañamiento real",
+                "desc": "No solo desarrollamos, te asesoramos y guiamos en cada paso. Si lo deseas, te apoyamos con soporte, evolutivos y mejoras a futuro."
+              },
+              {
+                "title": "Flexibilidad total",
+                "desc": "Elige solo lo que necesitas: desarrollo, hosting, mantenimiento o el paquete completo. Nos ajustamos a tu presupuesto y etapa de crecimiento."
+              }
+            ]
+          }
+        ],
+        "cta": "¿Listo para digitalizar tu negocio, captar más clientes o automatizar procesos con una web o app a tu medida? Habla con nosotros y empecemos tu proyecto hoy."
+      },
+      "automation": {
+        "title": "Automatización de Procesos y RPA",
+        "intro": "En NovaPage llevamos la eficiencia de tu negocio al siguiente nivel, digitalizando y automatizando tareas que consumen tiempo, recursos o son propensas a errores. Nuestra misión es que tu equipo dedique su energía a lo verdaderamente importante, dejando las tareas repetitivas en manos de la tecnología.",
+        "sections": [
+          {
+            "title": "¿Qué hacemos en automatización?",
+            "items": [
+              {
+                "title": "Identificación de procesos clave",
+                "desc": "Analizamos junto a ti los flujos y tareas que pueden ser automatizados, desde actividades simples y cotidianas hasta procesos operativos complejos."
+              },
+              {
+                "title": "Diseño e implementación de flujos automatizados",
+                "desc": "Creamos soluciones a medida usando herramientas líderes en automatización y RPA (Robotic Process Automation) como n8n, Make, Power Automate o desarrollos personalizados según el contexto."
+              },
+              {
+                "title": "Automatización para todos los niveles",
+                "desc": "Desde pequeños negocios hasta grandes organizaciones: implementamos respuestas automáticas, actualización de datos, bots, scripts y sistemas integrados que conectan plataformas como ERP, CRM, web, correos, redes sociales y más."
+              },
+              {
+                "title": "Integración total",
+                "desc": "Nuestras soluciones se conectan con tus sistemas existentes (APIs, bases de datos, hojas de cálculo, apps en la nube) y pueden escalar conforme crecen tus necesidades."
+              },
+              {
+                "title": "Ahorro real y reducción de errores",
+                "desc": "Minimiza el trabajo manual, evita duplicidad de tareas, reduce el riesgo de errores humanos y acelera la entrega de resultados, sin importar el volumen de información."
+              }
+            ]
+          },
+          {
+            "title": "¿Cómo trabajamos en NovaPage?",
+            "items": [
+              {
+                "title": "Diagnóstico de oportunidades",
+                "desc": "Te ayudamos a mapear procesos repetitivos o críticos, identificando dónde la automatización aporta el mayor valor y retorno."
+              },
+              {
+                "title": "Diseño y validación de la solución",
+                "desc": "Proponemos flujos claros, los prototipamos y te mostramos cómo funcionarán antes de implementarlos."
+              },
+              {
+                "title": "Implementación ágil y escalable",
+                "desc": "Configuramos, programamos y conectamos cada parte del proceso, garantizando que la automatización funcione de forma estable y segura."
+              },
+              {
+                "title": "Capacitación y soporte",
+                "desc": "Si lo deseas, entrenamos a tu equipo para que pueda aprovechar al máximo la automatización. Además, ofrecemos soporte, evolución y monitoreo continuo de los bots y flujos implementados."
+              }
+            ]
+          },
+          {
+            "title": "¿Qué puedes automatizar?",
+              "items": [
+                {
+                  "title": "Procesamiento de correos y mensajes",
+                  "desc": "Automatiza la recepción, clasificación, respuesta y archivo de correos electrónicos y mensajes en distintos canales. Reduce el tiempo de gestión y asegúrate de que nada importante quede sin atender."
+                },
+                {
+                  "title": "Registro y actualización de datos",
+                  "desc": "Elimina el trabajo manual en la entrada y actualización de información en bases de datos, hojas de cálculo o sistemas empresariales. Garantiza precisión y datos siempre actualizados."
+                },
+                {
+                  "title": "Generación automática de reportes",
+                  "desc": "Obtén reportes de ventas, inventario, métricas de negocio o cualquier indicador clave de forma periódica y sin intervención manual. Visualiza resultados al instante y toma decisiones informadas."
+                },
+                {
+                  "title": "Integración entre sistemas",
+                  "desc": "Sincroniza información entre ERP, CRM, plataformas web, herramientas de pago y otros sistemas. Asegura que todos tus procesos estén conectados y la información fluya sin fricciones."
+                },
+                {
+                  "title": "Respuestas automáticas a clientes",
+                  "desc": "Brinda atención inmediata y respuestas personalizadas a tus clientes por correo, WhatsApp, chat o redes sociales. Mejora la experiencia del usuario y ahorra tiempo a tu equipo de soporte."
+                },
+                {
+                  "title": "Envío y archivado de documentos",
+                  "desc": "Automatiza el envío, organización y almacenamiento de documentos como facturas, contratos o comprobantes, cumpliendo con normas de trazabilidad y facilitando el acceso a la información."
+                },
+                {
+                  "title": "Notificaciones, recordatorios y tareas recurrentes",
+                  "desc": "Programa alertas, recordatorios y la ejecución periódica de tareas administrativas, asegurando cumplimiento de plazos y mayor control sobre tus procesos internos."
+                }
+              ]
+          },
+          {
+            "title": "¿Por qué NovaPage?",
+            "items": [
+              {
+                "title": "Soluciones accesibles",
+                "desc": "Desde flujos simples hasta RPA empresarial, para cualquier tamaño de empresa."
+              },
+              {
+                "title": "Automatización escalable",
+                "desc": "Inicia con lo básico y evoluciona hacia procesos más complejos cuando tu negocio lo requiera."
+              },
+              {
+                "title": "Tecnología sin barreras",
+                "desc": "Usamos herramientas visuales (low-code/no-code) y desarrollo personalizado, según lo que mejor se adapte a tu caso."
+              },
+              {
+                "title": "Acompañamiento integral",
+                "desc": "Te guiamos en el cambio, ofrecemos soporte y te ayudamos a optimizar continuamente tus procesos."
+              }
+            ]
+          }
+        ],
+        "cta": "Con NovaPage puedes liberar a tu equipo de tareas repetitivas, acelerar tus procesos y hacer tu operación más inteligente, rápida y sin errores. Desde la primera automatización sencilla hasta una red de bots trabajando para ti, adaptamos la tecnología a tu medida. ¿Listo para automatizar y transformar tu negocio? ¡Contáctanos y empieza hoy!"
+      },
+      "ai": {
+          "title": "Soluciones de Inteligencia Artificial y Asistentes Digitales",
+          "intro": "En NovaPage ayudamos a empresas y equipos de todos los tamaños a incorporar inteligencia artificial en sus operaciones, procesos y canales de atención. Ponemos la IA al alcance de tu negocio: desde asistentes virtuales básicos hasta sistemas de automatización inteligente capaces de transformar la forma en que trabajas, atiendes a tus clientes o tomas decisiones.",
+          "desc": "Integra inteligencia artificial y asistentes digitales para mejorar la eficiencia, personalizar la atención y tomar mejores decisiones. Desde chatbots hasta análisis avanzado de datos, llevamos la IA al corazón de tus procesos.",
+          "sections": [
+            {
+              "title": "¿Qué ofrecemos?",
+              "items": [
+                {
+                  "title": "Asistentes Virtuales Personalizados",
+                  "desc": "Creamos chatbots y asistentes digitales para sitios web, WhatsApp, redes sociales y canales internos. Atienden consultas frecuentes, gestionan reservas, recopilan información y ofrecen soporte 24/7, liberando a tu equipo de tareas repetitivas y mejorando la experiencia de tus clientes."
+                },
+                {
+                  "title": "Automatización y Copilotos Inteligentes",
+                  "desc": "Desarrollamos sistemas que utilizan IA para automatizar tareas complejas: generación de reportes, análisis de textos y documentos, clasificación automática, recomendaciones y más. Los copilotos te ayudan a anticipar necesidades, sugerir acciones y optimizar operaciones."
+                },
+                {
+                  "title": "Agentes Especializados para Procesos Empresariales",
+                  "desc": "Implementamos agentes inteligentes que colaboran entre sí para manejar procesos en áreas como recursos humanos, ventas, finanzas o atención al cliente. Automatizan la gestión de correos, flujos de trabajo y el monitoreo de métricas clave, permitiéndote escalar operaciones sin aumentar el equipo."
+                },
+                {
+                  "title": "Integración con Modelos de Última Generación",
+                  "desc": "Integramos modelos líderes como OpenAI (GPT), Gemini, copilotos personalizados y plataformas de agentes como Autogen, CrewAI o Langchain, para que accedas a capacidades de conversación natural, predicción y automatización avanzada, adaptadas a tus necesidades."
+                },
+                {
+                  "title": "Procesamiento Inteligente de Documentos y Datos",
+                  "desc": "Automatizamos la extracción y análisis de información en grandes volúmenes de documentos y datos. Creamos soluciones que resumen textos, identifican sentimientos, detectan tendencias y facilitan búsquedas inteligentes, ahorrando tiempo y mejorando la toma de decisiones."
+                }
+              ]
+            },
+            {
+              "title": "¿Para quién es este servicio?",
+              "items": [
+                {
+                  "title": "Empresas que buscan escalar atención al cliente",
+                  "desc": "Negocios que quieren ofrecer soporte ágil, consistente y disponible 24/7, sin depender de más personal humano."
+                },
+                {
+                  "title": "Equipos que quieren automatizar procesos",
+                  "desc": "Organizaciones que desean optimizar el análisis de información, acelerar tareas internas o innovar en la manera de operar."
+                },
+                {
+                  "title": "Startups y negocios en crecimiento",
+                  "desc": "Emprendedores que buscan soluciones accesibles para experimentar con IA, obtener resultados rápidos y maximizar el retorno de inversión."
+                }
+              ]
+            },
+            {
+              "title": "¿Cómo trabajamos?",
+              "items": [
+                {
+                  "title": "Diagnóstico de oportunidad en IA",
+                  "desc": "Analizamos tus procesos para identificar dónde la inteligencia artificial puede aportar valor, ahorrar recursos y generar impacto tangible."
+                },
+                {
+                  "title": "Diseño de la solución y entrenamiento",
+                  "desc": "Definimos el flujo conversacional, entrenamos modelos y configuramos la lógica de asistentes o agentes, adaptándolos a tus datos y contexto."
+                },
+                {
+                  "title": "Implementación e integración",
+                  "desc": "Desplegamos la solución en los canales que necesitas (web, WhatsApp, CRM, email, etc.) y nos aseguramos de que interactúe correctamente con tus sistemas."
+                },
+                {
+                  "title": "Monitoreo, optimización y evolución",
+                  "desc": "Supervisamos el desempeño, ajustamos los modelos y te acompañamos para mejorar y escalar la solución conforme crecen tus necesidades."
+                }
+              ]
+            },
+            {
+              "title": "¿Por qué elegir NovaPage?",
+              "items": [
+                {
+                  "title": "Soluciones a tu medida",
+                  "desc": "Adaptamos la inteligencia artificial a tu nivel de madurez digital, desde pilotos sencillos hasta sistemas empresariales complejos."
+                },
+                {
+                  "title": "Tecnología de vanguardia",
+                  "desc": "Utilizamos los modelos y plataformas más avanzados para garantizar resultados innovadores y sostenibles."
+                },
+                {
+                  "title": "Acompañamiento experto y transparente",
+                  "desc": "Te guiamos en cada paso, explicando sin tecnicismos y adaptando la solución a tus objetivos."
+                },
+                {
+                  "title": "Escalabilidad y flexibilidad",
+                  "desc": "Puedes empezar de forma simple y evolucionar hacia soluciones inteligentes que crecen contigo y con tu negocio."
+                }
+              ]
+            }
+          ],
+          "cta": "¿Te animas a llevar tu empresa al futuro? ¡Hablemos y descubramos juntos cómo la IA puede transformar tu operación!"
+        }
+      },
+      "cloud": {
+        "title": "Consultoría y Migración Cloud (Azure, Supabase y más)",
+        "intro": "En NovaPage impulsamos la transformación digital de tu empresa llevando tu infraestructura tecnológica a la nube, con un enfoque claro en seguridad, eficiencia y crecimiento. Te acompañamos en cada paso del camino, sin importar si apenas inicias en el mundo cloud o si buscas optimizar arquitecturas ya existentes.",
+        "desc": "Moderniza tu infraestructura y aprovecha la flexibilidad y escalabilidad de la nube con un socio experto. Gestionamos todo el proceso para que tu negocio crezca con seguridad y eficiencia.",
+        "sections": [
+          {
+            "title": "¿Qué incluye este servicio?",
+            "items": [
+              {
+                "title": "Diagnóstico y análisis personalizado",
+                "desc": "Analizamos tu infraestructura actual en profundidad, identificando oportunidades de mejora, riesgos técnicos, limitaciones y potencial para escalar. Evaluamos costos, seguridad, rendimiento y compatibilidad con plataformas cloud."
+              },
+              {
+                "title": "Definición de estrategia cloud a tu medida",
+                "desc": "Diseñamos la mejor ruta para migrar o evolucionar tu infraestructura, considerando migración total o parcial, adopción de servicios serverless, almacenamiento seguro, bases de datos modernas como Cosmos DB o Supabase, microservicios y APIs."
+              },
+              {
+                "title": "Plan de migración seguro y planificado",
+                "desc": "Creamos un roadmap detallado y segmentado en etapas para trasladar sistemas y datos con el mínimo riesgo y máxima continuidad operacional, aplicando controles y respaldos en cada paso."
+              },
+              {
+                "title": "Implementación y ejecución",
+                "desc": "Ejecutamos la migración técnica: transferencia de datos, configuración de entornos cloud (Azure, Supabase, VPS, etc.), optimización de aplicaciones y puesta en marcha. Incluimos integración con herramientas de automatización, monitoreo y respaldo."
+              },
+              {
+                "title": "Optimización y soporte continuo",
+                "desc": "Tras la migración, mejoramos la eficiencia y seguridad de tu infraestructura para reducir costos operativos y garantizar estabilidad. Ofrecemos soporte, mantenimiento y evolución continua adaptada a tu negocio."
+              },
+              {
+                "title": "Capacitación y acompañamiento",
+                "desc": "Entrenamos a tu equipo para que aproveche las nuevas tecnologías y facilite la transición hacia la nube, asegurando un proceso productivo y sin contratiempos."
+              }
+            ]
+          },
+          {
+            "title": "¿Para quién es este servicio?",
+            "items": [
+              {
+                "title": "Empresas que gestionan sistemas locales o tradicionales",
+                "desc": "Negocios que desean migrar de infraestructuras físicas o on-premise hacia la nube para ganar flexibilidad y eficiencia."
+              },
+              {
+                "title": "Negocios que requieren escalar y mejorar seguridad",
+                "desc": "Organizaciones que necesitan crecer rápidamente sin sacrificar la protección de sus datos y operaciones."
+              },
+              {
+                "title": "Organizaciones buscando reducir costos y automatizar procesos",
+                "desc": "Empresas que buscan optimizar su infraestructura para ser más ágiles y menos dependientes de procesos manuales."
+              },
+              {
+                "title": "Empresas que ya usan la nube pero quieren optimizar o modernizar",
+                "desc": "Negocios que buscan mejorar su arquitectura cloud para mayor rendimiento, seguridad y escalabilidad."
+              }
+            ]
+          },
+          {
+            "title": "¿Por qué elegir NovaPage?",
+            "items": [
+              {
+                "title": "Acompañamiento experto y cercano",
+                "desc": "Te guiamos desde el análisis inicial hasta la puesta en marcha y soporte posterior, acompañándote en cada paso."
+              },
+              {
+                "title": "Enfoque en seguridad y rendimiento",
+                "desc": "Priorizamos la protección de datos y la eficiencia operativa para minimizar riesgos y maximizar beneficios."
+              },
+              {
+                "title": "Soluciones adaptadas a cada necesidad",
+                "desc": "Ofrecemos desde soporte puntual hasta proyectos integrales de migración y optimización, según lo que tu negocio requiera."
+              },
+              {
+                "title": "Tecnología de última generación",
+                "desc": "Trabajamos con proveedores líderes y aplicamos las mejores prácticas del sector para asegurar resultados confiables."
+              }
+            ]
+          }
+        ],
+        "cta": "¿Listo para dar el salto a la nube y potenciar tu negocio? ¡Hablemos y crea el futuro de tu empresa desde hoy!"
+      },
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
