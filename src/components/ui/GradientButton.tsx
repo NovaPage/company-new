@@ -63,7 +63,7 @@ export function GradientButton({
       {href ? (
         <a
           role="button"
-          className="relative z-10"
+          className="relative z-10 cursor-pointer"
           href={href}
           target={target}
           rel={rel}
@@ -75,7 +75,7 @@ export function GradientButton({
       ) : (
         <button
           type="button"
-          className="relative z-10"
+          className="relative z-10 cursor-pointer"
           onClick={onClick}
           title={title}
           tabIndex={0}

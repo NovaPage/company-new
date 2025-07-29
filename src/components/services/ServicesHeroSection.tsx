@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { useTranslation } from '@/hooks/useTranslation'
-import { WavyText } from '../animations/WavyText'
 
 // Animaciones personalizadas
 const fadeLeft = (delay = 0) => ({
@@ -35,10 +34,7 @@ export default function ServicesHeroSection() {
               className="text-4xl md:text-6xl font-efour text-primary tracking-wider mb-6 drop-shadow-xl uppercase max-w-2xl leading-tight"
               variants={fadeLeft(0.05)}
             >
-               <WavyText 
-                  text={t('services.hero.title')}
-               />
-              
+                {t('services.hero.title')}
             </motion.h1>
             <motion.p
               className="max-w-xl text-lg md:text-2xl text-muted-foreground font-semibold"

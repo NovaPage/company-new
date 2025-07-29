@@ -1,9 +1,10 @@
 'use client'
 
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
 import { X } from "lucide-react"
+import { GradientButton } from "@/components/ui/GradientButton"
 
 type ServiceItem = {
   title?: string
@@ -19,6 +20,8 @@ type ServiceDetail = {
   intro: string
   sections: ServiceSection[]
   cta?: string
+  ctaButton?: string
+  onCtaClick?: () => void
 }
 
 type Props = {
@@ -35,12 +38,36 @@ export default function CustomServiceModal({ open, onClose, service }: Props) {
     return () => { document.body.style.overflow = "" }
   }, [open])
 
+  // Detecta si es móvil (inline, sin hooks externos)
+  const [isMobile, setIsMobile] = useState(false)
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 640)
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+    return () => window.removeEventListener('resize', checkMobile)
+  }, [])
+
   if (!open || !service) return null
+
+  // Animaciones y layout condicional
+  const modalInitial = isMobile
+    ? { y: 120, opacity: 0 }
+    : { scale: 0.97, opacity: 0 }
+  const modalAnimate = isMobile
+    ? { y: 0, opacity: 1 }
+    : { scale: 1, opacity: 1 }
+  const modalExit = isMobile
+    ? { y: 120, opacity: 0 }
+    : { scale: 0.97, opacity: 0 }
 
   return (
     <AnimatePresence>
       <motion.div
-        className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center"
+        className={
+          isMobile
+            ? "fixed inset-0 z-[100] flex items-end justify-center"
+            : "fixed inset-0 z-[100] flex items-center justify-center"
+        }
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -52,35 +79,64 @@ export default function CustomServiceModal({ open, onClose, service }: Props) {
         />
         {/* Modal contenido */}
         <motion.div
-          initial={{ y: 120, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          exit={{ y: 120, opacity: 0 }}
-          transition={{ type: "spring", stiffness: 380, damping: 36, duration: 0.32 }}
-          className="
-            relative w-full max-w-xl bg-background rounded-t-3xl sm:rounded-3xl
-            shadow-2xl flex flex-col gap-5
-            px-3 py-5 sm:px-10 sm:py-10
-            max-h-[90vh] overflow-y-auto
-            animate-in
-          "
+          initial={modalInitial}
+          animate={modalAnimate}
+          exit={modalExit}
+          transition={{
+            type: "spring",
+            stiffness: 380,
+            damping: 36,
+            duration: 0.32
+          }}
+          className={`
+            relative flex flex-col gap-5 shadow-2xl animate-in
+            bg-background
+            ${isMobile
+              ? "w-full rounded-t-3xl max-w-full px-3 pt-0 pb-7 max-h-[95vh] bottom-0"
+              : "max-w-screen-md rounded-3xl px-10 py-0 max-h-[90vh]"
+            }
+            overflow-y-auto scrollbar-none
+          `}
+          style={{
+            scrollbarWidth: "none",
+            msOverflowStyle: "none"
+          }}
         >
-          {/* Botón X */}
-          <button
-            className="absolute right-3 top-3 text-muted-foreground hover:text-primary p-2 z-10 rounded-full bg-white/70 hover:bg-white shadow transition"
-            onClick={onClose}
-            aria-label="Cerrar"
-            type="button"
-          >
-            <X size={22} />
-          </button>
+          <style>
+            {`
+              .scrollbar-none::-webkit-scrollbar {
+                display: none !important;
+                width: 0 !important;
+                background: transparent !important;
+              }
+            `}
+          </style>
+
+          {/* Sticky Close Button */}
+          <div className="sticky top-0 z-20 flex justify-end pt-3 pb-2 px-2" style={{marginLeft: '-0.75rem', marginRight: '-0.75rem'}}>
+            <button
+              className="
+                rounded-full shadow transition
+                bg-muted hover:bg-muted/80
+                dark:bg-white dark:hover:bg-white/80
+                text-muted-foreground hover:text-primary
+                p-2 cursor-pointer
+              "
+              onClick={onClose}
+              aria-label="Cerrar"
+              type="button"
+            >
+              <X size={22} />
+            </button>
+          </div>
 
           {/* Imagen y título */}
-          <div className="flex flex-col items-center mb-2 gap-1">
+          <div className="flex flex-col items-center mb-2 gap-1 mt-2">
             <Image
               src={service.img}
               alt={service.title}
-              width={82}
-              height={82}
+              width={150}
+              height={150}
               className="object-contain mb-2"
             />
             <h2 className="font-efour text-2xl sm:text-3xl text-primary text-center tracking-wide mb-0.5">
@@ -119,12 +175,21 @@ export default function CustomServiceModal({ open, onClose, service }: Props) {
             ))}
           </div>
 
-          {/* CTA final */}
+          {/* CTA texto */}
           {service.cta && (
-            <div className="w-full max-w-2xl mt-6 text-center text-base sm:text-lg text-primary font-semibold">
+            <div className="w-full max-w-2xl mt-3 text-center text-base sm:text-lg text-primary font-semibold">
               {service.cta}
             </div>
           )}
+
+          {/* Gradient CTA button */}
+          <div className="w-full flex justify-center mt-6 mb-2">
+            <GradientButton
+              onClick={service.onCtaClick || onClose}
+            >
+              {service.ctaButton }
+            </GradientButton>
+          </div>
         </motion.div>
       </motion.div>
     </AnimatePresence>

@@ -199,7 +199,8 @@
             ]
           }
         ],
-        "cta": "¿Listo para digitalizar tu negocio, captar más clientes o automatizar procesos con una web o app a tu medida? Habla con nosotros y empecemos tu proyecto hoy."
+        "cta": "¿Listo para digitalizar tu negocio, captar más clientes o automatizar procesos con una web o app a tu medida?",
+        "ctaButton": "Contáctanos"
       },
       "automation": {
         "title": "Automatización de Procesos y RPA",
@@ -306,7 +307,8 @@
             ]
           }
         ],
-        "cta": "Con NovaPage puedes liberar a tu equipo de tareas repetitivas, acelerar tus procesos y hacer tu operación más inteligente, rápida y sin errores. Desde la primera automatización sencilla hasta una red de bots trabajando para ti, adaptamos la tecnología a tu medida. ¿Listo para automatizar y transformar tu negocio? ¡Contáctanos y empieza hoy!"
+        "cta": "¿Listo para automatizar y transformar tu negocio?",
+        "ctaButton": "Contáctanos"
       },
       "ai": {
           "title": "Soluciones de Inteligencia Artificial y Asistentes Digitales",
@@ -398,11 +400,11 @@
               ]
             }
           ],
-          "cta": "¿Te animas a llevar tu empresa al futuro? ¡Hablemos y descubramos juntos cómo la IA puede transformar tu operación!"
-        }
-      },
+          "cta": "¿Te animas a llevar tu empresa al futuro?",
+          "ctaButton": "Contáctanos"
+        },
       "cloud": {
-        "title": "Consultoría y Migración Cloud (Azure, Supabase y más)",
+        "title": "Consultoría y Migración Cloud",
         "intro": "En NovaPage impulsamos la transformación digital de tu empresa llevando tu infraestructura tecnológica a la nube, con un enfoque claro en seguridad, eficiencia y crecimiento. Te acompañamos en cada paso del camino, sin importar si apenas inicias en el mundo cloud o si buscas optimizar arquitecturas ya existentes.",
         "desc": "Moderniza tu infraestructura y aprovecha la flexibilidad y escalabilidad de la nube con un socio experto. Gestionamos todo el proceso para que tu negocio crezca con seguridad y eficiencia.",
         "sections": [
@@ -478,8 +480,10 @@
             ]
           }
         ],
-        "cta": "¿Listo para dar el salto a la nube y potenciar tu negocio? ¡Hablemos y crea el futuro de tu empresa desde hoy!"
-      },
+        "cta": "¿Listo para dar el salto a la nube y potenciar tu negocio? ¡Hablemos y crea el futuro de tu empresa desde hoy!",
+        "ctaButton": "Contáctanos"
+      }
+    },
   "profile": {
     "header": {
       "name": "CESAR PEREZ",

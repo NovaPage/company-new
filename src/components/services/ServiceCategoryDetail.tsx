@@ -20,7 +20,7 @@ export default function ServiceCategoryDetail({ img, title, intro, sections, cta
   return (
     <div className="w-full flex flex-col items-center">
       {/* Imagen de la categoría */}
-      <div className="w-full flex justify-center mb-7">
+      <div className="w-full flex justify-center mb-1">
         <Image
           src={img}
           alt={title}
@@ -43,21 +43,22 @@ export default function ServiceCategoryDetail({ img, title, intro, sections, cta
 
       {/* Secciones */}
       {sections?.map((section, idx) => (
-        <div key={idx} className="w-full max-w-2xl mb-8">
-          <h3 className="text-primary text-lg mb-3 text-left">{section.title}</h3>
-          <ul className="space-y-3 pl-2">
+        <div key={idx} className="w-full max-w-2xl mb-5"> {/* menos margen inferior */}
+          <h3 className="text-primary text-lg mb-1 text-left">{section.title}</h3> {/* menos margen */}
+          <ul className="space-y-1 pl-1"> {/* menos espacio entre items y padding */}
             {section.items.map((item, i) =>
               typeof item === 'string' ? (
                 <li key={i} className="text-muted-foreground text-base">{item}</li>
               ) : (
                 <li key={i} className="text-muted-foreground text-base">
-                  <span className="text-primary">{item.title}:</span> {item.desc}
+                  <span className="text-primary mr-1">{item.title}:</span>{item.desc}
                 </li>
               )
             )}
           </ul>
         </div>
       ))}
+
 
       {/* CTA */}
       {cta && (
