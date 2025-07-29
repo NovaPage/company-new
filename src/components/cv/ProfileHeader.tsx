@@ -25,7 +25,7 @@ export function ProfileHeader() {
         whileHover={{ scale: 1.07, rotate: 4 }}
       >
         <Image
-          src="/favicon.png"
+          src="/profile.png"
           alt={t("profile.header.photoAlt")}
           fill
           sizes="160px"
