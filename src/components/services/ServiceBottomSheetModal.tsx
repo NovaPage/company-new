@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
 import { X } from "lucide-react"
 import { GradientButton } from "@/components/ui/GradientButton"
+import { useRouter } from "next/navigation";
 
 type ServiceItem = {
   title?: string
@@ -21,8 +22,8 @@ type ServiceDetail = {
   sections: ServiceSection[]
   cta?: string
   ctaButton?: string
-  onCtaClick?: () => void
 }
+
 
 type Props = {
   open: boolean
@@ -37,6 +38,12 @@ export default function CustomServiceModal({ open, onClose, service }: Props) {
     else document.body.style.overflow = ""
     return () => { document.body.style.overflow = "" }
   }, [open])
+
+  const router = useRouter();
+
+  const handleCtaClick = () => {
+    router.push("/contact"); // Cambia a la ruta deseada
+  };
 
   // Detecta si es móvil (inline, sin hooks externos)
   const [isMobile, setIsMobile] = useState(false)
@@ -185,7 +192,7 @@ export default function CustomServiceModal({ open, onClose, service }: Props) {
           {/* Gradient CTA button */}
           <div className="w-full flex justify-center mt-6 mb-2">
             <GradientButton
-              onClick={service.onCtaClick || onClose}
+              onClick={handleCtaClick}
             >
               {service.ctaButton }
             </GradientButton>
