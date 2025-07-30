@@ -3,6 +3,7 @@ import "./globals.css";
 import { LanguageProvider } from "@/providers/LanguageProvider";
 import { NavBar } from "@/components/layout/nav";
 import { ThemeProvider } from "@/components/utils/theme-provider";
+import Footer from "@/components/layout/Footer";
 
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({
           <ThemeProvider>
             <NavBar />
               {children}
+            <Footer />
           </ThemeProvider>
         </LanguageProvider>
       </body>

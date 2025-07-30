@@ -6,6 +6,9 @@
     "contact": "Contacto",
     "profile": "Perfil"
   },
+  "footer": {
+    "copyright": "© 2025 NovaPage. Todos los derechos reservados."
+  }, 
   "home": {
     "hero": {
       "title": "Desarrollamos soluciones digitales",
@@ -484,6 +487,78 @@
         "ctaButton": "Contáctanos"
       }
     },
+  "projects": {
+    "hero": {
+      "title": "Proyectos Destacados",
+      "subtitle": "Explora casos de éxito y soluciones personalizadas desarrolladas por NovaPage para empresas que apuestan por la innovación digital y la automatización.",
+      "imgAlt": "Portafolio de proyectos tecnológicos, aplicaciones web y soluciones de IA desarrolladas por NovaPage"
+    },
+    "sectionTitle": "Soluciones implementadas",
+    "projNakamototrading": {
+      "name": "Plataforma Web Full-Stack con Autenticación Avanzada y Analíticas (Nakamototrading)",
+      "description": "Desarrollo integral de una plataforma web responsive con Next.js y API interna para funciones clave. Incluye un sistema de registro/login seguro gestionado con Supabase Auth, seguimiento de métricas de usuario en Supabase Database y un CDN para distribución eficiente de contenido.",
+      "techs": [
+        "Next.js",
+        "Supabase (Auth, Database)",
+        "JavaScript / TypeScript",
+        "HTML, CSS",
+        "API (Next.js)",
+        "CDN"
+      ],
+      "bullets": [
+        "Construcción de aplicaciones web modernas y escalables.",
+        "Implementación de autenticación segura y flujos de usuario robustos.",
+        "Gestión y modelado eficiente de bases de datos.",
+        "Optimización de rendimiento y experiencia de usuario."
+      ],
+      "video": "https://drive.google.com/file/d/12XrRDJv5ZVK6nl1JL-bP9NLRprE1DYxN/view"
+    },
+    "projEvana": {
+      "name": "Evana – Asistente Familiar Inteligente (Sistema de Agentes IA)",
+      "description": "Diseño e implementación de una arquitectura modular para un sistema de agentes inteligentes (Autogen) capaz de dar soporte en tareas complejas. Incluye un backend en FastAPI para la API, Azure Functions como herramientas externas serverless para los agentes, y un frontend en Angular (en desarrollo). Este sistema demuestra orquestación avanzada de IA para automatización de tareas y apoyo inteligente.",
+      "techs": [
+        "Python (FastAPI)",
+        "Autogen",
+        "Azure Functions",
+        "Angular",
+        "Docker",
+        "Git"
+      ],
+      "bullets": [
+        "Diseño de sistemas complejos basados en agentes de IA.",
+        "Desarrollo de backend escalable y seguro.",
+        "Integración avanzada de servicios serverless como herramientas para IA.",
+        "Control profesional de versiones y manejo de entornos."
+      ],
+      "video": "https://drive.google.com/file/d/1bkbEuntrkygpzAluEbabcyDD5JvdhOSh/view"
+    }
+  },
+  "contact": {
+      "hero": {
+        "title": "¿Listo para impulsar tu proyecto?",
+        "subtitle": "Cuéntanos sobre tu idea, agenda una reunión o solicita una consultoría gratuita.",
+        "imgAlt": "Equipo de NovaPage atendiendo consultas y nuevos proyectos digitales"
+      },
+      "cards": {
+        "title": "¡Contáctanos directamente por tu canal favorito!",
+        "whatsapp": {
+          "alt": "WhatsApp NovaPage",
+          "label": "Escríbenos por WhatsApp",
+          "desc": "Haz clic y abre un chat directo con nuestro equipo para una atención rápida y personalizada.",
+          "defaultMsg": "Buen día, me gustaría agendar una reunión para conversar sobre el desarrollo de una solución digital personalizada."
+        },
+        "email": {
+          "alt": "Email NovaPage",
+          "label": "Contáctanos por Email",
+          "desc": "Envía un correo con tus dudas o requerimientos. Te responderemos pronto."
+        },
+        "linkedin": {
+          "alt": "LinkedIn NovaPage",
+          "label": "Conecta por LinkedIn",
+          "desc": "Visita nuestro perfil profesional, conecta o escríbenos directamente en LinkedIn."
+        }
+      }
+  },
   "profile": {
     "header": {
       "name": "CESAR PEREZ",

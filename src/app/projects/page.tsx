@@ -2,8 +2,9 @@
 'use client'
 import { useTranslation } from "@/hooks/useTranslation";
 import { FloatingCirclesBg } from "@/components/animations/FloatingCirclesBg";
-import ServicesHeroSection from "@/components/services/ServicesHeroSection";
-import ServicesCategoriesSection from "@/components/services/ServicesCategoriesSection";
+import ProjectsHeroSection from "@/components/projects/ProjectsHeroSection";
+import ProjectsSection from "@/components/projects/ProjectsSection";
+
 
 export default function ServicesPage() {
   useTranslation();
@@ -11,8 +12,8 @@ export default function ServicesPage() {
   return (
     <main className="bg-muted/40 relative z-10 min-h-screen">
       <FloatingCirclesBg />
-      <ServicesHeroSection />
-      <ServicesCategoriesSection />
+      <ProjectsHeroSection />
+      < ProjectsSection />
     </main>
   );
 }

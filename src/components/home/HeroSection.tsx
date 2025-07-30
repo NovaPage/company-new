@@ -25,24 +25,46 @@ export default function HeroSection() {
   return (
     <div>
       {/* SECCIÓN PRINCIPAL */}
-      <section className="relative w-full min-h-[92vh] flex flex-col md:flex-row items-center justify-center px-4 overflow-hidden">
-        {/* Contenido principal */}
-        <div className="relative flex flex-col md:flex-row items-center justify-center gap-12 w-full max-w-7xl min-h-[70vh]">
+      <section className="
+        relative w-full min-h-[80vh] md:min-h-[60vh]
+        flex flex-col md:flex-row items-center justify-center px-4 overflow-hidden
+      ">
+        <div className="
+          relative flex flex-col md:flex-row items-center justify-center
+          gap-6 md:gap-8 lg:gap-12
+          w-full max-w-7xl min-h-[60vh]
+        ">
           {/* Texto */}
           <motion.div
-            className="w-full md:w-1/2 flex flex-col items-center md:items-end justify-center text-center md:text-right"
+            className="
+              w-full md:w-1/2 flex flex-col items-center md:items-end justify-center
+              text-center md:text-right
+            "
             variants={fadeLeft(0)}
             initial="hidden"
             animate="visible"
           >
             <motion.h1
-              className="text-4xl md:text-6xl font-efour text-primary  tracking-wider mb-6 drop-shadow-xl uppercase max-w-2xl leading-tight"
+              className="
+                text-2xl sm:text-3xl md:text-4xl lg:text-6xl
+                font-efour text-primary tracking-wider mb-6 drop-shadow-xl
+                leading-tight break-words
+                max-w-full sm:max-w-xl md:max-w-2xl
+                capitalize
+                lg:uppercase
+              "
               variants={fadeLeft(0.05)}
             >
               {t('home.hero.title')}
             </motion.h1>
+
             <motion.p
-              className="max-w-xl text-lg md:text-2xl text-muted-foreground font-semibold"
+              className="
+                max-w-lg md:max-w-md lg:max-w-xl
+                text-base sm:text-lg md:text-xl lg:text-2xl
+                text-muted-foreground font-semibold
+                break-words md:leading-snug
+              "
               variants={fadeLeft(0.15)}
             >
               {t('home.hero.subtitle')}
@@ -50,7 +72,9 @@ export default function HeroSection() {
           </motion.div>
           {/* Imagen grande */}
           <motion.div
-            className="w-full md:w-1/2 flex items-center justify-center"
+            className="
+              w-full md:w-1/2 flex items-center justify-center
+            "
             variants={fadeRight(0.05)}
             initial="hidden"
             animate="visible"
@@ -60,13 +84,17 @@ export default function HeroSection() {
               alt="Digital transformation 3D illustration"
               width={800}
               height={640}
-              className="object-contain max-w-[90vw] md:max-w-[520px] h-auto drop-shadow-2xl"
+              className="
+                object-contain
+                max-w-[90vw]
+                md:max-w-[340px] lg:max-w-[420px] xl:max-w-[520px]
+                h-auto drop-shadow-2xl
+              "
               priority
             />
           </motion.div>
         </div>
       </section>
-
 
       {/* IMPACTO + BOTONES */}
       <section className="w-full flex flex-col items-center justify-center px-4 pt-0 pb-16 relative z-10">
