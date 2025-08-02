@@ -120,7 +120,7 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row gap-5 justify-center items-center"
         >
           <Link
-            href="#projects"
+            href="/projects"
             className="
               px-7 py-3 rounded-xl bg-primary text-primary-foreground font-bold 
               shadow-lg transition hover:brightness-110 hover:scale-105 
@@ -131,7 +131,7 @@ export default function HeroSection() {
             {t('home.hero.seeProjects')}
           </Link>
           <Link
-            href="#contact"
+            href="/contact"
             className="
               px-7 py-3 rounded-xl border border-primary text-primary font-bold 
               shadow-lg transition hover:bg-primary/10 hover:scale-105 

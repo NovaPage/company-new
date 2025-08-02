@@ -41,7 +41,7 @@ export default function CallToActionSection() {
         viewport={{ once: true }}
       >
         <Link
-          href="#contact"
+          href="/contact"
           className="
             mt-4 inline-block px-8 py-4 bg-primary text-primary-foreground rounded-xl 
             text-base font-semibold tracking-wide shadow-md 
