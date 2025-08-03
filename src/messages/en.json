@@ -29,7 +29,7 @@
     "about": {
       "title": "Who we are",
       "description": "NovaPage is a digital studio specialized in custom software development, automation, and cloud architectures. We were born in Colombia and operate remotely for companies of any size seeking innovation, security, and results.",
-      "founder": "Founded by César Pérez, a software engineer passionate about efficient and secure technology."
+      "founder": "Founded by César Pérez, a software Developer passionate about efficient and secure technology."
     },
     "projects": {
       "title": "Our recent work",
@@ -562,7 +562,7 @@
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
-      "role": "Mid-Level Software Engineer | Cloud Development & AI Automation Specialist",
+      "role": "Mid-Level Software Developer | Cloud Development & AI Automation Specialist",
       "location": "Cali, Colombia",
       "phone": "+(57) 321 622 16 06",
       "email": "perezcastro.1228@gmail.com",
@@ -572,7 +572,7 @@
     },
     "summary": {
       "title": "Professional Summary",
-      "paragraph": "Mid-Level Software Engineer and Cloud Solutions Architect with a strong background in designing and implementing scalable and secure architectures on Microsoft Azure. Expert in Full-Stack development (React, Next.js, Python/FastAPI), building systems with advanced enterprise authentication (Microsoft Entra ID), and API optimization. Pioneer in process automation and Artificial Intelligence application, using advanced tools for autonomous code creation, testing and correction, as well as copilot-based solutions. My self-taught approach and commitment to DevOps practices (GitFlow, CI/CD) allow me to transform complex challenges into efficient, robust solutions. I am driven by innovation and a constant search for strategic value through technology."
+      "paragraph": "Mid-Level Software Developer and Cloud Solutions Architect with a strong background in designing and implementing scalable and secure architectures on Microsoft Azure. Expert in Full-Stack development (React, Next.js, Python/FastAPI), building systems with advanced enterprise authentication (Microsoft Entra ID), and API optimization. Pioneer in process automation and Artificial Intelligence application, using advanced tools for autonomous code creation, testing and correction, as well as copilot-based solutions. My self-taught approach and commitment to DevOps practices (GitFlow, CI/CD) allow me to transform complex challenges into efficient, robust solutions. I am driven by innovation and a constant search for strategic value through technology."
     },
     "skills": {
       "title": "Technical Skills",
@@ -647,7 +647,7 @@
       "job2": {
         "company": "Freelance Development",
         "city": "Cali, Colombia (Remote)",
-        "role": "Mid-Level Software Engineer",
+        "role": "Mid-Level Software Developer",
         "period": "2023 – Present",
         "point1": "Execution of Full-Stack web development projects using Next.js and Angular for modern, highly interactive applications.",
         "point2": "Design and construction of relational and NoSQL databases, as well as integration of robust authentication and authorization systems using Supabase (Auth and Database).",
@@ -739,7 +739,7 @@
       "bootcamp3_year": "2022",
 
       "selfLearningTitle": "Intensive Self-Learning",
-      "selfLearning1": "Advanced Software Engineering: architecture, design patterns, code quality, testing (TDD, unit, integration), refactoring.",
+      "selfLearning1": "Advanced Software Developering: architecture, design patterns, code quality, testing (TDD, unit, integration), refactoring.",
       "selfLearning2": "Cloud & DevOps: Microsoft Azure (resource management, messaging services, scalable functions), CI/CD, containerization (Docker), logs and monitoring.",
       "selfLearning3": "Applied Artificial Intelligence: autonomous agents, natural language processing, code and content generation with LLMs, AI copilots.",
       "selfLearning4": "Enterprise Security: authentication (Microsoft Entra ID, OpenID Connect, OAuth 2.0), API protection, permission management.",

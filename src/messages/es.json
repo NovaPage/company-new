@@ -29,7 +29,7 @@
     "about": {
       "title": "Quiénes somos",
       "description": "NovaPage es un estudio digital especializado en el desarrollo de software a la medida, automatización y arquitecturas cloud. Nacimos en Colombia y operamos de forma remota para empresas de cualquier tamaño que buscan innovación, seguridad y resultados.",
-      "founder": "Fundado por César Pérez, ingeniero de software apasionado por la tecnología eficiente y segura."
+      "founder": "Fundado por César Pérez, Desarrollador de software apasionado por la tecnología eficiente y segura."
     },
     "projects": {
       "title": "Nuestro trabajo reciente",
@@ -562,7 +562,7 @@
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
-      "role": "Ingeniero de Software Mid-Level | Especialista en Desarrollo Cloud y Automatización con IA",
+      "role": "Desarrollador de Software Mid-Level | Especialista en Desarrollo Cloud y Automatización con IA",
       "location": "Cali, Colombia",
       "phone": "+(57) 321 622 16 06",
       "email": "perezcastro.1228@gmail.com",
@@ -572,7 +572,7 @@
     },
     "summary": {
       "title": "Resumen Profesional",
-      "paragraph": "Ingeniero de Software Mid-Level y Arquitecto de Soluciones Cloud con un sólido bagaje en el diseño e implementación de arquitecturas escalables y seguras en Microsoft Azure. Experto en desarrollo Full-Stack (React, Next.js, Python/FastAPI), construcción de sistemas con autenticación empresarial avanzada (Microsoft Entra ID) y optimización de APIs. Pionero en la automatización de procesos y la aplicación de Inteligencia Artificial, utilizando herramientas avanzadas para la creación, testeo y corrección autónoma de código, así como soluciones basadas en copilotos. Mi enfoque autodidacta y mi compromiso con las prácticas DevOps (GitFlow, CI/CD) me permiten transformar desafíos complejos en soluciones eficientes y robustas. Me impulsa la innovación y la búsqueda constante de valor estratégico a través de la tecnología."
+      "paragraph": "Desarrollador de Software Mid-Level y Arquitecto de Soluciones Cloud con un sólido bagaje en el diseño e implementación de arquitecturas escalables y seguras en Microsoft Azure. Experto en desarrollo Full-Stack (React, Next.js, Python/FastAPI), construcción de sistemas con autenticación empresarial avanzada (Microsoft Entra ID) y optimización de APIs. Pionero en la automatización de procesos y la aplicación de Inteligencia Artificial, utilizando herramientas avanzadas para la creación, testeo y corrección autónoma de código, así como soluciones basadas en copilotos. Mi enfoque autodidacta y mi compromiso con las prácticas DevOps (GitFlow, CI/CD) me permiten transformar desafíos complejos en soluciones eficientes y robustas. Me impulsa la innovación y la búsqueda constante de valor estratégico a través de la tecnología."
     },
     "skills": {
       "title": "Habilidades Técnicas",
@@ -647,7 +647,7 @@
       "job2": {
         "company": "Desarrollo Freelancer",
         "city": "Cali, Colombia (Remoto)",
-        "role": "Ingeniero de Software Mid-Level",
+        "role": "Desarrollador de Software Mid-Level",
         "period": "2023 – Actualidad",
         "point1": "Ejecución de proyectos de desarrollo web Full-Stack empleando Next.js y Angular para aplicaciones modernas y altamente interactivas.",
         "point2": "Diseño y construcción de bases de datos relacionales y NoSQL, así como integración de sistemas de autenticación y autorización robustos usando Supabase (Auth y Database).",

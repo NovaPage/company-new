@@ -30,7 +30,7 @@
     "about": {
       "title": "Quem somos",
       "description": "A NovaPage é um estúdio digital especializado no desenvolvimento de software sob medida, automação e arquiteturas em nuvem. Nascemos na Colômbia e operamos remotamente para empresas de todos os portes que buscam inovação, segurança e resultados.",
-      "founder": "Fundada por César Pérez, engenheiro de software apaixonado por tecnologia eficiente e segura."
+      "founder": "Fundada por César Pérez, Desenvolvedor de software apaixonado por tecnologia eficiente e segura."
     },
     "projects": {
       "title": "Nosso trabalho recente",
@@ -563,7 +563,7 @@
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
-      "role": "Engenheiro de Software Pleno | Especialista em Desenvolvimento Cloud e Automação com IA",
+      "role": "Desenvolvedor de Software Pleno | Especialista em Desenvolvimento Cloud e Automação com IA",
       "location": "Cali, Colômbia",
       "phone": "+(57) 321 622 16 06",
       "email": "perezcastro.1228@gmail.com",
@@ -573,7 +573,7 @@
     },
     "summary": {
       "title": "Resumo Profissional",
-      "paragraph": "Engenheiro de Software Pleno e Arquiteto de Soluções Cloud com sólida experiência em projetar e implementar arquiteturas escaláveis e seguras na Microsoft Azure. Especialista em desenvolvimento Full-Stack (React, Next.js, Python/FastAPI), construção de sistemas com autenticação empresarial avançada (Microsoft Entra ID) e otimização de APIs. Pioneiro em automação de processos e aplicação de Inteligência Artificial, utilizando ferramentas avançadas para criação, teste e correção autônoma de código, bem como soluções baseadas em copilotos. Meu perfil autodidata e compromisso com práticas DevOps (GitFlow, CI/CD) me permitem transformar desafios complexos em soluções eficientes e robustas. Sou movido pela inovação e pela busca constante de valor estratégico por meio da tecnologia."
+      "paragraph": "Desenvolvedor de Software Pleno e Arquiteto de Soluções Cloud com sólida experiência em projetar e implementar arquiteturas escaláveis e seguras na Microsoft Azure. Especialista em desenvolvimento Full-Stack (React, Next.js, Python/FastAPI), construção de sistemas com autenticação empresarial avançada (Microsoft Entra ID) e otimização de APIs. Pioneiro em automação de processos e aplicação de Inteligência Artificial, utilizando ferramentas avançadas para criação, teste e correção autônoma de código, bem como soluções baseadas em copilotos. Meu perfil autodidata e compromisso com práticas DevOps (GitFlow, CI/CD) me permitem transformar desafios complexos em soluções eficientes e robustas. Sou movido pela inovação e pela busca constante de valor estratégico por meio da tecnologia."
     },
     "skills": {
       "title": "Habilidades Técnicas",
@@ -648,7 +648,7 @@
       "job2": {
         "company": "Desenvolvimento Freelancer",
         "city": "Cali, Colômbia (Remoto)",
-        "role": "Engenheiro de Software Pleno",
+        "role": "Desenvolvedor de Software Pleno",
         "period": "2023 – Atual",
         "point1": "Execução de projetos de desenvolvimento web Full-Stack utilizando Next.js e Angular para aplicações modernas e altamente interativas.",
         "point2": "Design e construção de bancos de dados relacionais e NoSQL, bem como integração de sistemas de autenticação e autorização robustos usando Supabase (Auth e Database).",
