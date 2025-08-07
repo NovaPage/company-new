@@ -10,7 +10,7 @@ import CallToActionSection from "@/components/home/callToActionSection";
 
 // Home page specific SEO metadata
 export const metadata: Metadata = {
-  title: "NovaPage",
+  title: "Inicio | NovaPage",
   description: "Impulsa tu negocio con desarrollo web moderno, automatización, inteligencia artificial y soluciones cloud. Descubre los proyectos recientes y los beneficios de NovaPage.",
   keywords: [
     "desarrollo web",

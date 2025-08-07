@@ -11,35 +11,35 @@
   },
   "home": {
     "hero": {
-      "title": "We develop digital solutions",
-      "subtitle": "We turn your ideas into robust, secure, and scalable applications.",
-      "impact": "Tailored technology: efficiency, innovation, and automation, all in one place.",
+      "title": "AI-Powered Automation for SMEs",
+      "subtitle": "Save costs, optimize processes, and unlock your team's potential with smart solutions tailored to your business.",
+      "impact": "Fewer manual tasks, more growth. That's our promise.",
       "seeProjects": "See projects",
       "freeConsult": "Request a free consultation"
     },
     "benefits": {
       "title": "Why choose NovaPage?",
-      "customTitle": "100% Custom Solutions",
-      "customDesc": "We don't offer templates. Every project is unique and tailored to your needs.",
-      "aiTitle": "AI-powered automation and efficiency",
-      "aiDesc": "We optimize processes with artificial intelligence to save time and resources.",
-      "secureTitle": "Secure and scalable infrastructure",
-      "secureDesc": "We design architectures ready to grow, protected from day one."
+      "customTitle": "The Focus: 100% Tailored Solutions",
+      "customDesc": "Our AI solutions are not generic. We analyze your operations to create a unique tool that solves your specific problems.",
+      "aiTitle": "The Engine: Automation with AI and Efficiency",
+      "aiDesc": "We implement intelligent solutions that work for you, reducing operational costs and freeing up your team to focus on growth.",
+      "secureTitle": "The Foundation: Secure and Scalable Infrastructure",
+      "secureDesc": "Every automation solution is built on a robust cloud architecture, ensuring your operation is secure and ready to grow."
     },
     "about": {
       "title": "Who we are",
-      "description": "NovaPage is a digital studio specialized in custom software development, automation, and cloud architectures. We were born in Colombia and operate remotely for companies of any size seeking innovation, security, and results.",
+      "description": "NovaPage is a digital studio specializing in process automation and AI solutions for SMEs, supported by deep expertise in custom software development and cloud architectures. We were born in Colombia and operate remotely for companies of any size seeking innovation, security, and results.",
       "founder": "Founded by César Pérez, a software Developer passionate about efficient and secure technology."
     },
     "projects": {
       "title": "Our recent work",
-      "intro": "We have collaborated in developing technological solutions for companies in various industries, always prioritizing efficiency, security, and innovation.",
+      "intro": "We have implemented intelligent solutions that transform our collaborators' operations, always focusing on automation, efficiency, and measurable business impact.",
       "privacy": "Some success stories are not shown due to confidentiality agreements, but we can share details in a personalized meeting.",
       "list": [
         {
           "name": "Trading Education Platform",
           "company": "",
-          "description": "We created a specialized trading course platform, modern and scalable, with a smooth user experience. It includes secure authentication, detailed progress tracking in modules, and exclusive access for premium users.",
+          "description": "We created a specialized trading course platform, modern and scalable, with a smooth user experience. It includes secure authentication and detailed progress tracking, completely automating educational management and premium access administration.",
           "technologies": [
             "Next.js",
             "Supabase (Auth & Database)",
@@ -92,39 +92,39 @@
       ]
     },
     "cta": {
-      "title": "Ready to take your project to the next level?",
+      "title": "Ready to automate the future of your company?",
       "subtitle": "At NovaPage, we support you every step of the way.",
       "button": "Get started"
     }
   },
   "services": {
     "hero": {
-      "title": "Digital Services",
-      "subtitle": "Smart, scalable, and tailored solutions to grow your business.",
+      "title": "Intelligent Automation",
+      "subtitle": "We design and implement the technology that optimizes your operations, saves costs, and gives you a competitive edge in the market.",
       "imgAlt": "NovaPage digital services illustration"
     },
     "categories": {
       "seeMore": "See more",
       "web": {
-        "title": "Web and App Development",
+        "title": "Web Platforms and Applications (Our Technical Base)",
         "desc": "Boost your business with custom-designed websites and apps: fast, secure, and ready to scale. We solve everything from your digital presence to internal process management."
       },
       "automation": {
-        "title": "Process Automation and RPA",
+        "title": "Intelligent Process Automation (RPA & AI)",
         "desc": "Save time and eliminate errors by automating repetitive or complex tasks. Digitize key processes and make your operation more agile and scalable, regardless of your company's size."
       },
       "ai": {
-        "title": "Artificial Intelligence Solutions and Digital Assistants",
+        "title": "Digital Assistants and AI-Powered Systems",
         "desc": "Transform customer service and decision-making with AI tailored to your business. We integrate chatbots, assistants, and intelligent systems to automate and anticipate needs."
       },
       "cloud": {
-        "title": "Cloud Consulting and Migration",
+        "title": "Cloud Infrastructure and Security (Our Support)",
         "desc": "Modernize your company by migrating to the cloud securely and efficiently. We optimize your infrastructure and control costs so your systems are flexible, secure, and always available."
       }
     },
     "web": {
       "title": "Web and App Development",
-      "intro": "At NovaPage, we turn your ideas into high-impact digital experiences. We create websites and applications for every need and budget: from simple, fast institutional pages to robust enterprise platforms and custom internal systems.",
+      "intro": "For an automation or AI solution to be useful, it needs a robust, secure, and user-friendly interface. At NovaPage, we build the platforms and applications that serve as the foundation for our intelligent solutions, ensuring an exceptional user experience and full control over your new automated operations.",
       "sections": [
         {
           "title": "What can we build for you?",
@@ -408,7 +408,7 @@
     },
     "cloud": {
       "title": "Cloud Consulting and Migration",
-      "intro": "At NovaPage, we drive your company's digital transformation by moving your tech infrastructure to the cloud, with a clear focus on security, efficiency, and growth. We guide you every step of the way, whether you're just starting with cloud or looking to optimize existing architectures.",
+      "intro": "Automation and AI require a solid, secure, and scalable foundation to operate. We specialize in designing and implementing the perfect cloud infrastructure to support your intelligent solutions, ensuring maximum availability, data security, and cost efficiency.",
       "desc": "Modernize your infrastructure and leverage the cloud's flexibility and scalability with an expert partner. We manage the entire process so your business grows securely and efficiently.",
       "sections": [
         {
@@ -490,7 +490,7 @@
   "projects": {
     "hero": {
       "title": "Featured Projects",
-      "subtitle": "Explore success stories and custom solutions developed by NovaPage for companies committed to digital innovation and automation.",
+      "subtitle": "Explore how we have applied intelligent automation and custom development to solve real business problems and drive operational efficiency.",
       "imgAlt": "Portfolio of technology projects, web applications, and AI solutions developed by NovaPage"
     },
     "sectionTitle": "Implemented solutions",
@@ -535,7 +535,7 @@
   },
   "contact": {
       "hero": {
-        "title": "Ready to boost your project?",
+        "title": "Ready to automate your business?",
         "subtitle": "Tell us about your idea, schedule a meeting, or request a free consultation.",
         "imgAlt": "NovaPage team handling inquiries and new digital projects"
       },
@@ -545,13 +545,13 @@
           "alt": "WhatsApp NovaPage",
           "label": "Write to us on WhatsApp",
           "desc": "Click and open a direct chat with our team for fast and personalized attention.",
-          "defaultMsg": "Good morning, I would like to schedule a meeting to discuss the development of a custom digital solution."
+          "defaultMsg": "Hello, I'd like to schedule a meeting to discuss how to automate a process in my company with an AI solution."
         },
         "email": {
           "alt": "Email NovaPage",
           "label": "Contact us by Email",
           "desc": "Send an email with your questions or requirements. We will reply soon.",
-          "subject": "Inquiry about digital development"
+          "subject": "Inquiry about Automation and AI"
         },
         "linkedin": {
           "alt": "LinkedIn NovaPage",

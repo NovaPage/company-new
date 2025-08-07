@@ -12,35 +12,35 @@
 
     "home": {
     "hero": {
-      "title": "Desenvolvemos soluções digitais",
-      "subtitle": "Transformamos suas ideias em aplicações robustas, seguras e prontas para crescer.",
-      "impact": "Tecnologia sob medida: eficiência, inovação e automação, tudo em um só lugar.",
+      "title": "Automatizamos e potencializamos sua PME com Inteligência Artificial",
+      "subtitle": "Economize custos, otimize processos e libere o potencial da sua equipe com soluções inteligentes projetadas sob medida para o seu negócio.",
+      "impact": "Menos tarefas manuais, mais crescimento. Essa é a nossa promessa.",
       "seeProjects": "Ver projetos",
       "freeConsult": "Solicitar consultoria gratuita"
     },
     "benefits": {
       "title": "Por que escolher a NovaPage?",
-      "customTitle": "Soluções 100% personalizadas",
-      "customDesc": "Não oferecemos modelos prontos. Cada projeto é único e adaptado às suas necessidades.",
-      "aiTitle": "Automação com IA e eficiência",
-      "aiDesc": "Otimizamos processos com inteligência artificial para economizar tempo e recursos.",
-      "secureTitle": "Infraestrutura segura e escalável",
-      "secureDesc": "Desenhamos arquiteturas prontas para crescer, protegidas desde o primeiro dia."
+      "customTitle": "O Foco: Soluções 100% Sob Medida",
+      "customDesc": "Nossas soluções de IA não são genéricas. Analisamos sua operação para criar uma ferramenta única que resolve seus problemas específicos.",
+      "aiTitle": "O Motor: Automação com IA e Eficiência",
+      "aiDesc": "Implementamos soluções inteligentes que trabalham por você, reduzindo custos operacionais e liberando sua equipe para focar no crescimento.",
+      "secureTitle": "A Base: Infraestrutura Segura e Escalável",
+      "secureDesc": "Cada solução de automação é construída sobre uma arquitetura de nuvem robusta, garantindo que sua operação seja segura e pronta para crescer."
     },
     "about": {
       "title": "Quem somos",
-      "description": "A NovaPage é um estúdio digital especializado no desenvolvimento de software sob medida, automação e arquiteturas em nuvem. Nascemos na Colômbia e operamos remotamente para empresas de todos os portes que buscam inovação, segurança e resultados.",
+      "description": "A NovaPage é um estúdio digital especializado em automação de processos e soluções com IA para PMEs, apoiado por uma profunda experiência em desenvolvimento de software sob medida e arquiteturas de nuvem. Nascemos na Colômbia e operamos remotamente para empresas de todos os portes que buscam inovação, segurança e resultados.",
       "founder": "Fundada por César Pérez, Desenvolvedor de software apaixonado por tecnologia eficiente e segura."
     },
     "projects": {
       "title": "Nosso trabalho recente",
-      "intro": "Colaboramos no desenvolvimento de soluções tecnológicas para empresas de diversos setores, sempre priorizando eficiência, segurança e inovação.",
+      "intro": "Implementamos soluções inteligentes que transformam as operações de nossos colaboradores, focando sempre na automação, eficiência e impacto mensurável no negócio.",
       "privacy": "Alguns casos de sucesso não são exibidos devido a acordos de confidencialidade, mas podemos compartilhar detalhes em uma reunião personalizada.",
       "list": [
         {
           "name": "Plataforma Educacional de Trading",
           "company": "",
-          "description": "Criamos uma plataforma de cursos especializada em trading, moderna e escalável, com uma experiência de usuário fluida. Inclui autenticação segura, acompanhamento detalhado do progresso nos módulos e acesso exclusivo para usuários premium.",
+          "description": "Criamos uma plataforma de cursos especializada em trading, moderna e escalável, com uma experiência de usuário fluida. Inclui autenticação segura e acompanhamento detalhado do progresso, automatizando completamente a gestão educacional e a administração de acessos premium.",
           "technologies": [
             "Next.js",
             "Supabase (Auth & Database)",
@@ -93,39 +93,39 @@
       ]
     },
     "cta": {
-      "title": "Pronto para levar seu projeto para o próximo nível?",
+      "title": "Pronto para automatizar o futuro da sua empresa?",
       "subtitle": "Na NovaPage, acompanhamos você em cada etapa.",
       "button": "Contate-nos"
     }
   },
   "services": {
     "hero": {
-      "title": "Serviços Digitais",
-      "subtitle": "Soluções inteligentes, escaláveis e sob medida para fazer o seu negócio crescer.",
+      "title": "Automação Inteligente",
+        "subtitle": "Projetamos e implementamos a tecnologia que otimiza suas operações, economiza custos e lhe dá uma vantagem competitiva no mercado.",
       "imgAlt": "Ilustração de serviços digitais NovaPage"
     },
     "categories": {
       "seeMore": "Ver mais",
       "web": {
-        "title": "Desenvolvimento Web e de Aplicações",
+        "title": "Plataformas e Aplicações Web (Nossa Base Técnica)",
         "desc": "Impulsione seu negócio com sites e aplicativos feitos sob medida: rápidos, seguros e prontos para crescer. Resolvemos desde sua presença digital até a gestão de processos internos."
       },
       "automation": {
-        "title": "Automatização de Processos e RPA",
+        "title": "Automação Inteligente de Processos (RPA & IA)",
         "desc": "Economize tempo e elimine erros automatizando tarefas repetitivas ou complexas. Digitalize processos-chave e torne sua operação mais ágil e escalável, independentemente do tamanho da sua empresa."
       },
       "ai": {
-        "title": "Soluções de Inteligência Artificial e Assistentes Digitais",
+        "title": "Assistentes Digitais e Sistemas com IA",
         "desc": "Transforme o atendimento ao cliente e a tomada de decisões com IA adaptada ao seu negócio. Integramos chatbots, assistentes e sistemas inteligentes para automatizar e antecipar necessidades."
       },
       "cloud": {
-        "title": "Consultoria e Migração para a Nuvem",
+        "title": "Infraestrutura em Nuvem e Segurança (Nosso Suporte)",
         "desc": "Modernize sua empresa migrando para a nuvem de forma segura e eficiente. Otimizamos sua infraestrutura e controlamos custos para que seus sistemas sejam flexíveis, seguros e sempre disponíveis."
       }
     },
     "web": {
       "title": "Desenvolvimento Web e de Aplicações",
-      "intro": "Na NovaPage transformamos suas ideias em experiências digitais de alto impacto. Criamos sites e aplicativos para todos os tipos de necessidades e orçamentos: desde páginas institucionais simples e rápidas até plataformas empresariais robustas e sistemas internos personalizados.",
+      "intro": "Para que uma solução de automação ou IA seja útil, ela precisa de uma interface robusta, segura e fácil de usar. Na NovaPage, construímos as plataformas e aplicações que servem como base para nossas soluções inteligentes, garantindo uma experiência de usuário excepcional e controle total sobre suas novas operações automatizadas.",
       "sections": [
         {
           "title": "O que podemos construir para você?",
@@ -409,7 +409,7 @@
     },
     "cloud": {
       "title": "Consultoria e Migração para a Nuvem",
-      "intro": "Na NovaPage impulsionamos a transformação digital da sua empresa levando sua infraestrutura tecnológica para a nuvem, com foco claro em segurança, eficiência e crescimento. Acompanhamos você em cada passo do caminho, seja para iniciar no mundo cloud ou otimizar arquiteturas já existentes.",
+      "intro": "A automação e a IA exigem uma base sólida, segura e escalável para operar. Somos especializados em projetar e implementar a infraestrutura de nuvem perfeita para suportar suas soluções inteligentes, garantindo máxima disponibilidade, segurança de dados e eficiência de custos.",
       "desc": "Modernize sua infraestrutura e aproveite a flexibilidade e escalabilidade da nuvem com um parceiro especialista. Gerenciamos todo o processo para que seu negócio cresça com segurança e eficiência.",
       "sections": [
         {
@@ -491,7 +491,7 @@
   "projects": {
     "hero": {
       "title": "Projetos em Destaque",
-      "subtitle": "Explore casos de sucesso e soluções personalizadas desenvolvidas pela NovaPage para empresas que apostam na inovação digital e na automação.",
+      "subtitle": "Explore como aplicamos a automação inteligente e o desenvolvimento sob medida para resolver problemas de negócio reais e gerar eficiência operacional.",
       "imgAlt": "Portfólio de projetos tecnológicos, aplicações web e soluções de IA desenvolvidas pela NovaPage"
     },
     "sectionTitle": "Soluções implementadas",
@@ -536,7 +536,7 @@
   },
   "contact": {
       "hero": {
-        "title": "Pronto para impulsionar seu projeto?",
+        "title": "Pronto para automatizar seu negócio?",
         "subtitle": "Conte-nos sobre sua ideia, agende uma reunião ou solicite uma consultoria gratuita.",
         "imgAlt": "Equipe da NovaPage atendendo consultas e novos projetos digitais"
       },
@@ -546,13 +546,13 @@
           "alt": "WhatsApp NovaPage",
           "label": "Fale conosco pelo WhatsApp",
           "desc": "Clique e abra um chat direto com nossa equipe para um atendimento rápido e personalizado.",
-          "defaultMsg": "Bom dia, gostaria de agendar uma reunião para conversar sobre o desenvolvimento de uma solução digital personalizada."
+          "defaultMsg": "Olá, gostaria de agendar uma reunião para conversar sobre como automatizar um processo na minha empresa com uma solução de IA."
         },
         "email": {
           "alt": "Email NovaPage",
           "label": "Entre em contato por Email",
           "desc": "Envie um email com suas dúvidas ou necessidades. Responderemos em breve.",
-          "subject": "Consulta sobre desenvolvimento digital"
+          "subject": "Consulta sobre Automação e IA"
           
         },
         "linkedin": {
