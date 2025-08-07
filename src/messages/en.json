@@ -550,7 +550,8 @@
         "email": {
           "alt": "Email NovaPage",
           "label": "Contact us by Email",
-          "desc": "Send an email with your questions or requirements. We will reply soon."
+          "desc": "Send an email with your questions or requirements. We will reply soon.",
+          "subject": "Inquiry about digital development"
         },
         "linkedin": {
           "alt": "LinkedIn NovaPage",

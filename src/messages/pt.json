@@ -551,7 +551,9 @@
         "email": {
           "alt": "Email NovaPage",
           "label": "Entre em contato por Email",
-          "desc": "Envie um email com suas dúvidas ou necessidades. Responderemos em breve."
+          "desc": "Envie um email com suas dúvidas ou necessidades. Responderemos em breve.",
+          "subject": "Consulta sobre desenvolvimento digital"
+          
         },
         "linkedin": {
           "alt": "LinkedIn NovaPage",
