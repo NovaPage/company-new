@@ -31,11 +31,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "NovaPage",
     description: "Desarrollo Full-Stack a la medida: web, cloud, automatización y AI.",
-    url: "https://company-new-green.vercel.app", // Cambia a tu dominio real cuando lo tengas
+    url: "https://novapage.com.co",
     siteName: "NovaPage",
     images: [
       {
-        url: "https://company-new-green.vercel.app/illustration-hero.png",
+        url: "https://novapage.com.co/illustration-hero.png",
         width: 1200,
         height: 630,
         alt: "NovaPage Hero Image",

@@ -24,11 +24,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Soluciones Web Modernas y AI para tu negocio | NovaPage",
     description: "Impulsa tu negocio con desarrollo web moderno, automatización y soluciones cloud de NovaPage.",
-    url: "https://company-new-green.vercel.app/",
+    url: "https://novapage.com.co/",
     siteName: "NovaPage",
     images: [
       {
-        url: "https://company-new-green.vercel.app/illustration-hero.png",
+        url: "https://novapage.com.co/illustration-hero.png",
         width: 1200,
         height: 630,
         alt: "Hero NovaPage",

@@ -23,11 +23,11 @@ export const metadata: Metadata = {
     title: "Servicios de Desarrollo Web, Automatización y AI | NovaPage",
     description:
       "Conoce nuestros servicios: desarrollo web personalizado, automatización, inteligencia artificial y cloud. Impulsa tu empresa con NovaPage.",
-    url: "https://company-new-green.vercel.app/services",
+    url: "https://novapage.com.co/services",
     siteName: "NovaPage",
     images: [
       {
-        url: "https://company-new-green.vercel.app/illustration-services.png",
+        url: "https://novapage.com.co/illustration-services.png",
         width: 1200,
         height: 630,
         alt: "Servicios NovaPage",

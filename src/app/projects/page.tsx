@@ -23,11 +23,11 @@ export const metadata: Metadata = {
     title: "Proyectos y Casos de Éxito | NovaPage",
     description:
       "Descubre los proyectos más destacados y los resultados obtenidos por NovaPage en desarrollo web, automatización y AI.",
-    url: "https://company-new-green.vercel.app/projects",
+    url: "https://novapage.com.co/projects",
     siteName: "NovaPage",
     images: [
       {
-        url: "https://company-new-green.vercel.app/illustration-projects.png",
+        url: "https://novapage.com.co/illustration-projects.png",
         width: 1200,
         height: 630,
         alt: "Proyectos NovaPage",

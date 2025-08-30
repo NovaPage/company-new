@@ -26,11 +26,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Título de la Página | NovaPage",
     description: "Resumen para compartir en redes (puede ser igual al description).",
-    url: "https://company-new-green.vercel.app/ruta", // Cambia por la URL real de la página
+    url: "https://novapage.com.co/ruta", // Cambia por la URL real de la página
     siteName: "NovaPage",
     images: [
       {
-        url: "https://company-new-green.vercel.app/imagen-principal.png", // Cambia la imagen
+        url: "https://novapage.com.co/imagen-principal.png", // Cambia la imagen
         width: 1200,
         height: 630,
         alt: "Texto alternativo de la imagen",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "Título de la Página | NovaPage",
     description: "Descripción para Twitter Card.",
     images: [
-      "https://company-new-green.vercel.app/imagen-principal.png",
+      "https://novapage.com.co/imagen-principal.png",
     ],
     site: "@tuUsuarioTwitter", // Opcional: agrega si tienes cuenta oficial
   },

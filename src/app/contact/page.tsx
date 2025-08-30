@@ -23,11 +23,11 @@ export const metadata: Metadata = {
     title: "Contáctanos | NovaPage",
     description:
       "Comunícate con NovaPage para recibir asesoría en desarrollo web, inteligencia artificial y automatización. ¡Hablemos de tu próximo proyecto!",
-    url: "https://company-new-green.vercel.app/contact",
+    url: "https://novapage.com.co/contact",
     siteName: "NovaPage",
     images: [
       {
-        url: "https://company-new-green.vercel.app/illustration-contact.png",
+        url: "https://novapage.com.co/illustration-contact.png",
         width: 1200,
         height: 630,
         alt: "Contacto NovaPage",
