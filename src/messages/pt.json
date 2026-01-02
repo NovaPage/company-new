@@ -9,8 +9,7 @@
   "footer": {
     "copyright": "© 2025 NovaPage. Todos os direitos reservados."
   },
-
-    "home": {
+  "home": {
     "hero": {
       "title": "Automatizamos e potencializamos sua PME com Inteligência Artificial",
       "subtitle": "Economize custos, otimize processos e libere o potencial da sua equipe com soluções inteligentes projetadas sob medida para o seu negócio.",
@@ -101,7 +100,7 @@
   "services": {
     "hero": {
       "title": "Automação Inteligente",
-        "subtitle": "Projetamos e implementamos a tecnologia que otimiza suas operações, economiza custos e lhe dá uma vantagem competitiva no mercado.",
+      "subtitle": "Projetamos e implementamos a tecnologia que otimiza suas operações, economiza custos e lhe dá uma vantagem competitiva no mercado.",
       "imgAlt": "Ilustração de serviços digitais NovaPage"
     },
     "categories": {
@@ -535,39 +534,38 @@
     }
   },
   "contact": {
-      "hero": {
-        "title": "Pronto para automatizar seu negócio?",
-        "subtitle": "Conte-nos sobre sua ideia, agende uma reunião ou solicite uma consultoria gratuita.",
-        "imgAlt": "Equipe da NovaPage atendendo consultas e novos projetos digitais"
+    "hero": {
+      "title": "Pronto para automatizar seu negócio?",
+      "subtitle": "Conte-nos sobre sua ideia, agende uma reunião ou solicite uma consultoria gratuita.",
+      "imgAlt": "Equipe da NovaPage atendendo consultas e novos projetos digitais"
+    },
+    "cards": {
+      "title": "Entre em contato diretamente pelo seu canal favorito!",
+      "whatsapp": {
+        "alt": "WhatsApp NovaPage",
+        "label": "Fale conosco pelo WhatsApp",
+        "desc": "Clique e abra um chat direto com nossa equipe para um atendimento rápido e personalizado.",
+        "defaultMsg": "Olá, gostaria de agendar uma reunião para conversar sobre como automatizar um processo na minha empresa com uma solução de IA."
       },
-      "cards": {
-        "title": "Entre em contato diretamente pelo seu canal favorito!",
-        "whatsapp": {
-          "alt": "WhatsApp NovaPage",
-          "label": "Fale conosco pelo WhatsApp",
-          "desc": "Clique e abra um chat direto com nossa equipe para um atendimento rápido e personalizado.",
-          "defaultMsg": "Olá, gostaria de agendar uma reunião para conversar sobre como automatizar um processo na minha empresa com uma solução de IA."
-        },
-        "email": {
-          "alt": "Email NovaPage",
-          "label": "Entre em contato por Email",
-          "desc": "Envie um email com suas dúvidas ou necessidades. Responderemos em breve.",
-          "subject": "Consulta sobre Automação e IA"
-          
-        },
-        "linkedin": {
-          "alt": "LinkedIn NovaPage",
-          "label": "Conecte-se pelo LinkedIn",
-          "desc": "Visite nosso perfil profissional, conecte-se ou escreva diretamente para nós no LinkedIn."
-        }
+      "email": {
+        "alt": "Email NovaPage",
+        "label": "Entre em contato por Email",
+        "desc": "Envie um email com suas dúvidas ou necessidades. Responderemos em breve.",
+        "subject": "Consulta sobre Automação e IA"
+      },
+      "linkedin": {
+        "alt": "LinkedIn NovaPage",
+        "label": "Conecte-se pelo LinkedIn",
+        "desc": "Visite nosso perfil profissional, conecte-se ou escreva diretamente para nós no LinkedIn."
       }
+    }
   },
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
       "role": "Desenvolvedor de Software Pleno | Especialista em Desenvolvimento Cloud e Automação com IA",
       "location": "Cali, Colômbia",
-      "phone": "+(57) 321 622 16 06",
+      "phone": "+(57) 321 727 23 88",
       "email": "perezcastro.1228@gmail.com",
       "linkedin": "https://www.linkedin.com/in/cesar-perez-327032241/",
       "github": "https://github.com/NovaPage",
@@ -729,7 +727,6 @@
       "degree2_degree": "Técnico em Mecânica Industrial",
       "degree2_institution": "Instituição Educacional Santo Tomás - Programa CASD",
       "degree2_year": "2022",
-
       "bootcampsTitle": "Bootcamps e Cursos Relevantes",
       "bootcamp1_name": "Frontend Developer",
       "bootcamp1_institution": "EOS Bootcamp",
@@ -740,7 +737,6 @@
       "bootcamp3_name": "Fundamentos de HTML, Design de Páginas Web (PHP, MySQL, JavaScript)",
       "bootcamp3_institution": "SENA",
       "bootcamp3_year": "2022",
-
       "selfLearningTitle": "Aprendizado Autodidata Intensivo",
       "selfLearning1": "Engenharia de Software Avançada: arquitetura, padrões de design, qualidade de código, testes (TDD, unitários, integração), refatoração.",
       "selfLearning2": "Cloud & DevOps: Microsoft Azure (gestão de recursos, serviços de mensageria, funções escaláveis), CI/CD, containerização (Docker), logs e monitoramento.",

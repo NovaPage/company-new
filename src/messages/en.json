@@ -534,38 +534,38 @@
     }
   },
   "contact": {
-      "hero": {
-        "title": "Ready to automate your business?",
-        "subtitle": "Tell us about your idea, schedule a meeting, or request a free consultation.",
-        "imgAlt": "NovaPage team handling inquiries and new digital projects"
+    "hero": {
+      "title": "Ready to automate your business?",
+      "subtitle": "Tell us about your idea, schedule a meeting, or request a free consultation.",
+      "imgAlt": "NovaPage team handling inquiries and new digital projects"
+    },
+    "cards": {
+      "title": "Contact us directly through your favorite channel!",
+      "whatsapp": {
+        "alt": "WhatsApp NovaPage",
+        "label": "Write to us on WhatsApp",
+        "desc": "Click and open a direct chat with our team for fast and personalized attention.",
+        "defaultMsg": "Hello, I'd like to schedule a meeting to discuss how to automate a process in my company with an AI solution."
       },
-      "cards": {
-        "title": "Contact us directly through your favorite channel!",
-        "whatsapp": {
-          "alt": "WhatsApp NovaPage",
-          "label": "Write to us on WhatsApp",
-          "desc": "Click and open a direct chat with our team for fast and personalized attention.",
-          "defaultMsg": "Hello, I'd like to schedule a meeting to discuss how to automate a process in my company with an AI solution."
-        },
-        "email": {
-          "alt": "Email NovaPage",
-          "label": "Contact us by Email",
-          "desc": "Send an email with your questions or requirements. We will reply soon.",
-          "subject": "Inquiry about Automation and AI"
-        },
-        "linkedin": {
-          "alt": "LinkedIn NovaPage",
-          "label": "Connect via LinkedIn",
-          "desc": "Visit our professional profile, connect or write to us directly on LinkedIn."
-        }
+      "email": {
+        "alt": "Email NovaPage",
+        "label": "Contact us by Email",
+        "desc": "Send an email with your questions or requirements. We will reply soon.",
+        "subject": "Inquiry about Automation and AI"
+      },
+      "linkedin": {
+        "alt": "LinkedIn NovaPage",
+        "label": "Connect via LinkedIn",
+        "desc": "Visit our professional profile, connect or write to us directly on LinkedIn."
       }
+    }
   },
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
       "role": "Mid-Level Software Developer | Cloud Development & AI Automation Specialist",
       "location": "Cali, Colombia",
-      "phone": "+(57) 321 622 16 06",
+      "phone": "+(57) 321 727 23 88",
       "email": "perezcastro.1228@gmail.com",
       "linkedin": "https://www.linkedin.com/in/cesar-perez-327032241/",
       "github": "https://github.com/NovaPage",
@@ -727,7 +727,6 @@
       "degree2_degree": "Technician in Industrial Mechanics",
       "degree2_institution": "Santo Tomás Educational Institution - CASD Program",
       "degree2_year": "2022",
-
       "bootcampsTitle": "Bootcamps & Relevant Courses",
       "bootcamp1_name": "Frontend Developer",
       "bootcamp1_institution": "EOS Bootcamp",
@@ -738,7 +737,6 @@
       "bootcamp3_name": "HTML Fundamentals, Web Page Design (PHP, MySQL, JavaScript)",
       "bootcamp3_institution": "SENA",
       "bootcamp3_year": "2022",
-
       "selfLearningTitle": "Intensive Self-Learning",
       "selfLearning1": "Advanced Software Developering: architecture, design patterns, code quality, testing (TDD, unit, integration), refactoring.",
       "selfLearning2": "Cloud & DevOps: Microsoft Azure (resource management, messaging services, scalable functions), CI/CD, containerization (Docker), logs and monitoring.",
