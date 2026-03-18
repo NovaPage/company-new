@@ -563,7 +563,7 @@
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
-      "role": "Desenvolvedor de Software Pleno | Especialista em Desenvolvimento Cloud e Automação com IA",
+      "role": "Software Architect & Full-Stack Developer | Especialista em IA & Cloud (Azure) | Founder @ NovaPage | Next.js, Python (FastAPI) & LangChain",
       "location": "Cali, Colômbia",
       "phone": "+(57) 321 727 23 88",
       "email": "perezcastro.1228@gmail.com",
@@ -572,14 +572,22 @@
       "photoAlt": "Foto profissional de Cesar Perez"
     },
     "summary": {
-      "title": "Resumo Profissional",
-      "paragraph": "Desenvolvedor de Software Pleno e Arquiteto de Soluções Cloud com sólida experiência em projetar e implementar arquiteturas escaláveis e seguras na Microsoft Azure. Especialista em desenvolvimento Full-Stack (React, Next.js, Python/FastAPI), construção de sistemas com autenticação empresarial avançada (Microsoft Entra ID) e otimização de APIs. Pioneiro em automação de processos e aplicação de Inteligência Artificial, utilizando ferramentas avançadas para criação, teste e correção autônoma de código, bem como soluções baseadas em copilotos. Meu perfil autodidata e compromisso com práticas DevOps (GitFlow, CI/CD) me permitem transformar desafios complexos em soluções eficientes e robustas. Sou movido pela inovação e pela busca constante de valor estratégico por meio da tecnologia."
+      "title": "Sobre",
+      "intro": "Sou Desenvolvedor de Software e Arquiteto de Soluções Cloud apaixonado por transformar complexidade técnica em eficiência operacional. Com forte foco no ecossistema Microsoft Azure, especializo-me em construir aplicações de alto desempenho e orquestrar agentes de IA para resolver desafios reais de negócio.",
+      "background": "Minha formação combina o rigor técnico da Clean Architecture com a agilidade necessária para levar produtos da concepção até deployments prontos para produção.",
+      "currentRole": "Como fundador da NovaPage, sirvo como parceiro tecnológico para empresas que buscam modernização. Não apenas construo software; projeto o \"motor\" do negócio: arquiteturas escaláveis usando Python e Next.js, automação impulsionada por IA e segurança de grau empresarial.",
+      "stackTitle": "Meu Stack Principal:",
+      "stackBackend": "Backend: Python (FastAPI), SQL",
+      "stackFrontend": "Frontend: React, Next.js, Tailwind CSS",
+      "stackCloud": "Cloud & DevOps: Microsoft Azure (Functions, Cosmos DB, Service Bus), Docker, CI/CD",
+      "stackAI": "IA: Orquestração de Agentes (OpenAI, Gemini, LangChain, Autogen)",
+      "cta": "Seja projetando um ecossistema de agentes inteligentes ou liderando a migração de um sistema legado para a nuvem, meu objetivo permanece o mesmo: criar tecnologia robusta que permita tomar melhores decisões e reduza custos operacionais."
     },
     "skills": {
       "title": "Habilidades Técnicas",
       "cloud": {
         "title": "Cloud Computing & DevOps",
-        "point1": "Microsoft Azure (Azure Functions, Service Bus, Cosmos DB, gestão de domínios e DNS)",
+        "point1": "Microsoft Azure (Azure Functions, Service Bus, Cosmos DB, Azure Web Pub Sub, gestão de domínios e DNS)",
         "point2": "Containerização e implantação: Docker, VPS",
         "point3": "Azure DevOps, GitFlow, pipelines CI/CD",
         "point4": "Gestão de ambientes e recursos, monitoramento (UptimeRobot, Mixpanel)",

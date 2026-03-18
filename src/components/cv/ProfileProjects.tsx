@@ -83,11 +83,12 @@ export function ProfileProjects() {
                   {achievements.map((ach, j) => (
                     <motion.li
                       key={j}
-                      className="relative group transition"
-                      whileHover={{ x: 8, scale: 1.03 }}
+                      className="relative group transition flex items-start gap-2"
+                      whileHover={{ x: 8, scale: 1.01 }}
                     >
+                      <span className="text-primary mt-1.5 shrink-0">▸</span>
                       <span className="
-                        pl-3 pr-1 py-1 rounded-lg transition-colors
+                        pr-1 py-1 rounded-lg transition-colors
                         group-hover:bg-primary/10
                         group-hover:text-primary
                         group-hover:shadow

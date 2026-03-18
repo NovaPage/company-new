@@ -563,7 +563,7 @@
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
-      "role": "Desarrollador de Software Mid-Level | Especialista en Desarrollo Cloud y Automatización con IA",
+      "role": "Software Architect & Full-Stack Developer | Especialista en IA & Cloud (Azure) | Founder @ NovaPage | Next.js, Python (FastAPI) & LangChain",
       "location": "Cali, Colombia",
       "phone": "+(57) 321 727 23 88",
       "email": "perezcastro.1228@gmail.com",
@@ -572,14 +572,22 @@
       "photoAlt": "Foto profesional de Cesar Perez"
     },
     "summary": {
-      "title": "Resumen Profesional",
-      "paragraph": "Desarrollador de Software Mid-Level y Arquitecto de Soluciones Cloud con un sólido bagaje en el diseño e implementación de arquitecturas escalables y seguras en Microsoft Azure. Experto en desarrollo Full-Stack (React, Next.js, Python/FastAPI), construcción de sistemas con autenticación empresarial avanzada (Microsoft Entra ID) y optimización de APIs. Pionero en la automatización de procesos y la aplicación de Inteligencia Artificial, utilizando herramientas avanzadas para la creación, testeo y corrección autónoma de código, así como soluciones basadas en copilotos. Mi enfoque autodidacta y mi compromiso con las prácticas DevOps (GitFlow, CI/CD) me permiten transformar desafíos complejos en soluciones eficientes y robustas. Me impulsa la innovación y la búsqueda constante de valor estratégico a través de la tecnología."
+      "title": "Acerca de",
+      "intro": "Soy Desarrollador de Software y Arquitecto de Soluciones Cloud apasionado por transformar la complejidad técnica en eficiencia operacional. Con un fuerte enfoque en el ecosistema Microsoft Azure, me especializo en construir aplicaciones de alto rendimiento y orquestar agentes de IA para resolver desafíos de negocio reales.",
+      "background": "Mi formación combina el rigor técnico de la Clean Architecture con la agilidad necesaria para llevar productos desde la concepción hasta despliegues listos para producción.",
+      "currentRole": "Como fundador de NovaPage, sirvo como socio tecnológico para empresas que buscan modernización. No solo construyo software; diseño el \"motor\" del negocio: arquitecturas escalables usando Python y Next.js, automatización impulsada por IA y seguridad de grado empresarial.",
+      "stackTitle": "Mi Stack Principal:",
+      "stackBackend": "Backend: Python (FastAPI), SQL",
+      "stackFrontend": "Frontend: React, Next.js, Tailwind CSS",
+      "stackCloud": "Cloud & DevOps: Microsoft Azure (Functions, Cosmos DB, Service Bus), Docker, CI/CD",
+      "stackAI": "IA: Orquestación de Agentes (OpenAI, Gemini, LangChain, Autogen)",
+      "cta": "Ya sea diseñando un ecosistema de agentes inteligentes o liderando la migración de un sistema legacy a la nube, mi objetivo sigue siendo el mismo: crear tecnología robusta que permita tomar mejores decisiones y reduzca costos operativos."
     },
     "skills": {
       "title": "Habilidades Técnicas",
       "cloud": {
         "title": "Cloud Computing & DevOps",
-        "point1": "Microsoft Azure (Azure Functions, Service Bus, Cosmos DB, gestión de dominios y DNS)",
+        "point1": "Microsoft Azure (Azure Functions, Service Bus, Cosmos DB, Azure Web Pub Sub, gestión de dominios y DNS)",
         "point2": "Contenerización y despliegue: Docker, VPS",
         "point3": "Azure DevOps, GitFlow, pipelines CI/CD",
         "point4": "Gestión de entornos y recursos, monitoreo (UptimeRobot, Mixpanel)",
