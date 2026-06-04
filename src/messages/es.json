@@ -74,7 +74,7 @@
           ]
         },
         {
-          "name": "Nakamototrading — Plataforma de Cursos",
+          "name": "CourseWebsite — Plataforma de Cursos",
           "company": "novapage",
           "description": "Plataforma de cursos de trading con autenticación segura, seguimiento de progreso y experiencia optimizada. Proyecto interno de la compañía.",
           "technologies": [
@@ -378,8 +378,8 @@
       "imgAlt": "Productos de software desarrollados por NovaPage"
     },
     "sectionTitle": "Productos y Proyectos",
-    "projNakamototrading": {
-      "name": "Nakamototrading — Plataforma de Cursos de Trading",
+    "projCourseWebsite": {
+      "name": "CourseWebsite — Plataforma de Cursos de Trading",
       "description": "Plataforma full-stack para cursos de trading con autenticación segura, seguimiento de progreso y experiencia optimizada. Proyecto interno de NovaPage.",
       "techs": [
         "Next.js",
@@ -578,7 +578,7 @@
     "projects": {
       "title": "Proyectos Destacados",
       "proj1": {
-        "name": "Plataforma Web Full-Stack con Autenticación Avanzada y Analíticas (Nakamototrading)",
+        "name": "Plataforma Web Full-Stack con Autenticación Avanzada y Analíticas (CourseWebsite)",
         "description": "Desarrollo integral de una plataforma web responsive con Next.js y API interna para funciones clave. Incluye un sistema de registro/login seguro gestionado con Supabase Auth, seguimiento de métricas de usuario en Supabase Database y un CDN para distribución eficiente de contenido.",
         "tech1": "Next.js",
         "tech2": "Supabase (Auth, Database)",

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { GradientButton } from '@/components/ui/GradientButton'
 
 // Define aquí los keys de los proyectos destacados (orden de visualización)
-const projectsKeys = ['projNakamototrading', 'projEvana'] as const
+const projectsKeys = ['projCourseWebsite', 'projEvana'] as const
 
 export default function ProjectsSection() {
   const { t } = useTranslation()

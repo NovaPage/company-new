@@ -494,8 +494,8 @@
       "imgAlt": "Portfólio de projetos tecnológicos, aplicações web e soluções de IA desenvolvidas pela NovaPage"
     },
     "sectionTitle": "Soluções implementadas",
-    "projNakamototrading": {
-      "name": "Plataforma Web Full-Stack com Autenticação Avançada e Análises (Nakamototrading)",
+    "projCourseWebsite": {
+      "name": "Plataforma Web Full-Stack com Autenticação Avançada e Análises (CourseWebsite)",
       "description": "Desenvolvimento integral de uma plataforma web responsiva com Next.js e API interna para funções chave. Inclui um sistema seguro de registro/login gerenciado com Supabase Auth, acompanhamento de métricas de usuário no Supabase Database e um CDN para distribuição eficiente de conteúdo.",
       "techs": [
         "Next.js",
@@ -696,7 +696,7 @@
     "projects": {
       "title": "Projetos em Destaque",
       "proj1": {
-        "name": "Plataforma Web Full-Stack com Autenticação Avançada e Análises (Nakamototrading)",
+        "name": "Plataforma Web Full-Stack com Autenticação Avançada e Análises (CourseWebsite)",
         "description": "Desenvolvimento integral de uma plataforma web responsiva com Next.js e API interna para funções chave. Inclui sistema de cadastro/login seguro gerenciado com Supabase Auth, rastreamento de métricas de usuários no Supabase Database e um CDN para distribuição eficiente de conteúdo.",
         "tech1": "Next.js",
         "tech2": "Supabase (Auth, Database)",
