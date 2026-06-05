@@ -378,42 +378,44 @@
       "imgAlt": "Productos de software desarrollados por NovaPage"
     },
     "sectionTitle": "Productos y Proyectos",
-    "projCourseWebsite": {
-      "name": "CourseWebsite — Plataforma de Cursos de Trading",
-      "description": "Plataforma full-stack para cursos de trading con autenticación segura, seguimiento de progreso y experiencia optimizada. Proyecto interno de NovaPage.",
-      "techs": [
-        "Next.js",
-        "Supabase (Auth, Database)",
-        "JavaScript / TypeScript",
-        "HTML, CSS",
-        "API (Next.js)",
-        "CDN"
-      ],
-      "bullets": [
-        "Autenticación segura con roles de usuario.",
-        "Seguimiento de avance por módulo y video.",
-        "Experiencia optimizada para dispositivos modernos."
-      ],
-      "video": "https://drive.google.com/file/d/12XrRDJv5ZVK6nl1JL-bP9NLRprE1DYxN/view"
-    },
-    "projEvana": {
-      "name": "Evana — Asistente Inteligente Multi-Agente",
-      "description": "Sistema de agentes de IA orquestados (Autogen) para automatización de tareas complejas. Investigación aplicada de NovaPage.",
-      "techs": [
-        "Python (FastAPI)",
-        "Autogen",
-        "Azure Functions",
-        "Angular",
-        "Docker",
-        "Git"
-      ],
-      "bullets": [
-        "Arquitectura modular de agentes de IA.",
-        "Backend escalable con servicios serverless.",
-        "Orquestación de tareas complejas automatizadas."
-      ],
-      "video": "https://drive.google.com/file/d/1bkbEuntrkygpzAluEbabcyDD5JvdhOSh/view"
-    }
+    "list": [
+      {
+        "name": "CourseWebsite — Plataforma de Cursos de Trading",
+        "description": "Plataforma full-stack para cursos de trading con autenticación segura, seguimiento de progreso y experiencia optimizada. Proyecto interno de NovaPage.",
+        "techs": [
+          "Next.js",
+          "Supabase (Auth, Database)",
+          "JavaScript / TypeScript",
+          "HTML, CSS",
+          "API (Next.js)",
+          "CDN"
+        ],
+        "bullets": [
+          "Autenticación segura con roles de usuario.",
+          "Seguimiento de avance por módulo y video.",
+          "Experiencia optimizada para dispositivos modernos."
+        ],
+        "video": "https://drive.google.com/file/d/12XrRDJv5ZVK6nl1JL-bP9NLRprE1DYxN/view"
+      },
+      {
+        "name": "Evana — Asistente Inteligente Multi-Agente",
+        "description": "Sistema de agentes de IA orquestados (Autogen) para automatización de tareas complejas. Investigación aplicada de NovaPage.",
+        "techs": [
+          "Python (FastAPI)",
+          "Autogen",
+          "Azure Functions",
+          "Angular",
+          "Docker",
+          "Git"
+        ],
+        "bullets": [
+          "Arquitectura modular de agentes de IA.",
+          "Backend escalable con servicios serverless.",
+          "Orquestación de tareas complejas automatizadas."
+        ],
+        "video": "https://drive.google.com/file/d/1bkbEuntrkygpzAluEbabcyDD5JvdhOSh/view"
+      }
+    ]
   },
   "contact": {
     "hero": {

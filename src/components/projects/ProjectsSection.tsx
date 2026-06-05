@@ -4,11 +4,18 @@ import { useTranslation } from '@/hooks/useTranslation'
 import { motion } from 'framer-motion'
 import { GradientButton } from '@/components/ui/GradientButton'
 
-// Define aquí los keys de los proyectos destacados (orden de visualización)
-const projectsKeys = ['projCourseWebsite', 'projEvana'] as const
+type ProjectItem = {
+  name: string
+  description: string
+  techs: string[]
+  bullets: string[]
+  video?: string
+}
 
 export default function ProjectsSection() {
   const { t } = useTranslation()
+  const projectsRaw = t('projects.list', { returnObjects: true })
+  const projects = Array.isArray(projectsRaw) ? (projectsRaw as ProjectItem[]) : []
 
   return (
     <motion.section
@@ -29,79 +36,66 @@ export default function ProjectsSection() {
           {t('projects.sectionTitle')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {projectsKeys.map((projKey, idx) => {
-            const name = t(`projects.${projKey}.name`)
-            const description = t(`projects.${projKey}.description`)
-            const techsRaw = t(`projects.${projKey}.techs`, { returnObjects: true })
-            const techs = Array.isArray(techsRaw) ? techsRaw : []
-            const bulletsRaw = t(`projects.${projKey}.bullets`, { returnObjects: true })
-            const bullets = Array.isArray(bulletsRaw) ? bulletsRaw : []
-            const video = t(`projects.${projKey}.video`)
-
-            return (
-              <motion.div
-                key={projKey}
-                className="bg-background rounded-xl border border-border shadow-md p-6 transition hover:shadow-xl hover:border-primary/60 flex flex-col h-full"
-                initial={{ y: 15, opacity: 0 }}
-                whileInView={{ y: 0, opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.08 * idx, duration: 0.5 }}
-              >
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-1">
-                  <span className="font-semibold text-lg text-primary group-hover:text-accent transition tracking-wide">
-                    {name}
+          {projects.map((proj, idx) => (
+            <motion.div
+              key={proj.name}
+              className="bg-background rounded-xl border border-border shadow-md p-6 transition hover:shadow-xl hover:border-primary/60 flex flex-col h-full"
+              initial={{ y: 15, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.08 * idx, duration: 0.5 }}
+            >
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-1">
+                <span className="font-semibold text-lg text-primary group-hover:text-accent transition tracking-wide">
+                  {proj.name}
+                </span>
+              </div>
+              <div className="text-base text-muted-foreground mb-3 mt-2">{proj.description}</div>
+              <div className="flex flex-wrap gap-2 mb-2">
+                {proj.techs.map((tech, i) => (
+                  <span
+                    key={i}
+                    className="bg-primary/10 text-primary rounded-full px-3 py-1 text-xs font-semibold tracking-wider shadow-sm"
+                  >
+                    {tech}
                   </span>
-                </div>
-                <div className="text-base text-muted-foreground mb-3 mt-2">{description}</div>
-                {/* Tecnologías clave */}
-                <div className="flex flex-wrap gap-2 mb-2">
-                  {techs.map((tech, i) => (
-                    <span
-                      key={i}
-                      className="bg-primary/10 text-primary rounded-full px-3 py-1 text-xs font-semibold tracking-wider shadow-sm"
-                    >
-                      {tech}
+                ))}
+              </div>
+              <ul className="space-y-2 mb-2">
+                {proj.bullets.map((ach, j) => (
+                  <motion.li
+                    key={j}
+                    className="relative group transition"
+                    whileHover={{ x: 8, scale: 1.03 }}
+                  >
+                    <span className="
+                      pl-3 pr-1 py-1 rounded-lg transition-colors
+                      group-hover:bg-primary/10
+                      group-hover:text-primary
+                      group-hover:shadow
+                      font-medium
+                      cursor-default
+                      select-text
+                    ">
+                      {ach}
                     </span>
-                  ))}
-                </div>
-                {/* Logros */}
-                <ul className="space-y-2 mb-2">
-                  {bullets.map((ach, j) => (
-                    <motion.li
-                      key={j}
-                      className="relative group transition"
-                      whileHover={{ x: 8, scale: 1.03 }}
-                    >
-                      <span className="
-                        pl-3 pr-1 py-1 rounded-lg transition-colors
-                        group-hover:bg-primary/10
-                        group-hover:text-primary
-                        group-hover:shadow
-                        font-medium
-                        cursor-default
-                        select-text
-                      ">
-                        {ach}
-                      </span>
-                    </motion.li>
-                  ))}
-                </ul>
-                {/* Enlaces */}
-                <div className="flex flex-wrap justify-center gap-4 mt-auto pt-4">
-                  {video && video !== `projects.${projKey}.video` && (
-                    <GradientButton
-                      href={video}
-                      title={`Ver video demo del proyecto ${name}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Video
-                    </GradientButton>
-                  )}
-                </div>
-              </motion.div>
-            )
-          })}
+                  </motion.li>
+                ))}
+              </ul>
+              <div className="flex flex-wrap justify-center gap-4 mt-auto pt-4">
+                {proj.video && (
+                  <GradientButton
+                    href={proj.video}
+                    title={`Ver video demo del proyecto ${proj.name}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Video
+                  </GradientButton>
+                )}
+              </div>
+            </motion.div>
+          ))}
         </div>
       </motion.div>
     </motion.section>
