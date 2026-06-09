@@ -11,4 +11,5 @@
 - Hero title from "Construimos software." to "Optimizamos con IA."
 - Hero "Conoce Koda" button now links to https://koda.novapage.com.co (external)
 - Removed Koda from home.projects.list — now only Evana + CourseWebsite (internal projects)
+- Removed Koda from services page (services.categories + services.automation) — Koda is a product, not a capability
 - Home page order: Hero → Benefits → KodaSection → Projects → About → CTA

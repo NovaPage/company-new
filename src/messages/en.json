@@ -97,11 +97,7 @@
       "seeMore": "See more",
       "web": {
         "title": "Software Development (Our Specialty)",
-        "desc": "We build web applications, platforms, and enterprise systems with modern technologies. Clean, scalable, maintainable code."
-      },
-      "automation": {
-        "title": "Koda — CRM + Intelligent Scheduling",
-        "desc": "Our flagship product. Unifies your calendar, leads, and Meta Ads campaigns in one place. Designed for business owners."
+        "desc": "We build web applications, platforms and enterprise systems with modern technologies. Clean, scalable and maintainable code."
       },
       "ai": {
         "title": "AI Research (Intelligent Agents)",
@@ -186,61 +182,6 @@
       ],
       "cta": "Need well-built software?",
       "ctaButton": "Write to us"
-    },
-    "automation": {
-      "title": "Koda — CRM + Intelligent Scheduling",
-      "intro": "Koda is a NovaPage product. It unifies lead capture, appointment scheduling, and Meta Ads campaign management in one place. Designed for business owners.",
-      "sections": [
-        {
-          "title": "What Koda does",
-          "items": [
-            {
-              "title": "Automated lead capture",
-              "desc": "Clients come from your landing page, social media, or WhatsApp. Koda organizes them automatically."
-            },
-            {
-              "title": "Intelligent scheduling",
-              "desc": "Your clients book appointments without calls. Koda sends reminders and prevents cancellations."
-            },
-            {
-              "title": "Integrated Meta Ads campaigns",
-              "desc": "Manage your ads from the same panel where you see your leads. No switching tools."
-            },
-            {
-              "title": "Live dashboard",
-              "desc": "See in real time how many leads came in, how many converted, and where to focus your attention."
-            }
-          ]
-        },
-        {
-          "title": "Who it's for",
-          "items": [
-            {
-              "title": "Business owners",
-              "desc": "Gyms, clinics, offices, workshops — any business that receives clients and needs to get organized."
-            },
-            {
-              "title": "Small teams",
-              "desc": "No tech department needed. Koda runs on its own, you just use it."
-            }
-          ]
-        },
-        {
-          "title": "Part of the NovaPage ecosystem",
-          "items": [
-            {
-              "title": "Koda can be used standalone",
-              "desc": "As an independent product. No commitment, no long contract."
-            },
-            {
-              "title": "Koda within EMPIRE",
-              "desc": "If you need a full website + ads + Koda, the EMPIRE package includes everything."
-            }
-          ]
-        }
-      ],
-      "cta": "Discover Koda at koda.novapage.com.co",
-      "ctaButton": "Go to Koda"
     },
     "ai": {
       "title": "Artificial Intelligence (Applied Research)",

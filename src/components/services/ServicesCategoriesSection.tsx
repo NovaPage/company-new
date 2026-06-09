@@ -32,13 +32,6 @@ const services = [
     desc: 'services.categories.web.desc'
   },
   {
-    key: 'automation',
-    img: '/categories/automation.png',
-    detailKey: 'automation',
-    title: 'services.categories.automation.title',
-    desc: 'services.categories.automation.desc'
-  },
-  {
     key: 'ai',
     img: '/categories/ai.png',
     detailKey: 'ai',

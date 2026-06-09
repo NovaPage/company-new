@@ -99,10 +99,6 @@
         "title": "Desarrollo de Software (Nuestra Especialidad)",
         "desc": "Construimos aplicaciones web, plataformas y sistemas empresariales con tecnologías modernas. Código limpio, escalable y mantenible."
       },
-      "automation": {
-        "title": "Koda — CRM + Agendamiento Inteligente",
-        "desc": "Nuestro producto estrella. Unifica tu agenda, tus leads y tus campañas de Meta Ads en un solo lugar. Diseñado para dueños de negocio."
-      },
       "ai": {
         "title": "Investigación en IA (Agentes Inteligentes)",
         "desc": "Exploramos sistemas multi-agente, asistentes conversacionales y automatización inteligente. Proyectos de investigación aplicada."
@@ -186,61 +182,6 @@
       ],
       "cta": "¿Necesitas software bien construido?",
       "ctaButton": "Escríbenos"
-    },
-    "automation": {
-      "title": "Koda — CRM + Agendamiento Inteligente",
-      "intro": "Koda es un producto de NovaPage. Unifica la captura de leads, el agendamiento de citas y la gestión de campañas de Meta Ads en un solo lugar. Diseñado para dueños de negocio.",
-      "sections": [
-        {
-          "title": "Qué hace Koda",
-          "items": [
-            {
-              "title": "Captura de leads automatizada",
-              "desc": "Los clientes llegan desde tu landing, redes sociales o WhatsApp. Koda los organiza automáticamente."
-            },
-            {
-              "title": "Agendamiento inteligente",
-              "desc": "Tus clientes agendan citas sin llamadas. Koda envía recordatorios y evita cancelaciones."
-            },
-            {
-              "title": "Campañas de Meta Ads integradas",
-              "desc": "Gestiona tus anuncios desde el mismo panel donde ves tus leads. Sin cambiar de herramienta."
-            },
-            {
-              "title": "Panel de control en vivo",
-              "desc": "Mira en tiempo real cuántos leads entraron, cuántos se convirtieron y dónde enfocar tu atención."
-            }
-          ]
-        },
-        {
-          "title": "Para quién es",
-          "items": [
-            {
-              "title": "Dueños de negocio",
-              "desc": "Gimnasios, clínicas, consultorios, talleres — cualquier negocio que recibe clientes y necesita organizarse."
-            },
-            {
-              "title": "Equipos pequeños",
-              "desc": "Sin departamento de tecnología. Koda funciona solo, tú solo lo usas."
-            }
-          ]
-        },
-        {
-          "title": "Parte del ecosistema NovaPage",
-          "items": [
-            {
-              "title": "Koda se puede usar solo",
-              "desc": "Como producto independiente. Sin compromiso, sin contrato largo."
-            },
-            {
-              "title": "Koda dentro de EMPIRE",
-              "desc": "Si necesitas sitio web completo + anuncios + Koda, el paquete EMPIRE lo incluye todo."
-            }
-          ]
-        }
-      ],
-      "cta": "Conoce Koda en koda.novapage.com.co",
-      "ctaButton": "Ir a Koda"
     },
     "ai": {
       "title": "Inteligencia Artificial (Investigación Aplicada)",
