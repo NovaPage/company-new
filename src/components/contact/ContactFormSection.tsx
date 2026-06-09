@@ -29,7 +29,7 @@ export default function ContactCardsSection() {
   const whatsappMsg = encodeURIComponent(
     t('contact.cards.whatsapp.defaultMsg')
   )
-  const whatsappUrl = `https://wa.me/573216221606?text=${whatsappMsg}`
+  const whatsappUrl = `https://wa.me/573108118722?text=${whatsappMsg}`
 
   // Email con subject (sin mensaje por UX, pero podrías agregarlo)
   const mailtoUrl = `mailto:novapagecompany@gmail.com?subject=${encodeURIComponent(
