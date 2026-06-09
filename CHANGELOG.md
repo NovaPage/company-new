@@ -2,8 +2,13 @@
 
 ## [Unreleased]
 
+### Added
+- KodaSection component: dedicated banner promoting Koda as flagship product
+- home.koda translations (ES/EN/PT) with title, subtitle, CTA and URL
+
 ### Changed
-- Refactor projects section: now reads dynamically from JSON `list` array instead of hardcoded keys
-- Unified narrative across all three locales (es, en, pt) — English and Portuguese now match the Spanish messaging
-- Restructured `projects` section in messages JSON: replaced individual key entries with a `list` array
-- Added `koda` nav item to English and Portuguese translations
+- Hero copy redefined: AI-first + process optimization messaging across ES/EN/PT
+- Hero title from "Construimos software." to "Optimizamos con IA."
+- Hero "Conoce Koda" button now links to https://koda.novapage.com.co (external)
+- Removed Koda from home.projects.list — now only Evana + CourseWebsite (internal projects)
+- Home page order: Hero → Benefits → KodaSection → Projects → About → CTA

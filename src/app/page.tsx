@@ -4,8 +4,9 @@ import type { Metadata } from "next";
 import HeroSection from "@/components/home/HeroSection";
 import { FloatingCirclesBg } from "@/components/animations/FloatingCirclesBg";
 import BenefitsSection from "@/components/home/benefistSection";
-import AboutSection from "@/components/home/aboutSection";
+import KodaSection from "@/components/home/KodaSection";
 import RecentProjectsSection from "@/components/home/recentProjectsSection";
+import AboutSection from "@/components/home/aboutSection";
 import CallToActionSection from "@/components/home/callToActionSection";
 
 // Home page specific SEO metadata
@@ -50,6 +51,7 @@ export default function Home() {
       <FloatingCirclesBg />
       <HeroSection />
       <BenefitsSection />
+      <KodaSection />
       <RecentProjectsSection />
       <AboutSection />
       <CallToActionSection />

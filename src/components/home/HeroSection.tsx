@@ -131,7 +131,9 @@ export default function HeroSection() {
             {t('home.hero.seeProjects')}
           </Link>
           <Link
-            href="/contact"
+            href="https://koda.novapage.com.co"
+            target="_blank"
+            rel="noopener noreferrer"
             className="
               px-7 py-3 rounded-xl border border-primary text-primary font-bold 
               shadow-lg transition hover:bg-primary/10 hover:scale-105 

@@ -12,9 +12,9 @@
   },
   "home": {
     "hero": {
-      "title": "We build software.",
-      "subtitle": "We create digital products that solve real problems. From management platforms to AI-powered intelligent assistants.",
-      "impact": "Well-written code. Products that work.",
+      "title": "We optimize with AI.",
+      "subtitle": "We analyze processes, find bottlenecks, and solve them with artificial intelligence.",
+      "impact": "Real automation. Measurable results.",
       "seeProjects": "Our products",
       "freeConsult": "Discover Koda →"
     },
@@ -27,6 +27,12 @@
       "secureTitle": "Solid architecture",
       "secureDesc": "Cloud infrastructure, clean code, automated testing. That's how we build from day one."
     },
+    "koda": {
+      "title": "Koda — CRM + Intelligent Scheduling",
+      "subtitle": "Capture leads, schedule appointments, and manage Meta Ads campaigns in one place. NovaPage's flagship product.",
+      "cta": "Discover Koda",
+      "url": "https://koda.novapage.com.co"
+    },
     "about": {
       "title": "Who we are",
       "description": "NovaPage is a Colombian software company. We build digital products — from trading platforms to intelligent AI assistants. Born in Colombia, operating remotely, and our strength is well-thought-out architecture.",
@@ -37,24 +43,6 @@
       "intro": "This is what we've built. Each product solves a specific problem with the right technology.",
       "privacy": "Some projects are not shown due to confidentiality agreements.",
       "list": [
-        {
-          "name": "Koda — CRM + Intelligent Scheduling",
-          "company": "novapage",
-          "description": "Client management, scheduling, and Meta Ads campaigns in one place. Designed for business owners who want order without complication.",
-          "technologies": [
-            "Next.js",
-            "Supabase",
-            "TypeScript",
-            "Tailwind CSS",
-            "Meta Ads API",
-            "PWA"
-          ],
-          "bullets": [
-            "Automated lead capture and organization.",
-            "Appointment scheduling with smart reminders.",
-            "Live dashboard with business metrics."
-          ]
-        },
         {
           "name": "Evana — Multi-Agent Intelligent Assistant",
           "company": "novapage",

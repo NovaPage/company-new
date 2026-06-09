@@ -12,9 +12,9 @@
   },
   "home": {
     "hero": {
-      "title": "Construímos software.",
-      "subtitle": "Criamos produtos digitais que resolvem problemas reais. De plataformas de gestão a assistentes com inteligência artificial.",
-      "impact": "Código bem escrito. Produtos que funcionam.",
+      "title": "Otimizamos com IA.",
+      "subtitle": "Analisamos processos, identificamos gargalos e os resolvemos com inteligência artificial.",
+      "impact": "Automação real. Resultados mensuráveis.",
       "seeProjects": "Nossos produtos",
       "freeConsult": "Conheça o Koda →"
     },
@@ -27,6 +27,12 @@
       "secureTitle": "Arquitetura sólida",
       "secureDesc": "Infraestrutura cloud, código limpo, testes automatizados. Assim construímos desde o primeiro dia."
     },
+    "koda": {
+      "title": "Koda — CRM + Agendamento Inteligente",
+      "subtitle": "Capture leads, agende consultas e gerencie campanhas de Meta Ads em um só lugar. O produto estrela da NovaPage.",
+      "cta": "Conheça o Koda",
+      "url": "https://koda.novapage.com.co"
+    },
     "about": {
       "title": "Quem somos",
       "description": "NovaPage é uma empresa de software colombiana. Construímos produtos digitais — de plataformas de trading a assistentes inteligentes com IA. Nascidos na Colômbia, operando remotamente, e nosso forte é a arquitetura bem pensada.",
@@ -37,24 +43,6 @@
       "intro": "Isto é o que construímos. Cada produto resolve um problema específico com a tecnologia adequada.",
       "privacy": "Alguns projetos não são exibidos por acordos de confidencialidade.",
       "list": [
-        {
-          "name": "Koda — CRM + Agendamento Inteligente",
-          "company": "novapage",
-          "description": "Sistema de gestão de clientes, agendamento e campanhas de Meta Ads em um só lugar. Projetado para donos de negócio que querem organização sem complicação.",
-          "technologies": [
-            "Next.js",
-            "Supabase",
-            "TypeScript",
-            "Tailwind CSS",
-            "Meta Ads API",
-            "PWA"
-          ],
-          "bullets": [
-            "Captura e organização de leads automatizada.",
-            "Agendamento de consultas com lembretes inteligentes.",
-            "Painel de controle ao vivo com métricas do negócio."
-          ]
-        },
         {
           "name": "Evana — Assistente Inteligente Multiagente",
           "company": "novapage",
