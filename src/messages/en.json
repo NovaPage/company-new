@@ -366,6 +366,16 @@
         "desc": "Send an email with your inquiry.",
         "subject": "Software development inquiry"
       },
+      "instagram": {
+        "alt": "Instagram NovaPage",
+        "label": "Follow us on Instagram",
+        "desc": "See our work and content on Instagram."
+      },
+      "tiktok": {
+        "alt": "TikTok NovaPage",
+        "label": "Follow us on TikTok",
+        "desc": "Quick and direct content on TikTok."
+      },
       "linkedin": {
         "alt": "LinkedIn NovaPage",
         "label": "Connect on LinkedIn",

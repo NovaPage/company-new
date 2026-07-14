@@ -8,17 +8,32 @@ const contactCards = [
   {
     key: 'whatsapp',
     icon: '/contact/whatsapp.png',
-    isExternal: true
+    isExternal: true,
+    iconType: 'png'
   },
   {
     key: 'email',
     icon: '/contact/email.png',
-    isExternal: false
+    isExternal: false,
+    iconType: 'png'
+  },
+  {
+    key: 'instagram',
+    icon: '/contact/instagram.svg',
+    isExternal: true,
+    iconType: 'svg'
+  },
+  {
+    key: 'tiktok',
+    icon: '/contact/tiktok.svg',
+    isExternal: true,
+    iconType: 'svg'
   },
   {
     key: 'linkedin',
     icon: '/contact/linkedin.png',
-    isExternal: true
+    isExternal: true,
+    iconType: 'png'
   }
 ] as const
 
@@ -37,10 +52,14 @@ export default function ContactCardsSection() {
   )}`
 
   const linkedinUrl = 'https://www.linkedin.com/in/novapage/'
+  const instagramUrl = 'https://www.instagram.com/novapage_co/'
+  const tiktokUrl = 'https://www.tiktok.com/@novapage_co'
 
   const getUrl = (key: string) => {
     if (key === 'whatsapp') return whatsappUrl
     if (key === 'email') return mailtoUrl
+    if (key === 'instagram') return instagramUrl
+    if (key === 'tiktok') return tiktokUrl
     if (key === 'linkedin') return linkedinUrl
     return '#'
   }
@@ -56,7 +75,7 @@ export default function ContactCardsSection() {
       <h2 className="text-2xl md:text-3xl font-efour text-primary mb-12 tracking-wide text-center">
         {t('contact.cards.title')}
       </h2>
-      <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-10">
         {contactCards.map((card, idx) => {
           const isExternal = card.isExternal
           const url = getUrl(card.key)
@@ -77,14 +96,22 @@ export default function ContactCardsSection() {
               viewport={{ once: true, amount: 0.7 }}
             >
               <div className="w-20 h-20 flex items-center justify-center mb-2">
-                <Image
-                  src={card.icon}
-                  alt={t(`contact.cards.${card.key}.alt`)}
-                  width={90}
-                  height={90}
-                  className="object-contain drop-shadow-xl"
-                  priority={idx === 0}
-                />
+                {card.iconType === 'svg' ? (
+                  <img
+                    src={card.icon}
+                    alt={t(`contact.cards.${card.key}.alt`)}
+                    className="w-16 h-16 object-contain drop-shadow-xl text-primary"
+                  />
+                ) : (
+                  <Image
+                    src={card.icon}
+                    alt={t(`contact.cards.${card.key}.alt`)}
+                    width={90}
+                    height={90}
+                    className="object-contain drop-shadow-xl"
+                    priority={idx === 0}
+                  />
+                )}
               </div>
               <span className="text-xl text-primary font-bold tracking-wide mb-2">
                 {t(`contact.cards.${card.key}.label`)}

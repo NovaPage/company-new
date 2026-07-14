@@ -366,6 +366,16 @@
         "desc": "Envie um email com sua consulta.",
         "subject": "Consulta sobre desenvolvimento de software"
       },
+      "instagram": {
+        "alt": "Instagram NovaPage",
+        "label": "Siga-nos no Instagram",
+        "desc": "Veja nosso trabalho e conteúdo no Instagram."
+      },
+      "tiktok": {
+        "alt": "TikTok NovaPage",
+        "label": "Siga-nos no TikTok",
+        "desc": "Conteúdo rápido e direto no TikTok."
+      },
       "linkedin": {
         "alt": "LinkedIn NovaPage",
         "label": "Conecte-se pelo LinkedIn",
