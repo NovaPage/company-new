@@ -386,7 +386,7 @@
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
-      "role": "Software Architect & Full-Stack Developer | AI & Cloud (Azure) Specialist | Founder @ NovaPage | Next.js, Python (FastAPI) & LangChain",
+      "role": "Full-Stack Developer · UI/UX Architect · Cloud Solutions · Founder @ NovaPage",
       "location": "Cali, Colombia",
       "phone": "+(57) 310 811 87 22",
       "email": "perezcastro.1228@gmail.com",
@@ -396,69 +396,69 @@
     },
     "summary": {
       "title": "About",
-      "intro": "I am a Software Developer and Cloud Solutions Architect passionate about turning technical complexity into operational efficiency. With a strong focus on the Microsoft Azure ecosystem, I specialize in building high-performance applications and orchestrating AI agents to solve real-world business challenges.",
-      "background": "My background combines the technical rigor of Clean Architecture with the agility needed to take products from conception to production-ready deployments.",
-      "currentRole": "As the founder of NovaPage, I serve as a technology partner for companies seeking modernization. I don't just build software; I design the \"engine\" of the business: scalable architectures using Python and Next.js, AI-driven automation, and enterprise-grade security.",
+      "intro": "I'm a Full-Stack Developer with 4 years of experience building high-impact digital experiences and leading technology modernization on the Microsoft Azure ecosystem. I specialize in React (Next.js), TypeScript, Python (FastAPI) and Clean Architecture, and in orchestrating AI agent systems (AutoGen, CrewAI) that solve real business challenges.",
+      "background": "My background combines the technical rigor of Clean Architecture with the agility to take products from conception to production deployments: deliveries that cut page load times by 1.2 s, sustain 99.9% availability on platforms with 5,000+ daily users, and apply TDD, CI/CD and continuous monitoring. Backed by 38 professional credentials (Microsoft & IBM).",
+      "currentRole": "As the founder of NovaPage, I serve as a technology partner for companies seeking modernization. I don't just build software; I design the engine of the business: scalable architectures with Python and Next.js, AI agents in production, and enterprise-grade security.",
       "stackTitle": "My Core Stack:",
-      "stackBackend": "Backend: Python (FastAPI), SQL",
-      "stackFrontend": "Frontend: React, Next.js, Tailwind CSS",
-      "stackCloud": "Cloud & DevOps: Microsoft Azure (Functions, Cosmos DB, Service Bus), Docker, CI/CD",
-      "stackAI": "AI: Agent Orchestration (OpenAI, Gemini, LangChain, Autogen)",
+      "stackBackend": "Backend: Python (FastAPI), Node.js, SQL & NoSQL",
+      "stackFrontend": "Frontend: React, Next.js, TypeScript, Tailwind CSS",
+      "stackCloud": "Cloud & DevOps: Microsoft Azure (Functions, Service Bus, Cosmos DB), Docker, CI/CD",
+      "stackAI": "AI: Agent orchestration (AutoGen, CrewAI, LangChain, OpenAI, Gemini)",
       "cta": "Whether I'm designing an ecosystem of intelligent agents or leading the migration of a legacy system to the cloud, my goal remains the same: creating robust technology that empowers decision-making and slashes operational costs."
     },
     "skills": {
       "title": "Technical Skills",
       "cloud": {
         "title": "Cloud Computing & DevOps",
-        "point1": "Microsoft Azure (Azure Functions, Service Bus, Cosmos DB, Azure Web Pub Sub, domain and DNS management)",
-        "point2": "Containerization and deployment: Docker, VPS",
-        "point3": "Azure DevOps, GitFlow, CI/CD pipelines",
-        "point4": "Environment and resource management, monitoring (UptimeRobot, Mixpanel)",
-        "point5": "Deployment automation and multitenant workflows"
+        "point1": "Microsoft Azure: Functions, Service Bus, Cosmos DB, Web PubSub, Static Web Apps, AI Foundry",
+        "point2": "Containerization & deployment: Docker, serverless, VPS",
+        "point3": "Azure DevOps: CI/CD pipelines and deployment automation",
+        "point4": "Monitoring & performance: UptimeRobot, Mixpanel, Core Web Vitals, CDN",
+        "point5": "Multi-tenant environments and resource management"
       },
       "ai": {
         "title": "AI & Automation",
-        "point1": "Agent orchestration: Autogen, CrewAI, Langchain",
-        "point2": "Automation with Make.com, n8n and Power Automate",
-        "point3": "Copilot and LLM assistant development (GPTs, Gemini, OpenAI)",
-        "point4": "Document processing and vectorization (downloads, extraction, indexing)",
-        "point5": "Code scaffolding and automatic testing with AI"
+        "point1": "Agent orchestration: AutoGen, CrewAI, LangChain",
+        "point2": "AI-powered interfaces: Vercel AI SDK, streaming responses, OpenAI/Gemini",
+        "point3": "Workflow automation: n8n, Make.com, Power Automate",
+        "point4": "AI-assisted development: prompt engineering, AI code review, human-in-the-loop",
+        "point5": "Document processing & vectorization: extraction, indexing and semantic search"
       },
       "backend": {
         "title": "Backend Development",
-        "point1": "Python (FastAPI), TypeScript, JavaScript, SQL",
-        "point2": "RESTful API design: pagination, security, documentation (Swagger)",
-        "point3": "Custom middlewares, token validation and refresh",
+        "point1": "Python (FastAPI), Node.js, TypeScript, SQL",
+        "point2": "RESTful API design: security, pagination, documentation (Swagger/OpenAPI)",
+        "point3": "Custom middlewares, validation and token refresh",
         "point4": "Clean Architecture patterns (Router, Service, Repository, Client, Mapper)",
         "point5": "Messaging: Azure Service Bus, SQS, topic patterns"
       },
       "frontend": {
         "title": "Frontend Development",
-        "point1": "React, Next.js, Angular, Vue.js, Nuxt.js",
-        "point2": "Tailwind CSS, Bootstrap, dynamic layouts, i18n",
-        "point3": "Reusable components and advanced forms",
-        "point4": "Enterprise API consumption and integration"
+        "point1": "React, Next.js (App Router, SSR), Angular, Vue.js, Nuxt.js",
+        "point2": "TypeScript, JavaScript (ES6+), Tailwind CSS, i18n",
+        "point3": "State & data management: Server Actions, SWR/React Query, Zustand, REST APIs",
+        "point4": "Responsive & accessible design, Atomic Design, reusable components"
       },
       "database": {
         "title": "Databases",
         "point1": "Cosmos DB: advanced NoSQL modeling, denormalization, embedding",
-        "point2": "MongoDB, Supabase (Auth, Database), Firebase",
-        "point3": "Offset/cursor pagination, query optimization",
-        "point4": "Redis usage and Singleton patterns for cache and performance"
+        "point2": "PostgreSQL, MySQL, MongoDB, Supabase (Auth, Database), Firebase",
+        "point3": "Row-Level Security (RLS), pagination and query optimization",
+        "point4": "Redis and caching patterns for performance"
       },
       "security": {
         "title": "Security & Authentication",
-        "point1": "Microsoft Entra ID/Azure AD: JWT, Scopes, redirections, SSO",
-        "point2": "Row-level Security, role and permission management (Supabase/Azure)",
-        "point3": "OAuth 2.0, OpenID Connect, header centralization in middleware",
-        "point4": "Error testing and documentation, endpoint protection"
+        "point1": "Microsoft Entra ID (Azure AD): JWT, SSO, scopes and redirects",
+        "point2": "OAuth 2.0 and OpenID Connect for enterprise authentication",
+        "point3": "RBAC and Row-Level Security: roles and permissions management",
+        "point4": "Endpoint protection, error management and technical documentation"
       },
       "architecture": {
         "title": "Architecture & Code Quality",
         "point1": "Clean Architecture patterns, DTOs, DAOs, Mappers",
-        "point2": "Separation and modular organization by entity",
-        "point3": "Test-Driven Development (TDD), unit and integration testing",
-        "point4": "Custom error management, logs, and best practices (PEP8, English)"
+        "point2": "TDD: unit and integration testing (Jest, React Testing Library, pytest)",
+        "point3": "E2E testing (Cypress) and Component-Driven Development",
+        "point4": "Observability, continuous refactoring and code standards (PEP8, Clean Code)"
       }
     },
     "experience": {
@@ -466,46 +466,44 @@
       "job1": {
         "company": "Vip Reservas",
         "city": "Cali, Colombia (Remote)",
-        "role": "Cloud Development & AI Automation Specialist",
-        "period": "February 2025 – Present",
-        "point1": "Technical leadership in the design and implementation of scalable, secure architectures on Microsoft Azure (Functions, Cosmos DB, Service Bus, serverless resources).",
-        "point2": "Full-Stack development with Next.js, React, and Python/FastAPI, integrating automation workflows and intelligent data processing.",
-        "point3": "Orchestration of multi-agent systems and advanced integration of generative AI (OpenAI, Copilot, n8n, RPA, CrewAI) for optimization of internal processes and customer services.",
-        "point4": "Continuous improvement and implementation of CI/CD pipelines in Azure DevOps, automating validations, deployments, and monitoring.",
-        "point5": "Advanced enterprise authentication management and granular access control using Microsoft Entra ID, including security policies and protection of critical endpoints.",
-        "point6": "Rigorous application of Clean Architecture, TDD, observability (logs, traceability), and continuous refactoring to ensure code quality and maintainability.",
-        "point7": "Training, support, and mentoring to development teams in modern practices of AI, automation, and cloud, facilitating the adoption of new technologies."
+        "role": "Full-Stack Developer",
+        "period": "February 2025 – December 2025",
+        "point1": "Built high-performance web interfaces with Next.js and React, achieving a 1.2 s reduction in page load times on enterprise platforms.",
+        "point2": "Implemented serverless infrastructure on Microsoft Azure (Functions, Service Bus), maintaining 99.9% availability for critical business logic.",
+        "point3": "Designed intelligent UI components integrated with AI agents (FastAPI/AutoGen) that simplify complex data visualization and reduce user task completion time by 40%.",
+        "point4": "Developed backend services in Python (FastAPI) connected to AI agents, reducing manual data processing by 40%.",
+        "point5": "Architected secure authentication flows with Microsoft Entra ID and OAuth 2.0 for high-traffic corporate environments with 5,000+ daily users.",
+        "point6": "Automated CI/CD pipelines on Azure DevOps with automated UI testing, increasing deployment frequency by 30%.",
+        "point7": "Applied Clean Architecture and TDD in the frontend layer: 25% fewer post-deployment bugs and greater component reusability."
       },
       "job2": {
         "company": "Freelance Development",
         "city": "Cali, Colombia (Remote)",
         "role": "Mid-Level Software Developer",
         "period": "2023 – Present",
-        "point1": "Execution of Full-Stack web development projects using Next.js and Angular for modern, highly interactive applications.",
-        "point2": "Design and construction of relational and NoSQL databases, as well as integration of robust authentication and authorization systems using Supabase (Auth and Database).",
-        "point3": "Implementation of RESTful APIs and efficient management of states, data flows, and business logic on both frontend and backend.",
-        "point4": "Direct collaboration with clients for requirements gathering, MVP definition, and delivery of functional products under agile methodologies.",
-        "point5": "Deployment and maintenance of solutions, focusing on performance, scalability, and user experience.",
-        "point6": "Application of unit testing, version management (Git), and continuous integration workflows to ensure deliverable quality.",
-        "point7": "Development of responsive, accessible interfaces, visual experience design, and optimization of flows for mobile and desktop devices."
+        "point1": "Delivered 10+ full-stack web applications and MVPs with Next.js and Supabase: 20% improvement in database performance and 20% in overall UI responsiveness.",
+        "point2": "Architected and integrated RESTful APIs and secure authentication flows (Supabase Auth, JWT) with real-time data synchronization.",
+        "point3": "Led end-to-end product delivery under agile methodologies with a mobile-first and accessibility-focused approach: 95% client satisfaction.",
+        "point4": "Built with AI-agent-assisted development (AI coding agents/harnesses): AI-assisted code generation, testing and refactoring applied to real production projects, with mandatory human review and approval before deployment.",
+        "point5": "Implemented safe AI development methodologies (human-in-the-loop): TDD as a safety net, CI/CD with automated checks, secrets in environment variables and post-deployment verification with monitoring."
       },
       "job3": {
         "company": "BONDII",
         "city": "Cali, Colombia",
         "role": "Frontend Developer & IT Support Specialist",
         "period": "May 2024 – December 2024",
-        "point1": "Development and optimization of advanced features in Vue.js and Nuxt.js for high-impact applications.",
-        "point2": "Translation of mockups and prototypes in Canva into functional interfaces, ensuring design coherence and usability.",
-        "point3": "Preparation of SQL queries and analytical reports in Excel for business decision-making.",
-        "point4": "Proactive management of IT incidents and comprehensive technical support to ensure system availability and operational continuity."
+        "point1": "Optimized critical interface features in Vue.js and Nuxt.js: 1.2 s faster loading and increased performance in high-impact applications.",
+        "point2": "Developed interactive dashboards that turn complex backend data (50+ SQL queries) into clear visual reports: 100% data-driven decisions.",
+        "point3": "Translated Canva mockups and prototypes into functional interfaces, ensuring design consistency and usability.",
+        "point4": "Fixed critical UI/UX bugs and supervised IT incidents, ensuring 98% availability and operational continuity."
       },
       "job4": {
         "company": "Political Campaign",
         "city": "Cali, Colombia",
         "role": "Frontend Developer & Designer",
         "period": "September 2023 – November 2023",
-        "point1": "Development of a web platform for campaign statistics visualization using Angular and Laravel, with data integration in Firebase.",
-        "point2": "Design, editing, and publishing of visual resources and communication manuals for social networks and internal use."
+        "point1": "Architected a real-time statistics visualization platform with Angular, Laravel and Firebase, serving 5,000+ concurrent daily users.",
+        "point2": "Designed, edited and published visual assets and communication manuals for social media and internal use."
       },
       "job5": {
         "company": "Cheo Producciones",
@@ -520,33 +518,57 @@
       "title": "Featured Projects",
       "proj1": {
         "name": "Full-Stack Web Platform with Advanced Authentication and Analytics (CourseWebsite)",
-        "description": "Comprehensive development of a responsive web platform with Next.js and internal API for key functions. Includes a secure registration/login system managed with Supabase Auth, user metrics tracking in Supabase Database, and a CDN for efficient content delivery.",
+        "description": "Full-stack trading courses platform with Next.js: high-conversion landing page and LMS with modular content and RBAC via Supabase. Includes secure registration/login with Supabase Auth, user metrics tracking, a tiered access flow (free-to-paid) with JWT-based authentication, and global delivery with SSR and CDN. Internal NovaPage project.",
         "tech1": "Next.js",
         "tech2": "Supabase (Auth, Database)",
         "tech3": "JavaScript/TypeScript",
-        "tech4": "HTML, CSS",
-        "tech5": "API (Next.js)",
-        "tech6": "CDN",
-        "achievement1": "Building modern and scalable web applications.",
-        "achievement2": "Implementation of secure authentication and robust user flows.",
-        "achievement3": "Efficient database management and modeling.",
-        "achievement4": "Performance optimization and user experience.",
+        "tech4": "JWT / RBAC",
+        "tech5": "SSR + CDN",
+        "tech6": "API (Next.js)",
+        "achievement1": "High-conversion landing + LMS with modular content and role-based access control (RBAC).",
+        "achievement2": "Tiered free-to-paid access flow with persistent user states and JWT authentication.",
+        "achievement3": "Global delivery and SEO optimized with SSR and CDN; relational schemas for concurrent sessions.",
+        "achievement4": "Secure authentication and robust user flows with Supabase.",
         "video": "https://drive.google.com/file/d/12XrRDJv5ZVK6nl1JL-bP9NLRprE1DYxN/view?usp=sharing"
       },
       "proj2": {
         "name": "Evana - Intelligent Family Assistant (AI Agent System)",
-        "description": "Design and implementation of a modular architecture for an intelligent agent system (Autogen) capable of supporting complex tasks. Includes a FastAPI backend for the API, Azure Functions as serverless external tools for agents, and an Angular frontend (in development). This system demonstrates advanced AI orchestration for task automation and intelligent support.",
-        "tech1": "Python (FastAPI)",
-        "tech2": "Autogen",
-        "tech3": "Azure Functions",
-        "tech4": "Angular",
+        "description": "Multi-agent AI system (AutoGen) for complex task automation. Includes a real-time conversational interface with Next.js and streaming responses, a modular Python (FastAPI) backend with Azure Functions as serverless tools, and dashboards to monitor autonomous execution. Applied research by NovaPage.",
+        "tech1": "Next.js",
+        "tech2": "Python (FastAPI)",
+        "tech3": "AutoGen",
+        "tech4": "Azure Functions",
         "tech5": "Docker",
         "tech6": "Git",
-        "achievement1": "Design of complex agent-based AI systems.",
-        "achievement2": "Development of scalable and secure backend.",
-        "achievement3": "Advanced integration of serverless services as tools for AI.",
-        "achievement4": "Professional version control and environment management.",
+        "achievement1": "Real-time conversational interface with streaming responses and low-latency asynchronous updates.",
+        "achievement2": "Modular Python (FastAPI) backend with Azure Functions as serverless tools.",
+        "achievement3": "Dashboards to monitor autonomous task execution: 60% less manual intervention in multi-step workflows.",
+        "achievement4": "Modular AI agent architecture with orchestration and human supervision.",
         "video": "https://drive.google.com/file/d/1bkbEuntrkygpzAluEbabcyDD5JvdhOSh/view?usp=sharing"
+      },
+      "proj3": {
+        "name": "WhatsApp AI Customer Service Agent (in production)",
+        "description": "AI agent deployed in production that serves customers via the WhatsApp Business API: answers catalog questions with hybrid RAG (BGE-M3, pgvector, DeepSeek) and context enriched with real product data.",
+        "tech1": "WhatsApp Business API",
+        "tech2": "Python",
+        "tech3": "RAG (BGE-M3, pgvector)",
+        "tech4": "DeepSeek",
+        "tech5": "Docker",
+        "tech6": "PostgreSQL",
+        "achievement1": "Visual product identification by photo over a catalog of 300+ references (CLIP + AI vision).",
+        "achievement2": "Automatic escalation to humans with a conversation panel and takeover.",
+        "achievement3": "Containerized system with queues, retries and dead-letter; webhooks in <200 ms.",
+        "achievement4": "Designed for 2,500+ daily users."
+      },
+      "proj4": {
+        "name": "Order & Delivery Platform (in production)",
+        "description": "Order and delivery platform for a distributor: 2-step ordering, real-time tracking and an admin panel.",
+        "tech1": "Next.js (PWA)",
+        "tech2": "PWA",
+        "tech3": "Real-time tracking",
+        "achievement1": "2-step ordering: pick products, review the total and confirm — no phone calls.",
+        "achievement2": "Real-time order tracking (pending / on route / delivered) with delivery truck position.",
+        "achievement3": "Phone + PIN login (no emails or passwords) and an admin panel for orders and routes."
       }
     },
     "education": {
@@ -571,7 +593,7 @@
       "selfLearningTitle": "Intensive Self-Learning",
       "selfLearning1": "Advanced Software Developering: architecture, design patterns, code quality, testing (TDD, unit, integration), refactoring.",
       "selfLearning2": "Cloud & DevOps: Microsoft Azure (resource management, messaging services, scalable functions), CI/CD, containerization (Docker), logs and monitoring.",
-      "selfLearning3": "Applied Artificial Intelligence: autonomous agents, natural language processing, code and content generation with LLMs, AI copilots.",
+      "selfLearning3": "Applied Artificial Intelligence: autonomous agents (AutoGen, CrewAI), LLMs, AI-assisted development (prompt engineering, human-in-the-loop) and AI copilots.",
       "selfLearning4": "Enterprise Security: authentication (Microsoft Entra ID, OpenID Connect, OAuth 2.0), API protection, permission management.",
       "selfLearning5": "NoSQL Databases: advanced modeling in Cosmos DB and MongoDB."
     },

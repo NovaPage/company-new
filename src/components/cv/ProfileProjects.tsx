@@ -4,7 +4,7 @@ import { useTranslation } from '@/hooks/useTranslation'
 import { motion } from 'framer-motion'
 import { GradientButton } from '@/components/ui/GradientButton'
 
-const projectsKeys = ['proj1', 'proj2'] as const
+const projectsKeys = ['proj1', 'proj2', 'proj3', 'proj4'] as const
 
 export function ProfileProjects() {
   const { t } = useTranslation()
