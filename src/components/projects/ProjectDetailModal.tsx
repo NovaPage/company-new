@@ -158,7 +158,7 @@ export function ProjectDetailModal({ open, onClose, project }: Props) {
         {project.bullets && project.bullets.length > 0 && (
           <div>
             <h4 className="text-xs uppercase tracking-wider font-semibold text-muted-foreground mb-3">
-              Capacidades y aspectos destacados
+              Aspectos destacados y funcionalidad
             </h4>
             <ul className="space-y-2.5">
               {project.bullets.map((b, idx) => (
@@ -168,25 +168,6 @@ export function ProjectDetailModal({ open, onClose, project }: Props) {
                 </li>
               ))}
             </ul>
-          </div>
-        )}
-
-        {/* Technologies */}
-        {project.techs && project.techs.length > 0 && (
-          <div>
-            <h4 className="text-xs uppercase tracking-wider font-semibold text-muted-foreground mb-2.5">
-              Arquitectura y tecnologías
-            </h4>
-            <div className="flex flex-wrap gap-2">
-              {project.techs.map((tech, i) => (
-                <span
-                  key={i}
-                  className="px-3 py-1 rounded-lg text-xs font-medium bg-primary/10 text-primary border border-primary/20"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
           </div>
         )}
       </div>

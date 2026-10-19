@@ -4,50 +4,43 @@ import { useState } from 'react'
 import { useTranslation } from '@/hooks/useTranslation'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import { fadeUp } from '@/components/animations/animations'
-import CustomServiceModal from '@/components/services/ServiceBottomSheetModal'
+import CustomServiceModal, { ServiceDetail } from '@/components/services/ServiceBottomSheetModal'
+import { ArrowRight, CheckCircle2, Sparkles, Code2, Stethoscope, Cpu, Cloud } from 'lucide-react'
 
-type ServiceItem = {
-  title?: string
-  desc?: string
-}
-type ServiceSection = {
-  title: string
-  items: (ServiceItem | string)[]
-}
-type ServiceDetail = {
+type ServiceMeta = {
+  key: string
   img: string
-  title: string
-  intro: string
-  sections: ServiceSection[]
-  cta?: string
+  icon: typeof Code2
+  badge: string
 }
 
-const services = [
+const serviceCatalog: ServiceMeta[] = [
   {
     key: 'web',
     img: '/categories/web.png',
-    detailKey: 'web',
-    title: 'services.web.title',
-    desc: 'services.categories.web.desc'
+    icon: Code2,
+    badge: 'Nuestra Especialidad'
+  },
+  {
+    key: 'automation',
+    img: '/categories/automation.png',
+    icon: Stethoscope,
+    badge: 'SaaS & Automatización'
   },
   {
     key: 'ai',
     img: '/categories/ai.png',
-    detailKey: 'ai',
-    title: 'services.categories.ai.title',
-    desc: 'services.categories.ai.desc'
+    icon: Cpu,
+    badge: 'Investigación & Agentes'
   },
   {
     key: 'cloud',
     img: '/categories/cloud.png',
-    detailKey: 'cloud',
-    title: 'services.categories.cloud.title',
-    desc: 'services.categories.cloud.desc'
+    icon: Cloud,
+    badge: 'Arquitectura Escalable'
   }
 ]
 
-// Typeguard seguro sin any
 function isServiceDetail(obj: unknown): obj is Omit<ServiceDetail, 'img'> {
   return (
     !!obj &&
@@ -67,14 +60,13 @@ export default function ServicesCategoriesSection() {
   const [selectedService, setSelectedService] = useState<ServiceDetail | null>(null)
 
   const handleOpenModal = (key: string) => {
-    // Encuentra la card para la imagen
-    const baseService = services.find(s => s.key === key)
-    // Lee toda la info de la traducción (extensa, no solo el título)
+    const meta = serviceCatalog.find((s) => s.key === key)
     const rawDetail = t(`services.${key}`, { returnObjects: true }) as unknown
-    if (baseService && isServiceDetail(rawDetail)) {
+
+    if (meta && isServiceDetail(rawDetail)) {
       setSelectedService({
         ...rawDetail,
-        img: baseService.img
+        img: meta.img
       })
       setModalOpen(true)
     }
@@ -83,52 +75,105 @@ export default function ServicesCategoriesSection() {
   return (
     <section
       id="categories"
-      className="relative w-full flex flex-col items-center justify-center py-16 px-4 bg-transparent"
+      className="relative w-full flex flex-col items-center justify-center py-12 px-4 bg-transparent max-w-6xl mx-auto"
     >
-      <div className="w-full max-w-3xl flex flex-col gap-14">
-        {services.map((service, idx) => (
-          <motion.div
-            key={service.key}
-            className="
-              flex flex-col items-center rounded-3xl bg-background/80 border border-muted/60
-              shadow-lg hover:shadow-2xl transition-all px-7 py-12 text-center gap-4
-            "
-            variants={fadeUp}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.35 }}
-            transition={{ delay: idx * 0.08 }}
-          >
-            <Image
-              src={service.img}
-              alt={t(service.title)}
-              width={200}
-              height={200}
-              className="mb-5 object-contain"
-            />
-            <h3 className="font-efour text-2xl sm:text-3xl md:text-4xl text-primary mb-4 tracking-wide text-center">
-              {t(service.title)}
-            </h3>
-            <p className="text-muted-foreground text-sm sm:text-base md:text-lg mb-8 leading-relaxed max-w-2xl font-normal">
-              {t(service.desc)}
-            </p>
-            <button
-              type="button"
+      {/* Grid 2x2 en desktop para distribución equilibrada */}
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-7">
+        {serviceCatalog.map((service, idx) => {
+          const Icon = service.icon
+          const title = t(`services.categories.${service.key}.title`) || t(`services.${service.key}.title`)
+          const desc = t(`services.categories.${service.key}.desc`)
+          const rawDetail = t(`services.${service.key}`, { returnObjects: true }) as Record<string, unknown> | null
+          const sections = (rawDetail?.sections as Array<{ title?: string; items?: Array<unknown> }>) || []
+          const previewItems = (sections[0]?.items || []).slice(0, 3)
+
+          return (
+            <motion.article
+              key={service.key}
               className="
-                px-7 py-3 rounded-xl border border-primary text-primary font-semibold cursor-pointer
-                shadow-sm transition hover:bg-primary/10 hover:scale-102 
-                focus-visible:ring-2 focus-visible:ring-primary
-                text-sm sm:text-base tracking-wide
-                bg-background/80
+                group relative flex flex-col justify-between rounded-3xl bg-card border border-border
+                shadow-sm hover:shadow-xl hover:border-primary/50 transition-all duration-300 p-7 sm:p-8
               "
-              onClick={() => handleOpenModal(service.key)}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.08, duration: 0.4 }}
             >
-              {t('services.categories.seeMore')}
-            </button>
-          </motion.div>
-        ))}
+              <div>
+                {/* Header card: Icono 3D y Badge */}
+                <div className="flex items-center justify-between gap-4 mb-5">
+                  <div className="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0 transition-transform duration-300 group-hover:scale-105">
+                    <Image
+                      src={service.img}
+                      alt={title}
+                      fill
+                      sizes="(max-width: 640px) 64px, 80px"
+                      className="object-contain drop-shadow-md"
+                    />
+                  </div>
+
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/20">
+                    <Icon className="w-3.5 h-3.5" />
+                    <span>{service.badge}</span>
+                  </span>
+                </div>
+
+                {/* Título y Descripción */}
+                <h3 className="font-efour text-xl sm:text-2xl text-primary group-hover:text-primary transition-colors tracking-wide mb-2.5">
+                  {title}
+                </h3>
+                <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed mb-5 font-normal">
+                  {desc}
+                </p>
+
+                {/* Highlights preview */}
+                {previewItems.length > 0 && (
+                  <div className="mb-6 space-y-2">
+                    {previewItems.map((item, iIdx) => {
+                      const itemTitle =
+                        typeof item === 'string'
+                          ? item
+                          : (item as { title?: string })?.title || ''
+
+                      return (
+                        <div
+                          key={iIdx}
+                          className="flex items-center gap-2 text-xs text-foreground/80 font-medium"
+                        >
+                          <CheckCircle2 className="w-3.5 h-3.5 text-primary shrink-0" />
+                          <span className="line-clamp-1">{itemTitle}</span>
+                        </div>
+                      )
+                    })}
+                  </div>
+                )}
+              </div>
+
+              {/* Botón trigger para Drawer (mobile) / Dialog (desktop) */}
+              <div className="pt-4 border-t border-border/50 mt-auto">
+                <button
+                  type="button"
+                  onClick={() => handleOpenModal(service.key)}
+                  className="
+                    w-full inline-flex items-center justify-between px-5 py-3 rounded-xl
+                    bg-primary/10 hover:bg-primary text-primary hover:text-primary-foreground
+                    font-semibold text-xs sm:text-sm tracking-wide transition-all cursor-pointer shadow-xs
+                    group-hover:bg-primary group-hover:text-primary-foreground
+                  "
+                >
+                  <span className="flex items-center gap-1.5">
+                    <Sparkles className="w-3.5 h-3.5" />
+                    <span>{t('services.categories.seeMore')}</span>
+                  </span>
+                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                </button>
+              </div>
+            </motion.article>
+          )
+        })}
       </div>
-      {/* MODAL REUTILIZABLE */}
+
+      {/* Modal Reutilizable con Drawer en mobile y Dialog en desktop */}
       <CustomServiceModal
         open={modalOpen}
         onClose={() => setModalOpen(false)}

@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { useTranslation } from '@/hooks/useTranslation'
+import { ScrollIndicator } from '@/components/ui/scroll-indicator'
 
 // Animaciones
 const fadeLeft = (delay = 0) => ({
@@ -85,6 +86,8 @@ export default function ContactHeroSection() {
             />
           </motion.div>
         </div>
+
+        <ScrollIndicator className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10" label="Canales de contacto" />
       </section>
     </div>
   )

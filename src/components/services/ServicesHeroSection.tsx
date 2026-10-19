@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { useTranslation } from '@/hooks/useTranslation'
+import { ScrollIndicator } from '@/components/ui/scroll-indicator'
 
 // Animaciones personalizadas
 const fadeLeft = (delay = 0) => ({
@@ -72,6 +73,8 @@ export default function ServicesHeroSection() {
             />
           </motion.div>
         </div>
+
+        <ScrollIndicator targetId="categories" className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10" label="Ver servicios" />
       </section>
     </div>
   )

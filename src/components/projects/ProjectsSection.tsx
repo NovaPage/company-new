@@ -119,26 +119,7 @@ export default function ProjectsSection() {
               )}
             </div>
 
-            {/* Bottom: Tech Stack & Actions */}
             <div className="mt-auto pt-4 border-t border-border/50">
-              {/* Tech Stack Chips */}
-              <div className="flex flex-wrap gap-1.5 mb-4">
-                {proj.techs?.slice(0, 4).map((tech, i) => (
-                  <span
-                    key={i}
-                    className="px-2.5 py-0.5 text-[11px] font-medium bg-muted text-muted-foreground rounded-md"
-                  >
-                    {tech}
-                  </span>
-                ))}
-                {proj.techs && proj.techs.length > 4 && (
-                  <span className="px-1.5 py-0.5 text-[11px] font-medium text-muted-foreground">
-                    +{proj.techs.length - 4}
-                  </span>
-                )}
-              </div>
-
-              {/* Actions */}
               <div className="flex flex-wrap items-center gap-2.5">
                 <button
                   type="button"

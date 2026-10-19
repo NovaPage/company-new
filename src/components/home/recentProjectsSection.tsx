@@ -102,17 +102,6 @@ export default function RecentProjectsSection() {
                 {proj.description}
               </p>
 
-              {/* Technologies */}
-              <div className="flex flex-wrap gap-1.5 mb-5">
-                {proj.techs?.slice(0, 3).map((tech, i) => (
-                  <span
-                    key={i}
-                    className="px-2.5 py-0.5 text-xs bg-muted text-muted-foreground rounded-md font-medium"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
             </div>
 
             {/* Action button */}

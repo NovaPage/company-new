@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { useTranslation } from '@/hooks/useTranslation'
 import Link from 'next/link'
+import { ScrollIndicator } from '@/components/ui/scroll-indicator'
 
 // Animaciones personalizadas
 const fadeLeft = (delay = 0) => ({
@@ -145,6 +146,8 @@ export default function HeroSection() {
             {t('home.hero.freeConsult')}
           </Link>
         </motion.div>
+
+        <ScrollIndicator className="mt-14" label="Desliza para explorar" />
       </section>
     </div>
   )
