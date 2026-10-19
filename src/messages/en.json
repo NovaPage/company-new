@@ -4,8 +4,7 @@
     "services": "Capabilities",
     "projects": "Products",
     "contact": "Contact",
-    "profile": "Profile",
-    "koda": "Koda"
+    "profile": "Profile"
   },
   "footer": {
     "copyright": "© 2026 NovaPage. All rights reserved."
@@ -16,7 +15,7 @@
       "subtitle": "We create digital products that solve real problems. From management platforms to AI-powered intelligent assistants.",
       "impact": "Well-written code. Products that work.",
       "seeProjects": "Our products",
-      "freeConsult": "Discover Koda →"
+      "freeConsult": "Discover SIS Consultorios"
     },
     "benefits": {
       "title": "Why NovaPage?",
@@ -38,58 +37,100 @@
       "privacy": "Some projects are not shown due to confidentiality agreements.",
       "list": [
         {
-          "name": "Koda — CRM + Intelligent Scheduling",
-          "company": "novapage",
-          "description": "Client management, scheduling, and Meta Ads campaigns in one place. Designed for business owners who want order without complication.",
+          "name": "SIS Consultorios",
+          "tagline": "Your medical practice on autopilot and white-label",
+          "company": "NovaPage",
+          "type": "saas",
+          "typeLabel": "Pre-launch SaaS",
+          "description": "Comprehensive digital secretary and practice management software. Automates 24/7 scheduling without tedious signups, slashes no-shows with smart waitlists, coordinates autonomous arrivals («I have arrived» queue), and generates PDF prescriptions with official digital signatures.",
           "technologies": [
             "Next.js",
-            "Supabase",
             "TypeScript",
+            "Supabase",
             "Tailwind CSS",
-            "Meta Ads API",
+            "PDF Digital Signature",
             "PWA"
           ],
           "bullets": [
-            "Automated lead capture and organization.",
-            "Appointment scheduling with smart reminders.",
-            "Live dashboard with business metrics."
-          ]
-        },
-        {
-          "name": "Evana — Multi-Agent Intelligent Assistant",
-          "company": "novapage",
-          "description": "Orchestrated AI agent system (Autogen) for complex task automation. NovaPage's applied research.",
-          "technologies": [
-            "Python (FastAPI)",
-            "Autogen",
-            "Azure Functions",
-            "Angular",
-            "Docker",
-            "Git"
+            "Frictionless 24/7 guided appointment booking with no passwords needed.",
+            "Automated smart waitlist reassigning cancellations in under 3 minutes.",
+            "Autonomous arrival check-in: patients tap «I have arrived» to progress the virtual queue."
           ],
-          "bullets": [
-            "Modular AI agent architecture.",
-            "Scalable backend with serverless services.",
-            "Automated complex task orchestration."
-          ]
+          "videoId": "K00nwtnonVo",
+          "url": "https://sis.novapage.com.co",
+          "hasPublicUrl": true
         },
         {
-          "name": "CourseWebsite — Courses Platform",
-          "company": "novapage",
-          "description": "Trading courses platform with secure authentication, progress tracking, and optimized experience. Company internal project.",
+          "name": "Orbit",
+          "tagline": "Total control of your finances and business workspaces in real time",
+          "company": "NovaPage",
+          "type": "beta",
+          "typeLabel": "Free Public Beta",
+          "description": "FinTech platform for multi-business accounting and financial clarity. Keeps personal finances completely isolated from business projects, allows inviting partners with granular permissions, and displays real-time balances, income, and expense telemetry.",
           "technologies": [
             "Next.js",
-            "Supabase (Auth & Database)",
-            "JavaScript / TypeScript",
-            "HTML, CSS",
-            "Internal API",
-            "CDN"
+            "TypeScript",
+            "Supabase",
+            "Tailwind CSS",
+            "Recharts",
+            "PWA"
           ],
           "bullets": [
-            "Role-based authentication and access.",
-            "Progress tracking by module.",
-            "Experience optimized for modern devices."
-          ]
+            "100% isolated workspaces to separate personal and business capital.",
+            "Real-time team collaboration with granular role-based permissions.",
+            "Instant recording of income, expenses, and transfers from any device."
+          ],
+          "videoId": "u5TWCuzIm5U",
+          "url": "https://orbit.novapage.com.co",
+          "hasPublicUrl": true
+        },
+        {
+          "name": "Habits",
+          "tagline": "Habits connected to strategic goals, 1-click logging, and progress audits",
+          "company": "NovaPage",
+          "type": "beta",
+          "typeLabel": "Free Public Beta",
+          "description": "Human performance engineering platform engineered to bridge the gap between high-level strategy and daily execution. Connects macro life-domain goals with atomic daily habits, featuring zero-friction tracking and real-time focus audits.",
+          "technologies": [
+            "Next.js",
+            "TypeScript",
+            "Supabase",
+            "Tailwind CSS",
+            "Framer Motion",
+            "PWA"
+          ],
+          "bullets": [
+            "Strategic goals structured across key life domains (business, health, learning, finance).",
+            "Tactical habit linking: every daily repetition directly increments your macro goal achievement.",
+            "Zero-friction 1-tap logging to maintain active consistency streaks."
+          ],
+          "videoId": "zNMmYEe8Hc4",
+          "url": "https://habits.novapage.com.co",
+          "hasPublicUrl": true
+        },
+        {
+          "name": "D'AGUA",
+          "tagline": "Water delivery orders in 2 steps, smart routing, and total business control",
+          "company": "NovaPage",
+          "type": "custom_private",
+          "typeLabel": "Custom Software",
+          "description": "End-to-end logistics platform for purified water distribution. Customers place jug orders in two taps from their phone using secure PIN verification with no bulky app installs, while dispatchers manage orders, atomic inventory, and route dispatch via nearest-neighbor optimization.",
+          "technologies": [
+            "Next.js",
+            "TypeScript",
+            "FastAPI",
+            "Mapbox / GIS",
+            "PostgreSQL",
+            "Tailwind CSS"
+          ],
+          "bullets": [
+            "2-step customer orders with phone-number and secure PIN login.",
+            "Nearest-Neighbor smart route optimization over interactive maps saving fuel and delivery times.",
+            "Atomic real-time inventory management with instant jug reconciliation."
+          ],
+          "videoId": "GCsZinAk5zQ",
+          "url": null,
+          "hasPublicUrl": false
         }
       ]
     },
@@ -112,8 +153,8 @@
         "desc": "We build web applications, platforms, and enterprise systems with modern technologies. Clean, scalable, maintainable code."
       },
       "automation": {
-        "title": "Koda — CRM + Intelligent Scheduling",
-        "desc": "Our flagship product. Unifies your calendar, leads, and Meta Ads campaigns in one place. Designed for business owners."
+        "title": "SIS Consultorios — Medical Software & Digital Secretary",
+        "desc": "Our flagship SaaS product for private practices and clinics under white-label. 24/7 scheduling, smart waitlists, and direct payouts."
       },
       "ai": {
         "title": "AI Research (Intelligent Agents)",
@@ -200,59 +241,63 @@
       "ctaButton": "Write to us"
     },
     "automation": {
-      "title": "Koda — CRM + Intelligent Scheduling",
-      "intro": "Koda is a NovaPage product. It unifies lead capture, appointment scheduling, and Meta Ads campaign management in one place. Designed for business owners.",
+      "title": "SIS Consultorios — Digital Secretary & Medical Software",
+      "intro": "SIS Consultorios is an autonomous SaaS platform engineered for private medical practices and clinics. Delivered 100% under your white-label brand, eliminating administrative overhead so healthcare professionals focus solely on patient care.",
       "sections": [
         {
-          "title": "What Koda does",
+          "title": "Core capabilities",
           "items": [
             {
-              "title": "Automated lead capture",
-              "desc": "Clients come from your landing page, social media, or WhatsApp. Koda organizes them automatically."
+              "title": "Frictionless 24/7 booking",
+              "desc": "Patients schedule appointments in seconds from any browser without complex passwords or app installations."
             },
             {
-              "title": "Intelligent scheduling",
-              "desc": "Your clients book appointments without calls. Koda sends reminders and prevents cancellations."
+              "title": "Smart waitlists & auto confirmations",
+              "desc": "1-tap attendance reminders and automated slot reassignments in under 3 minutes to prevent lost revenue from cancellations."
             },
             {
-              "title": "Integrated Meta Ads campaigns",
-              "desc": "Manage your ads from the same panel where you see your leads. No switching tools."
+              "title": "Autonomous arrival check-in",
+              "desc": "Patients tap «I have arrived» on their phone, smoothly advancing the virtual waiting room."
             },
             {
-              "title": "Live dashboard",
-              "desc": "See in real time how many leads came in, how many converted, and where to focus your attention."
+              "title": "1-tap prescriptions & lab orders",
+              "desc": "Instant PDF generation with certified digital signature for prescriptions and diagnostic test requisitions."
+            },
+            {
+              "title": "Direct payouts with 0% middleman fees",
+              "desc": "100% of patient payments go directly to your designated bank account without revenue splits."
             }
           ]
         },
         {
-          "title": "Who it's for",
+          "title": "Target audience",
           "items": [
             {
-              "title": "Business owners",
-              "desc": "Gyms, clinics, offices, workshops — any business that receives clients and needs to get organized."
+              "title": "Private practices",
+              "desc": "Specialist physicians, psychologists, physiotherapists, and independent doctors seeking operational autonomy."
             },
             {
-              "title": "Small teams",
-              "desc": "No tech department needed. Koda runs on its own, you just use it."
+              "title": "Dental and specialty clinics",
+              "desc": "Multi-calendar and multi-office management delivering a cohesive patient journey."
             }
           ]
         },
         {
-          "title": "Part of the NovaPage ecosystem",
+          "title": "Implementation model",
           "items": [
             {
-              "title": "Koda can be used standalone",
-              "desc": "As an independent product. No commitment, no long contract."
+              "title": "100% White-Label",
+              "desc": "Patients interact solely with your brand, logo, and identity — zero third-party branding."
             },
             {
-              "title": "Koda within EMPIRE",
-              "desc": "If you need a full website + ads + Koda, the EMPIRE package includes everything."
+              "title": "Rapid deployment",
+              "desc": "Guided onboarding and dedicated setup to start booking appointments in days."
             }
           ]
         }
       ],
-      "cta": "Discover Koda at koda.novapage.com.co",
-      "ctaButton": "Go to Koda"
+      "cta": "Interested in SIS for your medical practice?",
+      "ctaButton": "Request Demo"
     },
     "ai": {
       "title": "Artificial Intelligence (Applied Research)",
@@ -263,8 +308,8 @@
           "title": "Research areas",
           "items": [
             {
-              "title": "Multi-agent systems (Evana)",
-              "desc": "AI agents that collaborate to solve complex tasks. Automation with human supervision."
+              "title": "Multi-agent systems & autonomous agents",
+              "desc": "We engineer specialized AI agents collaborating with one another to resolve complex workflows, validate data, and execute supervised decisions."
             },
             {
               "title": "Conversational assistants",
@@ -297,8 +342,8 @@
           "title": "Current status",
           "items": [
             {
-              "title": "Evana — in development",
-              "desc": "Intelligent assistant with agent orchestration. Active internal project."
+              "title": "Outreach — AI prospecting agents",
+              "desc": "Intelligent engine crawling prospect data, analyzing digital footprints, and engaging in natural conversations via WhatsApp."
             }
           ]
         }
@@ -380,40 +425,180 @@
     "sectionTitle": "Products and Projects",
     "list": [
       {
-        "name": "CourseWebsite — Trading Courses Platform",
-        "description": "Full-stack platform for trading courses with secure authentication, progress tracking, and optimized experience. NovaPage's internal project.",
+        "id": "sis",
+        "name": "SIS Consultorios",
+        "tagline": "Your medical practice on autopilot and white-label",
+        "type": "saas",
+        "typeLabel": "Pre-launch SaaS",
+        "statusNote": "Proprietary product for the healthcare sector. Built for private practices and clinics under white-label.",
+        "company": "NovaPage",
+        "description": "Comprehensive digital secretary and practice management software. Automates 24/7 scheduling without tedious signups, slashes no-shows with smart waitlists, coordinates autonomous arrivals («I have arrived» queue), and generates PDF prescriptions with official digital signatures.",
         "techs": [
           "Next.js",
-          "Supabase (Auth, Database)",
-          "JavaScript / TypeScript",
-          "HTML, CSS",
-          "API (Next.js)",
-          "CDN"
+          "TypeScript",
+          "Supabase",
+          "Tailwind CSS",
+          "PDF Digital Signature",
+          "PWA"
         ],
         "bullets": [
-          "Secure authentication with user roles.",
-          "Progress tracking by module and video.",
-          "Experience optimized for modern devices."
+          "Frictionless 24/7 guided appointment booking with no passwords needed.",
+          "Automated smart waitlist reassigning cancellations in under 3 minutes.",
+          "Autonomous arrival check-in: patients tap «I have arrived» to progress the virtual queue.",
+          "1-touch PDF medical prescriptions and lab orders with official digital signature.",
+          "Direct billing module with 100% payout to your bank account (0% third-party fees)."
         ],
-        "video": "https://drive.google.com/file/d/12XrRDJv5ZVK6nl1JL-bP9NLRprE1DYxN/view"
+        "videoId": "K00nwtnonVo",
+        "video": "https://www.youtube.com/watch?v=K00nwtnonVo",
+        "url": "https://sis.novapage.com.co",
+        "hasPublicUrl": true,
+        "actionText": "Request access / demo"
       },
       {
-        "name": "Evana — Multi-Agent Intelligent Assistant",
-        "description": "Orchestrated AI agent system (Autogen) for complex task automation. NovaPage's applied research.",
+        "id": "orbit",
+        "name": "Orbit",
+        "tagline": "Total control of your finances and business workspaces in real time",
+        "type": "beta",
+        "typeLabel": "Free Public Beta",
+        "statusNote": "Proprietary NovaPage product. Free, full access as a premium product with no fees during the beta period.",
+        "company": "NovaPage",
+        "description": "FinTech platform for multi-business accounting and financial clarity. Keeps personal finances completely isolated from business projects, allows inviting partners with granular permissions, and displays real-time balances, income, and expense telemetry.",
         "techs": [
-          "Python (FastAPI)",
-          "Autogen",
-          "Azure Functions",
-          "Angular",
-          "Docker",
-          "Git"
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "Tailwind CSS",
+          "Recharts",
+          "PWA"
         ],
         "bullets": [
-          "Modular AI agent architecture.",
-          "Scalable backend with serverless services.",
-          "Automated complex task orchestration."
+          "100% isolated workspaces to separate personal and business capital.",
+          "Real-time team collaboration with granular role-based permissions.",
+          "Instant recording of income, expenses, and transfers from any device.",
+          "Live financial telemetry, dynamic balances, and transparent health metrics."
         ],
-        "video": "https://drive.google.com/file/d/1bkbEuntrkygpzAluEbabcyDD5JvdhOSh/view"
+        "videoId": "u5TWCuzIm5U",
+        "video": "https://www.youtube.com/watch?v=u5TWCuzIm5U",
+        "url": "https://orbit.novapage.com.co",
+        "hasPublicUrl": true,
+        "actionText": "Try Free Beta"
+      },
+      {
+        "id": "habits",
+        "name": "Habits",
+        "tagline": "Habits connected to strategic goals, 1-click logging, and progress audits",
+        "type": "beta",
+        "typeLabel": "Free Public Beta",
+        "statusNote": "Proprietary NovaPage product. Free, full access as a premium product with no fees during the beta period.",
+        "company": "NovaPage",
+        "description": "Human performance engineering platform engineered to bridge the gap between high-level strategy and daily execution. Connects macro life-domain goals with atomic daily habits, featuring zero-friction tracking and real-time focus audits.",
+        "techs": [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "Tailwind CSS",
+          "Framer Motion",
+          "PWA"
+        ],
+        "bullets": [
+          "Strategic goals structured across key life domains (business, health, learning, finance).",
+          "Tactical habit linking: every daily repetition directly increments your macro goal achievement.",
+          "Zero-friction 1-tap logging to maintain active consistency streaks.",
+          "In-depth focus audits: real-time metrics with Focus Score and weekly consistency analytics."
+        ],
+        "videoId": "zNMmYEe8Hc4",
+        "video": "https://www.youtube.com/watch?v=zNMmYEe8Hc4",
+        "url": "https://habits.novapage.com.co",
+        "hasPublicUrl": true,
+        "actionText": "Try Free Beta"
+      },
+      {
+        "id": "dagua",
+        "name": "D'AGUA",
+        "tagline": "Water delivery orders in 2 steps, smart routing, and total business control",
+        "type": "custom_private",
+        "typeLabel": "Custom Software",
+        "statusNote": "Custom-built for a commercial water delivery distributor. Operating privately in production for their customer base and delivery fleet.",
+        "company": "NovaPage",
+        "description": "End-to-end logistics platform for purified water distribution. Customers place jug orders in two taps from their phone using secure PIN verification with no bulky app installs, while dispatchers manage orders, atomic inventory, and route dispatch via nearest-neighbor optimization.",
+        "techs": [
+          "Next.js",
+          "TypeScript",
+          "FastAPI",
+          "Mapbox / GIS",
+          "PostgreSQL",
+          "Tailwind CSS"
+        ],
+        "bullets": [
+          "2-step customer orders with phone-number and secure PIN login.",
+          "Nearest-Neighbor smart route optimization over interactive maps saving fuel and delivery times.",
+          "Atomic real-time inventory management with instant jug reconciliation.",
+          "100% paperless operation: full dispatch audit trail and automatic daily revenue summaries."
+        ],
+        "videoId": "GCsZinAk5zQ",
+        "video": "https://www.youtube.com/watch?v=GCsZinAk5zQ",
+        "url": null,
+        "hasPublicUrl": false,
+        "actionText": "Inquire about custom software"
+      },
+      {
+        "id": "outreach",
+        "name": "Outreach",
+        "tagline": "Your commercial WhatsApp prospecting engine on autopilot",
+        "type": "internal",
+        "typeLabel": "Internal System",
+        "statusNote": "Proprietary internal system built for NovaPage sales operations and automated client acquisition.",
+        "company": "NovaPage",
+        "description": "Autonomous B2B commercial prospecting motor on WhatsApp. Crawls target businesses by geography and industry parameters, verifies phone lines, crafts hyper-personalized opening messages, and handles conversational qualification via AI agent («Nova») before handing off qualified leads to human advisors.",
+        "techs": [
+          "Python (FastAPI)",
+          "WhatsApp Cloud API",
+          "LLM Agents (Gemini / OpenAI)",
+          "PostgreSQL",
+          "Next.js",
+          "Docker"
+        ],
+        "bullets": [
+          "Autonomous parameter-based search by location and industry with live phone validation.",
+          "AI-crafted personalized opening messages tailored to each prospect's web presence.",
+          "Conversational AI agent answering FAQs and overcoming initial objections naturally.",
+          "1-click human handoff: alerts advisor immediately upon confirmed buying intent.",
+          "Unified dashboard tracking reply rates, qualification scores, and conversion pipelines."
+        ],
+        "videoId": "JivU3lsLY2s",
+        "video": "https://www.youtube.com/watch?v=JivU3lsLY2s",
+        "url": null,
+        "hasPublicUrl": false,
+        "actionText": "Inquire about custom automation"
+      },
+      {
+        "id": "eduplatform",
+        "name": "EduPlatform",
+        "tagline": "Courses with secure encrypted streaming, memberships, and real-time progress",
+        "type": "custom_private",
+        "typeLabel": "Custom Software",
+        "statusNote": "Custom educational platform delivered for a private financial trading academy. Successful case study, not open to the general public.",
+        "company": "NovaPage",
+        "description": "Modern LMS and educational software platform built for high-definition video learning. Features encrypted, tamper-resistant streaming to prevent content piracy or illicit downloads, granular membership level gates, and automated cloud progress tracking.",
+        "techs": [
+          "Next.js",
+          "Supabase",
+          "TypeScript",
+          "HLS Secure Streaming",
+          "Tailwind CSS",
+          "CDN Edge"
+        ],
+        "bullets": [
+          "Encrypted HD streaming playback preventing unauthorized recording or downloads.",
+          "Step-by-step modular curriculum breakdown with interactive exercises.",
+          "Granular membership access control and automatic tier unlocking in real time.",
+          "Cloud student telemetry: saves exact video position and completion percentage across devices."
+        ],
+        "videoId": "dm1U0vyRrmY",
+        "video": "https://www.youtube.com/watch?v=dm1U0vyRrmY",
+        "url": null,
+        "hasPublicUrl": false,
+        "actionText": "Inquire about custom platform"
       }
     ]
   },
@@ -580,34 +765,34 @@
     "projects": {
       "title": "Featured Projects",
       "proj1": {
-        "name": "Full-Stack Web Platform with Advanced Authentication and Analytics (CourseWebsite)",
-        "description": "Comprehensive development of a responsive web platform with Next.js and internal API for key functions. Includes a secure registration/login system managed with Supabase Auth, user metrics tracking in Supabase Database, and a CDN for efficient content delivery.",
+        "name": "EduPlatform — Full-Stack Web Platform with Protected Streaming and Telemetry",
+        "description": "End-to-end development of a modern educational platform with Next.js and Supabase. Features role-based secure authentication, tamper-resistant encrypted HD video streaming, granular membership access gates, and automated cloud progress tracking.",
         "tech1": "Next.js",
-        "tech2": "Supabase (Auth, Database)",
-        "tech3": "JavaScript/TypeScript",
-        "tech4": "HTML, CSS",
-        "tech5": "API (Next.js)",
-        "tech6": "CDN",
-        "achievement1": "Building modern and scalable web applications.",
-        "achievement2": "Implementation of secure authentication and robust user flows.",
-        "achievement3": "Efficient database management and modeling.",
-        "achievement4": "Performance optimization and user experience.",
-        "video": "https://drive.google.com/file/d/12XrRDJv5ZVK6nl1JL-bP9NLRprE1DYxN/view?usp=sharing"
+        "tech2": "Supabase (Auth & DB)",
+        "tech3": "TypeScript",
+        "tech4": "HLS Secure Streaming",
+        "tech5": "Tailwind CSS",
+        "tech6": "CDN Edge",
+        "achievement1": "Engineered modern, modular, and scalable full-stack web architecture.",
+        "achievement2": "Implemented encrypted real-time video streaming with piracy protection.",
+        "achievement3": "Modeled efficient user state management and tier-based membership control.",
+        "achievement4": "Cross-device progress telemetry and automatic cloud synchronization.",
+        "video": "https://www.youtube.com/watch?v=dm1U0vyRrmY"
       },
       "proj2": {
-        "name": "Evana - Intelligent Family Assistant (AI Agent System)",
-        "description": "Design and implementation of a modular architecture for an intelligent agent system (Autogen) capable of supporting complex tasks. Includes a FastAPI backend for the API, Azure Functions as serverless external tools for agents, and an Angular frontend (in development). This system demonstrates advanced AI orchestration for task automation and intelligent support.",
+        "name": "Outreach — Autonomous B2B Prospecting Engine with AI Agents",
+        "description": "Architected an autonomous agent system for commercial prospecting on WhatsApp. Integrates a high-performance FastAPI backend, conversational LLM agents (Gemini / OpenAI), official WhatsApp Cloud API integration, and a Next.js dashboard for real-time human handoff.",
         "tech1": "Python (FastAPI)",
-        "tech2": "Autogen",
-        "tech3": "Azure Functions",
-        "tech4": "Angular",
+        "tech2": "LLM Agents (Gemini/OpenAI)",
+        "tech3": "WhatsApp Cloud API",
+        "tech4": "Next.js Dashboard",
         "tech5": "Docker",
-        "tech6": "Git",
-        "achievement1": "Design of complex agent-based AI systems.",
-        "achievement2": "Development of scalable and secure backend.",
-        "achievement3": "Advanced integration of serverless services as tools for AI.",
-        "achievement4": "Professional version control and environment management.",
-        "video": "https://drive.google.com/file/d/1bkbEuntrkygpzAluEbabcyDD5JvdhOSh/view?usp=sharing"
+        "tech6": "PostgreSQL",
+        "achievement1": "Designed autonomous workflows powered by LLM agent orchestration.",
+        "achievement2": "Built scalable, asynchronous, and secure backend microservices with FastAPI.",
+        "achievement3": "Integrated official Meta Cloud API for enterprise conversational delivery.",
+        "achievement4": "Implemented 1-click intelligent handoff mechanisms to sales operators.",
+        "video": "https://www.youtube.com/watch?v=JivU3lsLY2s"
       }
     },
     "education": {

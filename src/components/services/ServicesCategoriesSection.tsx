@@ -113,19 +113,19 @@ export default function ServicesCategoriesSection() {
               height={200}
               className="mb-5 object-contain"
             />
-            <h3 className="font-efour text-3xl md:text-4xl text-primary mb-12 tracking-wide text-center">
+            <h3 className="font-efour text-2xl sm:text-3xl md:text-4xl text-primary mb-4 tracking-wide text-center">
               {t(service.title)}
             </h3>
-            <p className="text-muted-foreground text-lg mb-8 leading-relaxed max-w-2xl">
+            <p className="text-muted-foreground text-sm sm:text-base md:text-lg mb-8 leading-relaxed max-w-2xl font-normal">
               {t(service.desc)}
             </p>
             <button
               type="button"
               className="
-                px-7 py-3 rounded-xl border border-primary text-primary font-bold cursor-pointer
-                shadow-lg transition hover:bg-primary/10 hover:scale-105 
+                px-7 py-3 rounded-xl border border-primary text-primary font-semibold cursor-pointer
+                shadow-sm transition hover:bg-primary/10 hover:scale-102 
                 focus-visible:ring-2 focus-visible:ring-primary
-                text-base tracking-wider
+                text-sm sm:text-base tracking-wide
                 bg-background/80
               "
               onClick={() => handleOpenModal(service.key)}

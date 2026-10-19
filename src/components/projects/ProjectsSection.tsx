@@ -1,103 +1,178 @@
 'use client'
 
+import { useState } from 'react'
 import { useTranslation } from '@/hooks/useTranslation'
 import { motion } from 'framer-motion'
-import { GradientButton } from '@/components/ui/GradientButton'
-
-type ProjectItem = {
-  name: string
-  description: string
-  techs: string[]
-  bullets: string[]
-  video?: string
-}
+import { ProjectDetailModal, ProjectDetail } from '@/components/projects/ProjectDetailModal'
+import { Play, ExternalLink, Lock, Sparkles, ShieldCheck, Building2, Terminal } from 'lucide-react'
 
 export default function ProjectsSection() {
   const { t } = useTranslation()
-  const projectsRaw = t('projects.list', { returnObjects: true })
-  const projects = Array.isArray(projectsRaw) ? (projectsRaw as ProjectItem[]) : []
+  const projects = t<ProjectDetail[]>('projects.list', { returnObjects: true })
+  const projectList: ProjectDetail[] = Array.isArray(projects) ? projects : []
+
+  const [selectedProject, setSelectedProject] = useState<ProjectDetail | null>(null)
+  const [modalOpen, setModalOpen] = useState(false)
+
+  const handleOpenDetail = (proj: ProjectDetail) => {
+    setSelectedProject(proj)
+    setModalOpen(true)
+  }
+
+  const renderBadge = (proj: ProjectDetail) => {
+    switch (proj.type) {
+      case 'saas':
+        return (
+          <span className="inline-flex items-center gap-1.5 px-3 py-0.5 text-xs font-semibold rounded-full bg-primary/15 text-primary border border-primary/25">
+            <Sparkles className="w-3 h-3" />
+            {proj.typeLabel}
+          </span>
+        )
+      case 'beta':
+        return (
+          <span className="inline-flex items-center gap-1.5 px-3 py-0.5 text-xs font-semibold rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25">
+            <ShieldCheck className="w-3 h-3" />
+            {proj.typeLabel}
+          </span>
+        )
+      case 'custom_private':
+        return (
+          <span className="inline-flex items-center gap-1.5 px-3 py-0.5 text-xs font-semibold rounded-full bg-amber-500/15 text-amber-700 dark:text-amber-400 border border-amber-500/25">
+            <Building2 className="w-3 h-3" />
+            {proj.typeLabel}
+          </span>
+        )
+      case 'internal':
+        return (
+          <span className="inline-flex items-center gap-1.5 px-3 py-0.5 text-xs font-semibold rounded-full bg-muted-foreground/15 text-muted-foreground border border-muted-foreground/25">
+            <Terminal className="w-3 h-3" />
+            {proj.typeLabel}
+          </span>
+        )
+      default:
+        return (
+          <span className="inline-flex items-center px-2.5 py-0.5 text-xs font-semibold rounded-full bg-primary/10 text-primary">
+            {proj.typeLabel}
+          </span>
+        )
+    }
+  }
 
   return (
-    <motion.section
-      className="w-full max-w-7xl mx-auto mb-16 px-2"
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.8, type: 'spring' }}
-    >
-      <motion.div
-        className="bg-card/80 rounded-2xl shadow-lg border border-border px-6 md:px-10 py-10"
-        initial={{ scale: 0.95, opacity: 0 }}
-        whileInView={{ scale: 1, opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ delay: 0.1, duration: 0.7 }}
-      >
-        <h2 className="text-2xl text-primary font-efour mb-10 tracking-wider flex items-center gap-2 group cursor-default justify-center">
+    <section className="w-full max-w-7xl mx-auto mb-20 px-4">
+      {/* Header de la sección */}
+      <div className="text-center max-w-3xl mx-auto mb-14">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-efour text-primary tracking-wide mb-4">
           {t('projects.sectionTitle')}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {projects.map((proj, idx) => (
-            <motion.div
-              key={proj.name}
-              className="bg-background rounded-xl border border-border shadow-md p-6 transition hover:shadow-xl hover:border-primary/60 flex flex-col h-full"
-              initial={{ y: 15, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.08 * idx, duration: 0.5 }}
-            >
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-1">
-                <span className="font-semibold text-lg text-primary group-hover:text-accent transition tracking-wide">
-                  {proj.name}
-                </span>
+        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+          {t('home.projects.intro')}
+        </p>
+      </div>
+
+      {/* Grid de proyectos */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7">
+        {projectList.map((proj, idx) => (
+          <motion.article
+            key={proj.id || proj.name}
+            className="group relative flex flex-col justify-between bg-card rounded-2xl border border-border p-6 shadow-sm hover:shadow-xl hover:border-primary/50 transition-all duration-300"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.05 * idx, duration: 0.4 }}
+          >
+            {/* Top: Status Badge & Tagline */}
+            <div>
+              <div className="flex items-center justify-between gap-2 mb-3">
+                {renderBadge(proj)}
+                {!proj.hasPublicUrl && (
+                  <span className="inline-flex items-center gap-1 text-[11px] text-muted-foreground">
+                    <Lock className="w-3 h-3 text-muted-foreground" />
+                    Privado
+                  </span>
+                )}
               </div>
-              <div className="text-base text-muted-foreground mb-3 mt-2">{proj.description}</div>
-              <div className="flex flex-wrap gap-2 mb-2">
-                {proj.techs.map((tech, i) => (
+
+              {/* Title & Tagline */}
+              <h3 className="text-xl font-efour text-primary group-hover:text-primary transition-colors tracking-wide mb-1.5">
+                {proj.name}
+              </h3>
+              <p className="text-xs font-medium text-muted-foreground/90 mb-3.5 leading-snug">
+                {proj.tagline}
+              </p>
+
+              {/* Description */}
+              <p className="text-sm text-foreground/80 font-normal leading-relaxed mb-4 line-clamp-3">
+                {proj.description}
+              </p>
+
+              {/* Bullets Preview */}
+              {proj.bullets && proj.bullets.length > 0 && (
+                <ul className="space-y-1.5 mb-5 text-xs text-muted-foreground">
+                  {proj.bullets.slice(0, 2).map((bullet, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <span className="text-primary font-bold">•</span>
+                      <span className="line-clamp-2 leading-relaxed">{bullet}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+
+            {/* Bottom: Tech Stack & Actions */}
+            <div className="mt-auto pt-4 border-t border-border/50">
+              {/* Tech Stack Chips */}
+              <div className="flex flex-wrap gap-1.5 mb-4">
+                {proj.techs?.slice(0, 4).map((tech, i) => (
                   <span
                     key={i}
-                    className="bg-primary/10 text-primary rounded-full px-3 py-1 text-xs font-semibold tracking-wider shadow-sm"
+                    className="px-2.5 py-0.5 text-[11px] font-medium bg-muted text-muted-foreground rounded-md"
                   >
                     {tech}
                   </span>
                 ))}
-              </div>
-              <ul className="space-y-2 mb-2">
-                {proj.bullets.map((ach, j) => (
-                  <motion.li
-                    key={j}
-                    className="relative group transition"
-                    whileHover={{ x: 8, scale: 1.03 }}
-                  >
-                    <span className="
-                      pl-3 pr-1 py-1 rounded-lg transition-colors
-                      group-hover:bg-primary/10
-                      group-hover:text-primary
-                      group-hover:shadow
-                      font-medium
-                      cursor-default
-                      select-text
-                    ">
-                      {ach}
-                    </span>
-                  </motion.li>
-                ))}
-              </ul>
-              <div className="flex flex-wrap justify-center gap-4 mt-auto pt-4">
-                {proj.video && (
-                  <GradientButton
-                    href={proj.video}
-                    title={`Ver video demo del proyecto ${proj.name}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Video
-                  </GradientButton>
+                {proj.techs && proj.techs.length > 4 && (
+                  <span className="px-1.5 py-0.5 text-[11px] font-medium text-muted-foreground">
+                    +{proj.techs.length - 4}
+                  </span>
                 )}
               </div>
-            </motion.div>
-          ))}
-        </div>
-      </motion.div>
-    </motion.section>
+
+              {/* Actions */}
+              <div className="flex flex-wrap items-center gap-2.5">
+                <button
+                  type="button"
+                  onClick={() => handleOpenDetail(proj)}
+                  className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground font-semibold text-xs sm:text-sm tracking-wide transition-all cursor-pointer shadow-xs"
+                >
+                  <Play className="w-3.5 h-3.5 fill-current" />
+                  <span>Ver demo y detalles</span>
+                </button>
+
+                {proj.hasPublicUrl && proj.url && (
+                  <a
+                    href={proj.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-2.5 rounded-xl border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors cursor-pointer"
+                    title={`Abrir ${proj.name} en vivo`}
+                    aria-label={`Abrir ${proj.name} en vivo`}
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                )}
+              </div>
+            </div>
+          </motion.article>
+        ))}
+      </div>
+
+      {/* Modal responsivo centralizado (Drawer en móvil, Dialog en desktop) */}
+      <ProjectDetailModal
+        open={modalOpen}
+        onClose={() => setModalOpen(false)}
+        project={selectedProject}
+      />
+    </section>
   )
 }

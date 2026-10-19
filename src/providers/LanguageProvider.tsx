@@ -7,7 +7,7 @@ type SupportedLocale = "es" | "en" | "pt";
 
 type LanguageContextType = {
   locale: SupportedLocale;
-  messages: Record<string, string>;
+  messages: Record<string, unknown>;
   setLocale: (locale: SupportedLocale) => void;
 };
 
@@ -18,7 +18,7 @@ const LOCAL_STORAGE_KEY = "app_locale";
 
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
   const [locale, setLocaleState] = useState<SupportedLocale>(DEFAULT_LOCALE);
-  const [messages, setMessages] = useState<Record<string, string>>({});
+  const [messages, setMessages] = useState<Record<string, unknown>>({});
 
   const setLocale = async (newLocale: SupportedLocale) => {
     localStorage.setItem(LOCAL_STORAGE_KEY, newLocale);

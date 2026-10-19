@@ -1,4 +1,4 @@
-export async function loadLocaleMessages(locale: string): Promise<Record<string, string>> {
+export async function loadLocaleMessages(locale: string): Promise<Record<string, unknown>> {
   try {
     const messages = await import(`@/messages/${locale}.json`);
     return messages.default;
