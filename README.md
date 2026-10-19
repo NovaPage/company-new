@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NovaPage — Sitio web corporativo
 
-## Getting Started
+Sitio oficial de **NovaPage**: [novapage.com.co](https://novapage.com.co). Presentación corporativa con i18n en español, inglés y portugués.
 
-First, run the development server:
+## Stack
+
+- **Next.js 15** (App Router) + React 19 + TypeScript
+- **Tailwind CSS v4** + shadcn/ui (Radix) + Framer Motion
+- Fuentes locales (Efourpro, Glacial Indifference) · Vercel Analytics + Speed Insights
+
+## Desarrollo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev     # http://localhost:3000
+npm run build   # build de producción
+npm run start   # servir el build
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Estructura
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `src/app/` — rutas: `/`, `/services` (Capacidades), `/projects` (Productos), `/contact`, `/profile` (CV del fundador)
+- `src/components/` — componentes por dominio: `home/`, `services/`, `projects/`, `contact/`, `cv/`, `layout/`, `ui/`, `animations/`
+- `src/messages/{es,en,pt}.json` — **todo el contenido visible** (i18n)
+- `src/providers/LanguageProvider.tsx` + `src/hooks/useTranslation.ts` — i18n propio (idioma por defecto: `es`)
+- `public/` — imágenes, fuentes, iconos de contacto, `robots.txt`, `sitemap.xml`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contenido e i18n
 
-## Learn More
+Todo el texto visible vive en `src/messages/*.json` y se resuelve con `t('ruta.de.la.clave')`.
 
-To learn more about Next.js, take a look at the following resources:
+Al editar contenido:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Actualizar **los 3 idiomas** (`es`, `en`, `pt`) manteniendo las mismas claves.
+2. Vocabulario: **"agentes de IA"** — nunca "bots" / "chatbots".
+3. El perfil del fundador (`/profile`) se alimenta de la sección `profile`; está fuera de la navegación y del sitemap, y excluido en `robots.txt`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Vercel auto-deploy desde `main` (push → build → producción). Dominio: `novapage.com.co`; `www` redirige al dominio principal.

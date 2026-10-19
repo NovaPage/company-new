@@ -11,9 +11,9 @@
   },
   "home": {
     "hero": {
-      "title": "Construímos software.",
-      "subtitle": "Criamos produtos digitais que resolvem problemas reais. De plataformas de gestão a assistentes com inteligência artificial.",
-      "impact": "Código bem escrito. Produtos que funcionam.",
+      "title": "Otimizamos com IA.",
+      "subtitle": "Analisamos processos, identificamos gargalos e os resolvemos com inteligência artificial.",
+      "impact": "Automação real. Resultados mensuráveis.",
       "seeProjects": "Nossos produtos",
       "freeConsult": "Conheça o SIS Consultorios"
     },
@@ -138,6 +138,15 @@
       "title": "Tem um problema para resolver com software?",
       "subtitle": "Escreva para nós. Sem pressão, sem ligação de vendas.",
       "button": "Contato"
+    },
+    "sis": {
+      "badge": "Produto Estrela SaaS",
+      "title": "SIS Consultorios — Seu consultório médico em piloto automático",
+      "subtitle": "Secretaria digital e software de gestão médica integrada sob marca branca. Automatize agendamentos 24/7, zere horários ociosos com lista de espera inteligente, gerencie a fila virtual com chegada autônoma e receba direto na sua conta sem taxas.",
+      "cta": "Conheça o SIS Consultorios",
+      "demoVideo": "Ver vídeo demo",
+      "url": "https://sis.novapage.com.co",
+      "videoId": "K00nwtnonVo"
     }
   },
   "services": {
@@ -150,11 +159,7 @@
       "seeMore": "Ver mais",
       "web": {
         "title": "Desenvolvimento de Software (Nossa Especialidade)",
-        "desc": "Construímos aplicações web, plataformas e sistemas empresariais com tecnologias modernas. Código limpo, escalável e de fácil manutenção."
-      },
-      "automation": {
-        "title": "SIS Consultorios — Software Médico & Secretaria Digital",
-        "desc": "Nosso produto SaaS estrela para consultórios privados e clínicas sob marca branca. Agendamento 24/7, lista de espera inteligente e cobrança direta."
+        "desc": "Construímos aplicações web, plataformas e sistemas empresariais com tecnologias modernas. Código limpo, escalável e sustentável."
       },
       "ai": {
         "title": "Pesquisa em IA (Agentes Inteligentes)",
@@ -163,6 +168,10 @@
       "cloud": {
         "title": "Infraestrutura Cloud",
         "desc": "Projetamos e operamos infraestrutura na nuvem. Azure, Supabase, serverless — o que cada produto precisar para funcionar."
+      },
+      "automation": {
+        "title": "SIS Consultorios — Software Médico & Secretaria Digital",
+        "desc": "Nosso produto SaaS estrela para consultórios privados e clínicas sob marca branca. Agendamento 24/7, lista de espera inteligente e cobrança direta."
       }
     },
     "web": {
@@ -240,65 +249,6 @@
       "cta": "Precisa de software bem construído?",
       "ctaButton": "Fale conosco"
     },
-    "automation": {
-      "title": "SIS Consultorios — Secretaria Digital e Software Médico",
-      "intro": "SIS Consultorios é uma plataforma SaaS autônoma desenvolvida para consultórios particulares e clínicas. Entregue 100% sob sua marca própria (marca branca), eliminando a sobrecarga administrativa para que o profissional se concentre no atendimento clínico.",
-      "sections": [
-        {
-          "title": "Recursos da plataforma",
-          "items": [
-            {
-              "title": "Agendamento 24/7 sem atritos",
-              "desc": "Pacientes agendam em segundos de qualquer dispositivo, sem senhas complicadas nem necessidade de baixar aplicativos."
-            },
-            {
-              "title": "Lista de espera e confirmação inteligente",
-              "desc": "Lembretes com 1 toque e realocação automática de cancelamentos em menos de 3 minutos para zerar horários ociosos."
-            },
-            {
-              "title": "Chegada autônoma e fila virtual",
-              "desc": "O paciente clica em «Já cheguei» pelo celular ao entrar no consultório e a fila virtual avança de forma transparente."
-            },
-            {
-              "title": "Receitas e pedidos em 1 toque",
-              "desc": "Geração imediata de receitas e pedidos de exames em PDF com assinatura digital oficial certificada."
-            },
-            {
-              "title": "Cobrança direta sem intermediários",
-              "desc": "100% dos pagamentos caem diretamente na sua conta bancária, com zero comissões cobradas por terceiros."
-            }
-          ]
-        },
-        {
-          "title": "Para quem é",
-          "items": [
-            {
-              "title": "Consultórios particulares",
-              "desc": "Médicos especialistas, psicólogos, fisioterapeutas e profissionais liberais que buscam eficiência."
-            },
-            {
-              "title": "Clínicas e centros odontológicos",
-              "desc": "Gestão integrada de várias agendas e profissionais em uma experiência moderna para os pacientes."
-            }
-          ]
-        },
-        {
-          "title": "Modelo de implantação",
-          "items": [
-            {
-              "title": "100% Marca Branca",
-              "desc": "Seus pacientes veem exclusivamente a sua marca, cores e logotipo, sem propagandas de terceiros."
-            },
-            {
-              "title": "Ativação rápida",
-              "desc": "Configuração assistida e suporte dedicado para começar a operar na mesma semana."
-            }
-          ]
-        }
-      ],
-      "cta": "Deseja implementar o SIS no seu consultório?",
-      "ctaButton": "Solicitar Demo"
-    },
     "ai": {
       "title": "Inteligência Artificial (Pesquisa Aplicada)",
       "intro": "Exploramos sistemas multiagente, assistentes conversacionais e automação com IA. Pesquisa aplicada — construímos, testamos e aprendemos.",
@@ -313,7 +263,7 @@
             },
             {
               "title": "Assistentes conversacionais",
-              "desc": "Chatbots e assistentes para web, WhatsApp e canais internos. Com linguagem natural."
+              "desc": "Agentes de IA e assistentes para web, WhatsApp e canais internos. Com linguagem natural."
             },
             {
               "title": "Automação inteligente",
@@ -414,6 +364,65 @@
       ],
       "cta": "Precisa de infraestrutura para seu produto?",
       "ctaButton": "Fale conosco"
+    },
+    "automation": {
+      "title": "SIS Consultorios — Secretaria Digital e Software Médico",
+      "intro": "SIS Consultorios é uma plataforma SaaS autônoma desenvolvida para consultórios particulares e clínicas. Entregue 100% sob sua marca própria (marca branca), eliminando a sobrecarga administrativa para que o profissional se concentre no atendimento clínico.",
+      "sections": [
+        {
+          "title": "Recursos da plataforma",
+          "items": [
+            {
+              "title": "Agendamento 24/7 sem atritos",
+              "desc": "Pacientes agendam em segundos de qualquer dispositivo, sem senhas complicadas nem necessidade de baixar aplicativos."
+            },
+            {
+              "title": "Lista de espera e confirmação inteligente",
+              "desc": "Lembretes com 1 toque e realocação automática de cancelamentos em menos de 3 minutos para zerar horários ociosos."
+            },
+            {
+              "title": "Chegada autônoma e fila virtual",
+              "desc": "O paciente clica em «Já cheguei» pelo celular ao entrar no consultório e a fila virtual avança de forma transparente."
+            },
+            {
+              "title": "Receitas e pedidos em 1 toque",
+              "desc": "Geração imediata de receitas e pedidos de exames em PDF com assinatura digital oficial certificada."
+            },
+            {
+              "title": "Cobrança direta sem intermediários",
+              "desc": "100% dos pagamentos caem diretamente na sua conta bancária, com zero comissões cobradas por terceiros."
+            }
+          ]
+        },
+        {
+          "title": "Para quem é",
+          "items": [
+            {
+              "title": "Consultórios particulares",
+              "desc": "Médicos especialistas, psicólogos, fisioterapeutas e profissionais liberais que buscam eficiência."
+            },
+            {
+              "title": "Clínicas e centros odontológicos",
+              "desc": "Gestão integrada de várias agendas e profissionais em uma experiência moderna para os pacientes."
+            }
+          ]
+        },
+        {
+          "title": "Modelo de implantação",
+          "items": [
+            {
+              "title": "100% Marca Branca",
+              "desc": "Seus pacientes veem exclusivamente a sua marca, cores e logotipo, sem propagandas de terceiros."
+            },
+            {
+              "title": "Ativação rápida",
+              "desc": "Configuração assistida e suporte dedicado para começar a operar na mesma semana."
+            }
+          ]
+        }
+      ],
+      "cta": "Deseja implementar o SIS no seu consultório?",
+      "ctaButton": "Solicitar Demo"
     }
   },
   "projects": {
@@ -622,6 +631,16 @@
         "desc": "Envie um email com sua consulta.",
         "subject": "Consulta sobre desenvolvimento de software"
       },
+      "instagram": {
+        "alt": "Instagram NovaPage",
+        "label": "Siga-nos no Instagram",
+        "desc": "Veja nosso trabalho e conteúdo no Instagram."
+      },
+      "tiktok": {
+        "alt": "TikTok NovaPage",
+        "label": "Siga-nos no TikTok",
+        "desc": "Conteúdo rápido e direto no TikTok."
+      },
       "linkedin": {
         "alt": "LinkedIn NovaPage",
         "label": "Conecte-se pelo LinkedIn",
@@ -632,9 +651,9 @@
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
-      "role": "Software Architect & Full-Stack Developer | Especialista em IA & Cloud (Azure) | Founder @ NovaPage | Next.js, Python (FastAPI) & LangChain",
+      "role": "Desenvolvedor Full-Stack · Arquiteto UI/UX · Cloud Solutions · Fundador @ NovaPage",
       "location": "Cali, Colômbia",
-      "phone": "+(57) 321 727 23 88",
+      "phone": "+(57) 310 811 87 22",
       "email": "perezcastro.1228@gmail.com",
       "linkedin": "https://www.linkedin.com/in/cesar-perez-327032241/",
       "github": "https://github.com/NovaPage",
@@ -642,69 +661,69 @@
     },
     "summary": {
       "title": "Sobre",
-      "intro": "Sou Desenvolvedor de Software e Arquiteto de Soluções Cloud apaixonado por transformar complexidade técnica em eficiência operacional. Com forte foco no ecossistema Microsoft Azure, especializo-me em construir aplicações de alto desempenho e orquestrar agentes de IA para resolver desafios reais de negócio.",
-      "background": "Minha formação combina o rigor técnico da Clean Architecture com a agilidade necessária para levar produtos da concepção até deployments prontos para produção.",
-      "currentRole": "Como fundador da NovaPage, sirvo como parceiro tecnológico para empresas que buscam modernização. Não apenas construo software; projeto o \"motor\" do negócio: arquiteturas escaláveis usando Python e Next.js, automação impulsionada por IA e segurança de grau empresarial.",
+      "intro": "Sou Desenvolvedor Full-Stack com 4 anos de experiência construindo experiências digitais de alto impacto e liderando modernização tecnológica no ecossistema Microsoft Azure. Especializo-me em React (Next.js), TypeScript, Python (FastAPI) e Clean Architecture, e na orquestração de sistemas de agentes de IA (AutoGen, CrewAI) que resolvem desafios reais de negócio.",
+      "background": "Minha formação combina o rigor técnico da Clean Architecture com a agilidade necessária para levar produtos da concepção até implantações em produção: entregas que reduzem 1,2 s nos tempos de carregamento, sustentam 99,9% de disponibilidade em plataformas com 5.000+ usuários diários e aplicam TDD, CI/CD e monitoramento contínuo. Respaldado por 38 credenciais profissionais (Microsoft e IBM).",
+      "currentRole": "Como fundador da NovaPage, atuo como parceiro tecnológico de empresas que buscam modernização. Não apenas construo software; desenho o \"motor\" do negócio: arquiteturas escaláveis com Python e Next.js, agentes de IA em produção e segurança de nível empresarial.",
       "stackTitle": "Meu Stack Principal:",
-      "stackBackend": "Backend: Python (FastAPI), SQL",
-      "stackFrontend": "Frontend: React, Next.js, Tailwind CSS",
-      "stackCloud": "Cloud & DevOps: Microsoft Azure (Functions, Cosmos DB, Service Bus), Docker, CI/CD",
-      "stackAI": "IA: Orquestração de Agentes (OpenAI, Gemini, LangChain, Autogen)",
+      "stackBackend": "Backend: Python (FastAPI), Node.js, SQL & NoSQL",
+      "stackFrontend": "Frontend: React, Next.js, TypeScript, Tailwind CSS",
+      "stackCloud": "Cloud & DevOps: Microsoft Azure (Functions, Service Bus, Cosmos DB), Docker, CI/CD",
+      "stackAI": "IA: Orquestração de agentes (AutoGen, CrewAI, LangChain, OpenAI, Gemini)",
       "cta": "Seja projetando um ecossistema de agentes inteligentes ou liderando a migração de um sistema legado para a nuvem, meu objetivo permanece o mesmo: criar tecnologia robusta que permita tomar melhores decisões e reduza custos operacionais."
     },
     "skills": {
       "title": "Habilidades Técnicas",
       "cloud": {
         "title": "Cloud Computing & DevOps",
-        "point1": "Microsoft Azure (Azure Functions, Service Bus, Cosmos DB, Azure Web Pub Sub, gestão de domínios e DNS)",
-        "point2": "Containerização e implantação: Docker, VPS",
-        "point3": "Azure DevOps, GitFlow, pipelines CI/CD",
-        "point4": "Gestão de ambientes e recursos, monitoramento (UptimeRobot, Mixpanel)",
-        "point5": "Automação de implantação e fluxos multitenant"
+        "point1": "Microsoft Azure: Functions, Service Bus, Cosmos DB, Web PubSub, Static Web Apps, AI Foundry",
+        "point2": "Conteinerização e implantação: Docker, serverless, VPS",
+        "point3": "Azure DevOps: pipelines de CI/CD e automação de implantações",
+        "point4": "Monitoramento e desempenho: UptimeRobot, Mixpanel, Core Web Vitals, CDN",
+        "point5": "Gestão de ambientes e recursos multi-tenant"
       },
       "ai": {
         "title": "IA & Automação",
-        "point1": "Orquestração de agentes: Autogen, CrewAI, Langchain",
-        "point2": "Automação com Make.com, n8n e Power Automate",
-        "point3": "Desenvolvimento de copilotos e assistentes LLM (GPTs, Gemini, OpenAI)",
-        "point4": "Processamento e vetorização documental (downloads, extração, indexação)",
-        "point5": "Scaffolding de código e testes automáticos com IA"
+        "point1": "Orquestração de agentes: AutoGen, CrewAI, LangChain",
+        "point2": "Interfaces com IA: Vercel AI SDK, respostas em streaming, OpenAI/Gemini",
+        "point3": "Automação de fluxos: n8n, Make.com, Power Automate",
+        "point4": "Desenvolvimento assistido por IA: prompt engineering, AI code review, human-in-the-loop",
+        "point5": "Processamento e vetorização documental: extração, indexação e busca semântica"
       },
       "backend": {
         "title": "Desenvolvimento Backend",
-        "point1": "Python (FastAPI), TypeScript, JavaScript, SQL",
-        "point2": "Design de APIs RESTful: paginação, segurança, documentação (Swagger)",
+        "point1": "Python (FastAPI), Node.js, TypeScript, SQL",
+        "point2": "Design de APIs RESTful: segurança, paginação, documentação (Swagger/OpenAPI)",
         "point3": "Middlewares personalizados, validação e refresh de tokens",
         "point4": "Padrões Clean Architecture (Router, Service, Repository, Client, Mapper)",
         "point5": "Mensageria: Azure Service Bus, SQS, padrões de tópicos"
       },
       "frontend": {
         "title": "Desenvolvimento Frontend",
-        "point1": "React, Next.js, Angular, Vue.js, Nuxt.js",
-        "point2": "Tailwind CSS, Bootstrap, layouts dinâmicos, i18n",
-        "point3": "Componentes reutilizáveis e formulários avançados",
-        "point4": "Consumo e integração de APIs empresariais"
+        "point1": "React, Next.js (App Router, SSR), Angular, Vue.js, Nuxt.js",
+        "point2": "TypeScript, JavaScript (ES6+), Tailwind CSS, i18n",
+        "point3": "Gestão de estado e dados: Server Actions, SWR/React Query, Zustand, APIs REST",
+        "point4": "Design responsivo e acessível, Atomic Design, componentes reutilizáveis"
       },
       "database": {
         "title": "Bancos de Dados",
-        "point1": "Cosmos DB: modelagem NoSQL avançada, desnormalização, embedding",
-        "point2": "MongoDB, Supabase (Auth, Database), Firebase",
-        "point3": "Paginação offset/cursor, otimização de consultas",
-        "point4": "Uso de Redis e padrões Singleton para cache e performance"
+        "point1": "Cosmos DB: modelagem avançada NoSQL, desnormalização, embedding",
+        "point2": "PostgreSQL, MySQL, MongoDB, Supabase (Auth, Database), Firebase",
+        "point3": "Row-Level Security (RLS), paginação e otimização de consultas",
+        "point4": "Redis e padrões de cache para performance"
       },
       "security": {
         "title": "Segurança & Autenticação",
-        "point1": "Microsoft Entra ID/Azure AD: JWT, Scopes, redirecionamentos, SSO",
-        "point2": "Row-level Security, gestão de papéis e permissões (Supabase/Azure)",
-        "point3": "OAuth 2.0, OpenID Connect, centralização de headers em middleware",
-        "point4": "Testes e documentação de erros, proteção de endpoints"
+        "point1": "Microsoft Entra ID (Azure AD): JWT, SSO, scopes e redirecionamentos",
+        "point2": "OAuth 2.0 e OpenID Connect para autenticação empresarial",
+        "point3": "RBAC e Row-Level Security: gestão de papéis e permissões",
+        "point4": "Proteção de endpoints, gestão de erros e documentação técnica"
       },
       "architecture": {
         "title": "Arquitetura & Qualidade de Código",
         "point1": "Padrões Clean Architecture, DTOs, DAOs, Mappers",
-        "point2": "Separação e organização modular por entidade",
-        "point3": "Desenvolvimento Orientado a Testes (TDD), testes unitários e de integração",
-        "point4": "Gestão personalizada de erros, logs e boas práticas (PEP8, inglês)"
+        "point2": "TDD: testes unitários e de integração (Jest, React Testing Library, pytest)",
+        "point3": "Testes E2E (Cypress) e Component-Driven Development",
+        "point4": "Observabilidade, refatoração contínua e padrões de código (PEP8, Clean Code)"
       }
     },
     "experience": {
@@ -712,46 +731,44 @@
       "job1": {
         "company": "Vip Reservas",
         "city": "Cali, Colômbia (Remoto)",
-        "role": "Especialista em Desenvolvimento Cloud e Automação com IA",
-        "period": "Fevereiro 2025 – Atual",
-        "point1": "Liderança técnica no design e implementação de arquiteturas escaláveis e seguras na Microsoft Azure (Functions, Cosmos DB, Service Bus, recursos serverless).",
-        "point2": "Desenvolvimento Full-Stack com Next.js, React e Python/FastAPI, integrando fluxos de automação e processamento inteligente de dados.",
-        "point3": "Orquestração de sistemas multiagente e integração avançada de IA generativa (OpenAI, Copilot, n8n, RPA, CrewAI) para otimização de processos internos e serviços ao cliente.",
-        "point4": "Implementação e melhoria contínua de pipelines CI/CD no Azure DevOps, automatizando validações, implantações e monitoramento.",
-        "point5": "Gestão avançada de autenticação empresarial e controle de acesso granular usando Microsoft Entra ID, incluindo políticas de segurança e proteção de endpoints críticos.",
-        "point6": "Aplicação rigorosa de Clean Architecture, TDD, observabilidade (logs, rastreabilidade) e refatoração contínua para garantir qualidade e manutenibilidade.",
-        "point7": "Capacitação, suporte e mentoria a equipes de desenvolvimento em práticas modernas de IA, automação e cloud, facilitando a adoção de novas tecnologias."
+        "role": "Desenvolvedor Full-Stack",
+        "period": "Fevereiro 2025 – Dezembro 2025",
+        "point1": "Construí interfaces web de alto desempenho com Next.js e React, alcançando redução de 1,2 s nos tempos de carregamento de plataformas enterprise.",
+        "point2": "Implementei infraestrutura serverless no Microsoft Azure (Functions, Service Bus), mantendo 99,9% de disponibilidade para lógica de negócio crítica.",
+        "point3": "Projetei componentes de UI inteligentes integrados a agentes de IA (FastAPI/AutoGen), que simplificam a visualização de dados complexos e reduzem em 40% o tempo de conclusão de tarefas do usuário.",
+        "point4": "Desenvolvi serviços de backend em Python (FastAPI) conectados a agentes de IA, reduzindo em 40% o processamento manual de dados.",
+        "point5": "Arquitetei fluxos de autenticação seguros com Microsoft Entra ID e OAuth 2.0 para ambientes corporativos de alto tráfego com 5.000+ usuários diários.",
+        "point6": "Automatizei pipelines de CI/CD no Azure DevOps com testes de UI automatizados, aumentando em 30% a frequência de implantações.",
+        "point7": "Apliquei Clean Architecture e TDD na camada frontend: 25% menos bugs pós-implantação e maior reutilização de componentes."
       },
       "job2": {
         "company": "Desenvolvimento Freelancer",
         "city": "Cali, Colômbia (Remoto)",
         "role": "Desenvolvedor de Software Pleno",
         "period": "2023 – Atual",
-        "point1": "Execução de projetos de desenvolvimento web Full-Stack utilizando Next.js e Angular para aplicações modernas e altamente interativas.",
-        "point2": "Design e construção de bancos de dados relacionais e NoSQL, bem como integração de sistemas de autenticação e autorização robustos usando Supabase (Auth e Database).",
-        "point3": "Implementação de APIs RESTful e gestão eficiente de estados, fluxos de dados e lógica de negócio no frontend e backend.",
-        "point4": "Colaboração direta com clientes para levantamento de requisitos, definição de MVP e entrega de produtos funcionais sob metodologias ágeis.",
-        "point5": "Implantação e manutenção de soluções, com foco em desempenho, escalabilidade e experiência do usuário.",
-        "point6": "Aplicação de testes unitários, gestão de versões (Git) e fluxos de integração contínua para garantir qualidade nos entregáveis.",
-        "point7": "Desenvolvimento de interfaces responsivas e acessíveis, design de experiências visuais e otimização de fluxos para dispositivos móveis e desktop."
+        "point1": "Entreguei mais de 10 aplicações web full-stack e MVPs com Next.js e Supabase: +20% de desempenho do banco de dados e +20% na capacidade de resposta da UI.",
+        "point2": "Arquitetei e integrei APIs RESTful e fluxos de autenticação seguros (Supabase Auth, JWT) com sincronização de dados em tempo real.",
+        "point3": "Liderei a entrega completa de produto sob metodologias ágeis, com foco mobile-first e acessibilidade: 95% de satisfação do cliente.",
+        "point4": "Construí com desenvolvimento assistido por agentes de IA (AI coding agents/harnesses): geração de código, testes e refatoração assistidos por IA, com revisão e aprovação humana obrigatória antes da implantação.",
+        "point5": "Implementei metodologias seguras de desenvolvimento com IA (human-in-the-loop): TDD como rede de segurança, CI/CD com verificações, segredos em variáveis de ambiente e verificação pós-implantação."
       },
       "job3": {
         "company": "BONDII",
         "city": "Cali, Colômbia",
         "role": "Desenvolvedor Frontend & Especialista em Suporte de TI",
         "period": "Maio 2024 – Dezembro 2024",
-        "point1": "Desenvolvimento e otimização de funcionalidades avançadas em Vue.js e Nuxt.js para aplicações de alto impacto.",
-        "point2": "Tradução de mockups e protótipos no Canva para interfaces funcionais, assegurando coerência de design e usabilidade.",
-        "point3": "Elaboração de consultas SQL e geração de relatórios analíticos em Excel para tomada de decisão empresarial.",
-        "point4": "Gestão proativa de incidentes de TI e suporte técnico completo para garantir a disponibilidade e continuidade operacional dos sistemas."
+        "point1": "Otimizei funcionalidades críticas de interface em Vue.js e Nuxt.js: redução de 1,2 s no carregamento e maior desempenho em aplicações de alto impacto.",
+        "point2": "Desenvolvi dashboards interativos que transformam dados complexos do backend (mais de 50 consultas SQL) em relatórios visuais claros: 100% de decisões baseadas em dados.",
+        "point3": "Traduzi mockups e protótipos em Canva para interfaces funcionais, garantindo consistência de design e usabilidade.",
+        "point4": "Resolvi bugs críticos de UI/UX e supervisionei incidentes de TI, garantindo 98% de disponibilidade e continuidade operacional."
       },
       "job4": {
         "company": "Campanha Política",
         "city": "Cali, Colômbia",
         "role": "Desenvolvedor Frontend & Designer",
         "period": "Setembro 2023 – Novembro 2023",
-        "point1": "Desenvolvimento de plataforma web para visualização de estatísticas de campanha usando Angular e Laravel, com integração de dados no Firebase.",
-        "point2": "Design, edição e publicação de recursos visuais e manuais de comunicação para redes sociais e uso interno."
+        "point1": "Arquitetei uma plataforma de visualização de estatísticas em tempo real com Angular, Laravel e Firebase, atendendo sessões simultâneas de 5.000+ usuários diários.",
+        "point2": "Projetei, editei e publiquei recursos visuais e manuais de comunicação para redes sociais e uso interno."
       },
       "job5": {
         "company": "Cheo Producciones",
@@ -793,6 +810,36 @@
         "achievement3": "Integração oficial com a API Cloud da Meta para comunicação corporativa.",
         "achievement4": "Mecanismo de transferência inteligente (handoff) em 1 clique para operadores.",
         "video": "https://www.youtube.com/watch?v=JivU3lsLY2s"
+      },
+      "proj3": {
+        "name": "SIS Consultorios — Secretaria Digital Médica em Marca Branca (SaaS)",
+        "description": "Plataforma SaaS integrada para consultórios particulares e clínicas. Automatiza o agendamento 24/7 sem burocracia, lista de espera inteligente que cobre cancelamentos em menos de 3 minutos, fila virtual autônoma com «Já cheguei», receitas em PDF com assinatura digital oficial e recebimento direto sem intermediários.",
+        "tech1": "Next.js",
+        "tech2": "TypeScript",
+        "tech3": "Supabase",
+        "tech4": "Tailwind CSS",
+        "tech5": "Assinatura Digital PDF",
+        "tech6": "PWA",
+        "achievement1": "Arquitetura multi-inquilino sob marca branca para consultórios e clínicas.",
+        "achievement2": "Automação total de agendamento 24/7 e listas de espera inteligentes.",
+        "achievement3": "Módulo de autoatendimento na chegada e fila virtual sem intervenção manual.",
+        "achievement4": "Emissão de receitas e pedidos médicos em PDF com assinatura digital oficial válida.",
+        "video": "https://www.youtube.com/watch?v=K00nwtnonVo"
+      },
+      "proj4": {
+        "name": "D'AGUA — Plataforma de Logística, Pedidos e Rotas Inteligentes",
+        "description": "Solução tecnológica sob medida para distribuição de água purificada. Permite pedidos rápidos em 2 toques pelo celular com autenticação por PIN seguro, enquanto o painel administrativo otimiza rotas de entrega por algoritmo Nearest-Neighbor e mantém o controle de estoque em tempo real.",
+        "tech1": "Next.js",
+        "tech2": "TypeScript",
+        "tech3": "FastAPI",
+        "tech4": "Mapbox / GIS",
+        "tech5": "PostgreSQL",
+        "tech6": "Tailwind CSS",
+        "achievement1": "Digitalização completa da logística, eliminando anotações manuais em papel.",
+        "achievement2": "Otimização de rotas de entrega por proximidade gerando economia de combustível.",
+        "achievement3": "Acesso rápido com número de celular e PIN seguro para clientes de todas as idades.",
+        "achievement4": "Rastreabilidade de estoque atômico e conciliação imediata de entregas.",
+        "video": "https://www.youtube.com/watch?v=GCsZinAk5zQ"
       }
     },
     "education": {
@@ -817,7 +864,7 @@
       "selfLearningTitle": "Aprendizado Autodidata Intensivo",
       "selfLearning1": "Engenharia de Software Avançada: arquitetura, padrões de design, qualidade de código, testes (TDD, unitários, integração), refatoração.",
       "selfLearning2": "Cloud & DevOps: Microsoft Azure (gestão de recursos, serviços de mensageria, funções escaláveis), CI/CD, containerização (Docker), logs e monitoramento.",
-      "selfLearning3": "Inteligência Artificial Aplicada: agentes autônomos, processamento de linguagem natural, geração de código e conteúdo com LLMs, copilotos de IA.",
+      "selfLearning3": "Inteligência Artificial Aplicada: agentes autônomos (AutoGen, CrewAI), LLMs, desenvolvimento assistido por IA (prompt engineering, human-in-the-loop) e copilotos de IA.",
       "selfLearning4": "Segurança Empresarial: autenticação (Microsoft Entra ID, OpenID Connect, OAuth 2.0), proteção de APIs, gestão de permissões.",
       "selfLearning5": "Bancos de Dados NoSQL: modelagem avançada em Cosmos DB e MongoDB."
     },

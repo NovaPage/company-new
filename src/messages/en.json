@@ -11,9 +11,9 @@
   },
   "home": {
     "hero": {
-      "title": "We build software.",
-      "subtitle": "We create digital products that solve real problems. From management platforms to AI-powered intelligent assistants.",
-      "impact": "Well-written code. Products that work.",
+      "title": "We optimize with AI.",
+      "subtitle": "We analyze processes, find bottlenecks, and solve them with artificial intelligence.",
+      "impact": "Real automation. Measurable results.",
       "seeProjects": "Our products",
       "freeConsult": "Discover SIS Consultorios"
     },
@@ -138,6 +138,15 @@
       "title": "Have a problem that needs software to solve?",
       "subtitle": "Write to us. No pressure, no sales call.",
       "button": "Contact"
+    },
+    "sis": {
+      "badge": "Flagship SaaS Product",
+      "title": "SIS Consultorios — Your medical practice on autopilot",
+      "subtitle": "Comprehensive digital secretary and practice management software under white-label. Automate 24/7 booking, eliminate lost slots with smart waitlists, streamline virtual queues with autonomous arrival check-in, and get direct payouts with zero third-party fees.",
+      "cta": "Discover SIS Consultorios",
+      "demoVideo": "Watch demo video",
+      "url": "https://sis.novapage.com.co",
+      "videoId": "K00nwtnonVo"
     }
   },
   "services": {
@@ -150,11 +159,7 @@
       "seeMore": "See more",
       "web": {
         "title": "Software Development (Our Specialty)",
-        "desc": "We build web applications, platforms, and enterprise systems with modern technologies. Clean, scalable, maintainable code."
-      },
-      "automation": {
-        "title": "SIS Consultorios — Medical Software & Digital Secretary",
-        "desc": "Our flagship SaaS product for private practices and clinics under white-label. 24/7 scheduling, smart waitlists, and direct payouts."
+        "desc": "We build web applications, platforms and enterprise systems with modern technologies. Clean, scalable and maintainable code."
       },
       "ai": {
         "title": "AI Research (Intelligent Agents)",
@@ -163,6 +168,10 @@
       "cloud": {
         "title": "Cloud Infrastructure",
         "desc": "We design and operate cloud infrastructure. Azure, Supabase, serverless — whatever each product needs to run."
+      },
+      "automation": {
+        "title": "SIS Consultorios — Medical Software & Digital Secretary",
+        "desc": "Our flagship SaaS product for private practices and clinics under white-label. 24/7 scheduling, smart waitlists, and direct payouts."
       }
     },
     "web": {
@@ -240,65 +249,6 @@
       "cta": "Need well-built software?",
       "ctaButton": "Write to us"
     },
-    "automation": {
-      "title": "SIS Consultorios — Digital Secretary & Medical Software",
-      "intro": "SIS Consultorios is an autonomous SaaS platform engineered for private medical practices and clinics. Delivered 100% under your white-label brand, eliminating administrative overhead so healthcare professionals focus solely on patient care.",
-      "sections": [
-        {
-          "title": "Core capabilities",
-          "items": [
-            {
-              "title": "Frictionless 24/7 booking",
-              "desc": "Patients schedule appointments in seconds from any browser without complex passwords or app installations."
-            },
-            {
-              "title": "Smart waitlists & auto confirmations",
-              "desc": "1-tap attendance reminders and automated slot reassignments in under 3 minutes to prevent lost revenue from cancellations."
-            },
-            {
-              "title": "Autonomous arrival check-in",
-              "desc": "Patients tap «I have arrived» on their phone, smoothly advancing the virtual waiting room."
-            },
-            {
-              "title": "1-tap prescriptions & lab orders",
-              "desc": "Instant PDF generation with certified digital signature for prescriptions and diagnostic test requisitions."
-            },
-            {
-              "title": "Direct payouts with 0% middleman fees",
-              "desc": "100% of patient payments go directly to your designated bank account without revenue splits."
-            }
-          ]
-        },
-        {
-          "title": "Target audience",
-          "items": [
-            {
-              "title": "Private practices",
-              "desc": "Specialist physicians, psychologists, physiotherapists, and independent doctors seeking operational autonomy."
-            },
-            {
-              "title": "Dental and specialty clinics",
-              "desc": "Multi-calendar and multi-office management delivering a cohesive patient journey."
-            }
-          ]
-        },
-        {
-          "title": "Implementation model",
-          "items": [
-            {
-              "title": "100% White-Label",
-              "desc": "Patients interact solely with your brand, logo, and identity — zero third-party branding."
-            },
-            {
-              "title": "Rapid deployment",
-              "desc": "Guided onboarding and dedicated setup to start booking appointments in days."
-            }
-          ]
-        }
-      ],
-      "cta": "Interested in SIS for your medical practice?",
-      "ctaButton": "Request Demo"
-    },
     "ai": {
       "title": "Artificial Intelligence (Applied Research)",
       "intro": "We explore multi-agent systems, conversational assistants, and AI-powered automation. Applied research — we build, test, and learn.",
@@ -313,7 +263,7 @@
             },
             {
               "title": "Conversational assistants",
-              "desc": "Chatbots and assistants for web, WhatsApp, and internal channels. With natural language."
+              "desc": "AI agents and assistants for web, WhatsApp, and internal channels. With natural language."
             },
             {
               "title": "Intelligent automation",
@@ -414,6 +364,65 @@
       ],
       "cta": "Need infrastructure for your product?",
       "ctaButton": "Write to us"
+    },
+    "automation": {
+      "title": "SIS Consultorios — Digital Secretary & Medical Software",
+      "intro": "SIS Consultorios is an autonomous SaaS platform engineered for private medical practices and clinics. Delivered 100% under your white-label brand, eliminating administrative overhead so healthcare professionals focus solely on patient care.",
+      "sections": [
+        {
+          "title": "Core capabilities",
+          "items": [
+            {
+              "title": "Frictionless 24/7 booking",
+              "desc": "Patients schedule appointments in seconds from any browser without complex passwords or app installations."
+            },
+            {
+              "title": "Smart waitlists & auto confirmations",
+              "desc": "1-tap attendance reminders and automated slot reassignments in under 3 minutes to prevent lost revenue from cancellations."
+            },
+            {
+              "title": "Autonomous arrival check-in",
+              "desc": "Patients tap «I have arrived» on their phone, smoothly advancing the virtual waiting room."
+            },
+            {
+              "title": "1-tap prescriptions & lab orders",
+              "desc": "Instant PDF generation with certified digital signature for prescriptions and diagnostic test requisitions."
+            },
+            {
+              "title": "Direct payouts with 0% middleman fees",
+              "desc": "100% of patient payments go directly to your designated bank account without revenue splits."
+            }
+          ]
+        },
+        {
+          "title": "Target audience",
+          "items": [
+            {
+              "title": "Private practices",
+              "desc": "Specialist physicians, psychologists, physiotherapists, and independent doctors seeking operational autonomy."
+            },
+            {
+              "title": "Dental and specialty clinics",
+              "desc": "Multi-calendar and multi-office management delivering a cohesive patient journey."
+            }
+          ]
+        },
+        {
+          "title": "Implementation model",
+          "items": [
+            {
+              "title": "100% White-Label",
+              "desc": "Patients interact solely with your brand, logo, and identity — zero third-party branding."
+            },
+            {
+              "title": "Rapid deployment",
+              "desc": "Guided onboarding and dedicated setup to start booking appointments in days."
+            }
+          ]
+        }
+      ],
+      "cta": "Interested in SIS for your medical practice?",
+      "ctaButton": "Request Demo"
     }
   },
   "projects": {
@@ -622,6 +631,16 @@
         "desc": "Send an email with your inquiry.",
         "subject": "Software development inquiry"
       },
+      "instagram": {
+        "alt": "Instagram NovaPage",
+        "label": "Follow us on Instagram",
+        "desc": "See our work and content on Instagram."
+      },
+      "tiktok": {
+        "alt": "TikTok NovaPage",
+        "label": "Follow us on TikTok",
+        "desc": "Quick and direct content on TikTok."
+      },
       "linkedin": {
         "alt": "LinkedIn NovaPage",
         "label": "Connect on LinkedIn",
@@ -632,9 +651,9 @@
   "profile": {
     "header": {
       "name": "CESAR PEREZ",
-      "role": "Software Architect & Full-Stack Developer | AI & Cloud (Azure) Specialist | Founder @ NovaPage | Next.js, Python (FastAPI) & LangChain",
+      "role": "Full-Stack Developer · UI/UX Architect · Cloud Solutions · Founder @ NovaPage",
       "location": "Cali, Colombia",
-      "phone": "+(57) 321 727 23 88",
+      "phone": "+(57) 310 811 87 22",
       "email": "perezcastro.1228@gmail.com",
       "linkedin": "https://www.linkedin.com/in/cesar-perez-327032241/",
       "github": "https://github.com/NovaPage",
@@ -642,69 +661,69 @@
     },
     "summary": {
       "title": "About",
-      "intro": "I am a Software Developer and Cloud Solutions Architect passionate about turning technical complexity into operational efficiency. With a strong focus on the Microsoft Azure ecosystem, I specialize in building high-performance applications and orchestrating AI agents to solve real-world business challenges.",
-      "background": "My background combines the technical rigor of Clean Architecture with the agility needed to take products from conception to production-ready deployments.",
-      "currentRole": "As the founder of NovaPage, I serve as a technology partner for companies seeking modernization. I don't just build software; I design the \"engine\" of the business: scalable architectures using Python and Next.js, AI-driven automation, and enterprise-grade security.",
+      "intro": "I'm a Full-Stack Developer with 4 years of experience building high-impact digital experiences and leading technology modernization on the Microsoft Azure ecosystem. I specialize in React (Next.js), TypeScript, Python (FastAPI) and Clean Architecture, and in orchestrating AI agent systems (AutoGen, CrewAI) that solve real business challenges.",
+      "background": "My background combines the technical rigor of Clean Architecture with the agility to take products from conception to production deployments: deliveries that cut page load times by 1.2 s, sustain 99.9% availability on platforms with 5,000+ daily users, and apply TDD, CI/CD and continuous monitoring. Backed by 38 professional credentials (Microsoft & IBM).",
+      "currentRole": "As the founder of NovaPage, I serve as a technology partner for companies seeking modernization. I don't just build software; I design the engine of the business: scalable architectures with Python and Next.js, AI agents in production, and enterprise-grade security.",
       "stackTitle": "My Core Stack:",
-      "stackBackend": "Backend: Python (FastAPI), SQL",
-      "stackFrontend": "Frontend: React, Next.js, Tailwind CSS",
-      "stackCloud": "Cloud & DevOps: Microsoft Azure (Functions, Cosmos DB, Service Bus), Docker, CI/CD",
-      "stackAI": "AI: Agent Orchestration (OpenAI, Gemini, LangChain, Autogen)",
+      "stackBackend": "Backend: Python (FastAPI), Node.js, SQL & NoSQL",
+      "stackFrontend": "Frontend: React, Next.js, TypeScript, Tailwind CSS",
+      "stackCloud": "Cloud & DevOps: Microsoft Azure (Functions, Service Bus, Cosmos DB), Docker, CI/CD",
+      "stackAI": "AI: Agent orchestration (AutoGen, CrewAI, LangChain, OpenAI, Gemini)",
       "cta": "Whether I'm designing an ecosystem of intelligent agents or leading the migration of a legacy system to the cloud, my goal remains the same: creating robust technology that empowers decision-making and slashes operational costs."
     },
     "skills": {
       "title": "Technical Skills",
       "cloud": {
         "title": "Cloud Computing & DevOps",
-        "point1": "Microsoft Azure (Azure Functions, Service Bus, Cosmos DB, Azure Web Pub Sub, domain and DNS management)",
-        "point2": "Containerization and deployment: Docker, VPS",
-        "point3": "Azure DevOps, GitFlow, CI/CD pipelines",
-        "point4": "Environment and resource management, monitoring (UptimeRobot, Mixpanel)",
-        "point5": "Deployment automation and multitenant workflows"
+        "point1": "Microsoft Azure: Functions, Service Bus, Cosmos DB, Web PubSub, Static Web Apps, AI Foundry",
+        "point2": "Containerization & deployment: Docker, serverless, VPS",
+        "point3": "Azure DevOps: CI/CD pipelines and deployment automation",
+        "point4": "Monitoring & performance: UptimeRobot, Mixpanel, Core Web Vitals, CDN",
+        "point5": "Multi-tenant environments and resource management"
       },
       "ai": {
         "title": "AI & Automation",
-        "point1": "Agent orchestration: Autogen, CrewAI, Langchain",
-        "point2": "Automation with Make.com, n8n and Power Automate",
-        "point3": "Copilot and LLM assistant development (GPTs, Gemini, OpenAI)",
-        "point4": "Document processing and vectorization (downloads, extraction, indexing)",
-        "point5": "Code scaffolding and automatic testing with AI"
+        "point1": "Agent orchestration: AutoGen, CrewAI, LangChain",
+        "point2": "AI-powered interfaces: Vercel AI SDK, streaming responses, OpenAI/Gemini",
+        "point3": "Workflow automation: n8n, Make.com, Power Automate",
+        "point4": "AI-assisted development: prompt engineering, AI code review, human-in-the-loop",
+        "point5": "Document processing & vectorization: extraction, indexing and semantic search"
       },
       "backend": {
         "title": "Backend Development",
-        "point1": "Python (FastAPI), TypeScript, JavaScript, SQL",
-        "point2": "RESTful API design: pagination, security, documentation (Swagger)",
-        "point3": "Custom middlewares, token validation and refresh",
+        "point1": "Python (FastAPI), Node.js, TypeScript, SQL",
+        "point2": "RESTful API design: security, pagination, documentation (Swagger/OpenAPI)",
+        "point3": "Custom middlewares, validation and token refresh",
         "point4": "Clean Architecture patterns (Router, Service, Repository, Client, Mapper)",
         "point5": "Messaging: Azure Service Bus, SQS, topic patterns"
       },
       "frontend": {
         "title": "Frontend Development",
-        "point1": "React, Next.js, Angular, Vue.js, Nuxt.js",
-        "point2": "Tailwind CSS, Bootstrap, dynamic layouts, i18n",
-        "point3": "Reusable components and advanced forms",
-        "point4": "Enterprise API consumption and integration"
+        "point1": "React, Next.js (App Router, SSR), Angular, Vue.js, Nuxt.js",
+        "point2": "TypeScript, JavaScript (ES6+), Tailwind CSS, i18n",
+        "point3": "State & data management: Server Actions, SWR/React Query, Zustand, REST APIs",
+        "point4": "Responsive & accessible design, Atomic Design, reusable components"
       },
       "database": {
         "title": "Databases",
         "point1": "Cosmos DB: advanced NoSQL modeling, denormalization, embedding",
-        "point2": "MongoDB, Supabase (Auth, Database), Firebase",
-        "point3": "Offset/cursor pagination, query optimization",
-        "point4": "Redis usage and Singleton patterns for cache and performance"
+        "point2": "PostgreSQL, MySQL, MongoDB, Supabase (Auth, Database), Firebase",
+        "point3": "Row-Level Security (RLS), pagination and query optimization",
+        "point4": "Redis and caching patterns for performance"
       },
       "security": {
         "title": "Security & Authentication",
-        "point1": "Microsoft Entra ID/Azure AD: JWT, Scopes, redirections, SSO",
-        "point2": "Row-level Security, role and permission management (Supabase/Azure)",
-        "point3": "OAuth 2.0, OpenID Connect, header centralization in middleware",
-        "point4": "Error testing and documentation, endpoint protection"
+        "point1": "Microsoft Entra ID (Azure AD): JWT, SSO, scopes and redirects",
+        "point2": "OAuth 2.0 and OpenID Connect for enterprise authentication",
+        "point3": "RBAC and Row-Level Security: roles and permissions management",
+        "point4": "Endpoint protection, error management and technical documentation"
       },
       "architecture": {
         "title": "Architecture & Code Quality",
         "point1": "Clean Architecture patterns, DTOs, DAOs, Mappers",
-        "point2": "Separation and modular organization by entity",
-        "point3": "Test-Driven Development (TDD), unit and integration testing",
-        "point4": "Custom error management, logs, and best practices (PEP8, English)"
+        "point2": "TDD: unit and integration testing (Jest, React Testing Library, pytest)",
+        "point3": "E2E testing (Cypress) and Component-Driven Development",
+        "point4": "Observability, continuous refactoring and code standards (PEP8, Clean Code)"
       }
     },
     "experience": {
@@ -712,46 +731,44 @@
       "job1": {
         "company": "Vip Reservas",
         "city": "Cali, Colombia (Remote)",
-        "role": "Cloud Development & AI Automation Specialist",
-        "period": "February 2025 – Present",
-        "point1": "Technical leadership in the design and implementation of scalable, secure architectures on Microsoft Azure (Functions, Cosmos DB, Service Bus, serverless resources).",
-        "point2": "Full-Stack development with Next.js, React, and Python/FastAPI, integrating automation workflows and intelligent data processing.",
-        "point3": "Orchestration of multi-agent systems and advanced integration of generative AI (OpenAI, Copilot, n8n, RPA, CrewAI) for optimization of internal processes and customer services.",
-        "point4": "Continuous improvement and implementation of CI/CD pipelines in Azure DevOps, automating validations, deployments, and monitoring.",
-        "point5": "Advanced enterprise authentication management and granular access control using Microsoft Entra ID, including security policies and protection of critical endpoints.",
-        "point6": "Rigorous application of Clean Architecture, TDD, observability (logs, traceability), and continuous refactoring to ensure code quality and maintainability.",
-        "point7": "Training, support, and mentoring to development teams in modern practices of AI, automation, and cloud, facilitating the adoption of new technologies."
+        "role": "Full-Stack Developer",
+        "period": "February 2025 – December 2025",
+        "point1": "Built high-performance web interfaces with Next.js and React, achieving a 1.2 s reduction in page load times on enterprise platforms.",
+        "point2": "Implemented serverless infrastructure on Microsoft Azure (Functions, Service Bus), maintaining 99.9% availability for critical business logic.",
+        "point3": "Designed intelligent UI components integrated with AI agents (FastAPI/AutoGen) that simplify complex data visualization and reduce user task completion time by 40%.",
+        "point4": "Developed backend services in Python (FastAPI) connected to AI agents, reducing manual data processing by 40%.",
+        "point5": "Architected secure authentication flows with Microsoft Entra ID and OAuth 2.0 for high-traffic corporate environments with 5,000+ daily users.",
+        "point6": "Automated CI/CD pipelines on Azure DevOps with automated UI testing, increasing deployment frequency by 30%.",
+        "point7": "Applied Clean Architecture and TDD in the frontend layer: 25% fewer post-deployment bugs and greater component reusability."
       },
       "job2": {
         "company": "Freelance Development",
         "city": "Cali, Colombia (Remote)",
         "role": "Mid-Level Software Developer",
         "period": "2023 – Present",
-        "point1": "Execution of Full-Stack web development projects using Next.js and Angular for modern, highly interactive applications.",
-        "point2": "Design and construction of relational and NoSQL databases, as well as integration of robust authentication and authorization systems using Supabase (Auth and Database).",
-        "point3": "Implementation of RESTful APIs and efficient management of states, data flows, and business logic on both frontend and backend.",
-        "point4": "Direct collaboration with clients for requirements gathering, MVP definition, and delivery of functional products under agile methodologies.",
-        "point5": "Deployment and maintenance of solutions, focusing on performance, scalability, and user experience.",
-        "point6": "Application of unit testing, version management (Git), and continuous integration workflows to ensure deliverable quality.",
-        "point7": "Development of responsive, accessible interfaces, visual experience design, and optimization of flows for mobile and desktop devices."
+        "point1": "Delivered 10+ full-stack web applications and MVPs with Next.js and Supabase: 20% improvement in database performance and 20% in overall UI responsiveness.",
+        "point2": "Architected and integrated RESTful APIs and secure authentication flows (Supabase Auth, JWT) with real-time data synchronization.",
+        "point3": "Led end-to-end product delivery under agile methodologies with a mobile-first and accessibility-focused approach: 95% client satisfaction.",
+        "point4": "Built with AI-agent-assisted development (AI coding agents/harnesses): AI-assisted code generation, testing and refactoring applied to real production projects, with mandatory human review and approval before deployment.",
+        "point5": "Implemented safe AI development methodologies (human-in-the-loop): TDD as a safety net, CI/CD with automated checks, secrets in environment variables and post-deployment verification with monitoring."
       },
       "job3": {
         "company": "BONDII",
         "city": "Cali, Colombia",
         "role": "Frontend Developer & IT Support Specialist",
         "period": "May 2024 – December 2024",
-        "point1": "Development and optimization of advanced features in Vue.js and Nuxt.js for high-impact applications.",
-        "point2": "Translation of mockups and prototypes in Canva into functional interfaces, ensuring design coherence and usability.",
-        "point3": "Preparation of SQL queries and analytical reports in Excel for business decision-making.",
-        "point4": "Proactive management of IT incidents and comprehensive technical support to ensure system availability and operational continuity."
+        "point1": "Optimized critical interface features in Vue.js and Nuxt.js: 1.2 s faster loading and increased performance in high-impact applications.",
+        "point2": "Developed interactive dashboards that turn complex backend data (50+ SQL queries) into clear visual reports: 100% data-driven decisions.",
+        "point3": "Translated Canva mockups and prototypes into functional interfaces, ensuring design consistency and usability.",
+        "point4": "Fixed critical UI/UX bugs and supervised IT incidents, ensuring 98% availability and operational continuity."
       },
       "job4": {
         "company": "Political Campaign",
         "city": "Cali, Colombia",
         "role": "Frontend Developer & Designer",
         "period": "September 2023 – November 2023",
-        "point1": "Development of a web platform for campaign statistics visualization using Angular and Laravel, with data integration in Firebase.",
-        "point2": "Design, editing, and publishing of visual resources and communication manuals for social networks and internal use."
+        "point1": "Architected a real-time statistics visualization platform with Angular, Laravel and Firebase, serving 5,000+ concurrent daily users.",
+        "point2": "Designed, edited and published visual assets and communication manuals for social media and internal use."
       },
       "job5": {
         "company": "Cheo Producciones",
@@ -793,6 +810,36 @@
         "achievement3": "Integrated official Meta Cloud API for enterprise conversational delivery.",
         "achievement4": "Implemented 1-click intelligent handoff mechanisms to sales operators.",
         "video": "https://www.youtube.com/watch?v=JivU3lsLY2s"
+      },
+      "proj3": {
+        "name": "SIS Consultorios — White-Label Medical Digital Secretary (SaaS)",
+        "description": "Comprehensive SaaS platform for private medical practices and clinics. Automates 24/7 booking without friction, reallocates cancellations in under 3 minutes via smart waitlists, manages virtual queues via autonomous arrival check-in, generates PDF prescriptions with digital signatures, and direct payouts with zero third-party fees.",
+        "tech1": "Next.js",
+        "tech2": "TypeScript",
+        "tech3": "Supabase",
+        "tech4": "Tailwind CSS",
+        "tech5": "PDF Digital Signature",
+        "tech6": "PWA",
+        "achievement1": "White-label multi-tenant architecture built for private practices and clinics.",
+        "achievement2": "Full end-to-end automation of 24/7 appointment scheduling and smart waitlists.",
+        "achievement3": "Self-service arrival check-in and virtual waiting room workflow.",
+        "achievement4": "Legally valid digital signature generation for medical prescriptions and orders in PDF.",
+        "video": "https://www.youtube.com/watch?v=K00nwtnonVo"
+      },
+      "proj4": {
+        "name": "D'AGUA — Logistics, Ordering, and Smart Routing Platform",
+        "description": "Tailored end-to-end software solution for purified water distribution. Delivers a frictionless 2-step ordering experience from mobile phones via secure PINs, while the dispatch dashboard optimizes delivery routes using Nearest-Neighbor algorithms and manages atomic inventory.",
+        "tech1": "Next.js",
+        "tech2": "TypeScript",
+        "tech3": "FastAPI",
+        "tech4": "Mapbox / GIS",
+        "tech5": "PostgreSQL",
+        "tech6": "Tailwind CSS",
+        "achievement1": "100% digital transformation of logistics eliminating paper notebooks and manual logs.",
+        "achievement2": "Nearest-Neighbor delivery route optimization saving fuel, fleet expenses, and time.",
+        "achievement3": "Ultra-fast authentication via phone number and PIN accessible for all demographics.",
+        "achievement4": "Atomic real-time inventory reconciliation across fleets and fulfillment centers.",
+        "video": "https://www.youtube.com/watch?v=GCsZinAk5zQ"
       }
     },
     "education": {
@@ -817,7 +864,7 @@
       "selfLearningTitle": "Intensive Self-Learning",
       "selfLearning1": "Advanced Software Developering: architecture, design patterns, code quality, testing (TDD, unit, integration), refactoring.",
       "selfLearning2": "Cloud & DevOps: Microsoft Azure (resource management, messaging services, scalable functions), CI/CD, containerization (Docker), logs and monitoring.",
-      "selfLearning3": "Applied Artificial Intelligence: autonomous agents, natural language processing, code and content generation with LLMs, AI copilots.",
+      "selfLearning3": "Applied Artificial Intelligence: autonomous agents (AutoGen, CrewAI), LLMs, AI-assisted development (prompt engineering, human-in-the-loop) and AI copilots.",
       "selfLearning4": "Enterprise Security: authentication (Microsoft Entra ID, OpenID Connect, OAuth 2.0), API protection, permission management.",
       "selfLearning5": "NoSQL Databases: advanced modeling in Cosmos DB and MongoDB."
     },
