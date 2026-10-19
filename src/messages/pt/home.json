@@ -1,0 +1,140 @@
+{
+  "hero": {
+    "title": "Otimizamos com IA.",
+    "subtitle": "Analisamos processos, identificamos gargalos e os resolvemos com inteligência artificial.",
+    "impact": "Automação real. Resultados mensuráveis.",
+    "seeProjects": "Nossos produtos",
+    "freeConsult": "Conheça o SIS Consultorios"
+  },
+  "benefits": {
+    "title": "Por que NovaPage?",
+    "customTitle": "Produtos, não promessas",
+    "customDesc": "Cada linha de código tem um propósito. Construímos software que é usado, mantido e escala.",
+    "aiTitle": "Tecnologia aplicada",
+    "aiDesc": "Usamos as ferramentas certas para cada problema. IA, cloud, automação — o que o produto precisar.",
+    "secureTitle": "Arquitetura sólida",
+    "secureDesc": "Infraestrutura cloud, código limpo, testes automatizados. Assim construímos desde o primeiro dia."
+  },
+  "about": {
+    "title": "Quem somos",
+    "description": "NovaPage é uma empresa de software colombiana. Construímos produtos digitais — de plataformas de trading a assistentes inteligentes com IA. Nascidos na Colômbia, operando remotamente, e nosso forte é a arquitetura bem pensada.",
+    "founder": "Fundada por César Pérez, arquiteto de software."
+  },
+  "projects": {
+    "title": "Nossos produtos",
+    "intro": "Isto é o que construímos. Cada produto resolve um problema específico com a tecnologia adequada.",
+    "privacy": "Alguns projetos não são exibidos por acordos de confidencialidade.",
+    "list": [
+      {
+        "name": "SIS Consultorios",
+        "tagline": "Seu consultório médico em piloto automático e marca branca",
+        "company": "NovaPage",
+        "type": "saas",
+        "typeLabel": "SaaS em pré-lançamento",
+        "description": "Secretaria digital e software de gestão médica integrada. Automatiza o agendamento 24 horas por dia sem cadastros burocráticos, elimina o absenteísmo com listas de espera inteligentes, gerencia a fila virtual com chegada autônoma («Já cheguei») e emite receitas em PDF com assinatura digital oficial.",
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "Tailwind CSS",
+          "Assinatura Digital PDF",
+          "PWA"
+        ],
+        "bullets": [
+          "Agendamento guiado 24/7 sem senhas nem atritos para o paciente.",
+          "Lista de espera automática que realoca cancelamentos em menos de 3 minutos.",
+          "Chegada autônoma: o paciente marca «Já cheguei» pelo celular para avançar na fila virtual."
+        ],
+        "videoId": "K00nwtnonVo",
+        "url": "https://sis.novapage.com.co",
+        "hasPublicUrl": true
+      },
+      {
+        "name": "Orbit",
+        "tagline": "Controle total das suas finanças e múltiplos negócios em tempo real",
+        "company": "NovaPage",
+        "type": "beta",
+        "typeLabel": "Beta pública gratuita",
+        "description": "Plataforma FinTech para controle financeiro e contabilidade multi-negócios. Permite isolar completamente as finanças pessoais dos seus empreendimentos, convidar sócios com permissões seguras e visualizar saldos, receitas e despesas em tempo real.",
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "Tailwind CSS",
+          "Recharts",
+          "PWA"
+        ],
+        "bullets": [
+          "Espaços 100% independentes para separar finanças pessoais e corporativas.",
+          "Colaboração em equipe em tempo real com permissões granulares por espaço.",
+          "Registro instantâneo de receitas, despesas e transferências de qualquer dispositivo."
+        ],
+        "videoId": "u5TWCuzIm5U",
+        "url": "https://orbit.novapage.com.co",
+        "hasPublicUrl": true
+      },
+      {
+        "name": "Habits",
+        "tagline": "Hábitos com metas estratégicas, registro em 1 clique e auditoria de progresso",
+        "company": "NovaPage",
+        "type": "beta",
+        "typeLabel": "Beta pública gratuita",
+        "description": "Plataforma de engenharia de desempenho humano desenvolvida para fechar a lacuna entre a estratégia e a execução diária. Vincula metas macro divididas por domínios de vida a hábitos diários atômicos, registrando o progresso com zero atrito e telemetria de foco.",
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "Tailwind CSS",
+          "Framer Motion",
+          "PWA"
+        ],
+        "bullets": [
+          "Metas estratégicas categorizadas por áreas essenciais da vida (negócios, saúde, aprendizado, finanças).",
+          "Vinculação inteligente: cada repetição diária concluída incrementa automaticamente o percentual da meta macro.",
+          "Execução com 1 toque e manutenção de sequências ativas dia após dia."
+        ],
+        "videoId": "zNMmYEe8Hc4",
+        "url": "https://habits.novapage.com.co",
+        "hasPublicUrl": true
+      },
+      {
+        "name": "D'AGUA",
+        "tagline": "Pedidos de água em 2 passos, rotas inteligentes e controle do negócio",
+        "company": "NovaPage",
+        "type": "custom_private",
+        "typeLabel": "Software sob medida",
+        "description": "Plataforma logística completa para distribuição de água purificada. Os clientes fazem pedidos em apenas dois toques pelo celular com autenticação por PIN seguro sem baixar aplicativos pesados, enquanto a empresa gerencia pedidos, estoque atômico e rotas otimizadas por proximidade.",
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "FastAPI",
+          "Mapbox / GIS",
+          "PostgreSQL",
+          "Tailwind CSS"
+        ],
+        "bullets": [
+          "Pedidos em apenas 2 passos com acesso por número de telefone e PIN seguro.",
+          "Otimização inteligente de rotas pelo algoritmo Nearest-Neighbor em mapas interativos.",
+          "Controle de estoque atômico em tempo real e conciliação de galões entregues."
+        ],
+        "videoId": "GCsZinAk5zQ",
+        "url": null,
+        "hasPublicUrl": false
+      }
+    ]
+  },
+  "cta": {
+    "title": "Tem um problema para resolver com software?",
+    "subtitle": "Escreva para nós. Sem pressão, sem ligação de vendas.",
+    "button": "Contato"
+  },
+  "sis": {
+    "badge": "Produto Estrela SaaS",
+    "title": "SIS Consultorios — Seu consultório médico em piloto automático",
+    "subtitle": "Secretaria digital e software de gestão médica integrada sob marca branca. Automatize agendamentos 24/7, zere horários ociosos com lista de espera inteligente, gerencie a fila virtual com chegada autônoma e receba direto na sua conta sem taxas.",
+    "cta": "Conheça o SIS Consultorios",
+    "demoVideo": "Ver vídeo demo",
+    "url": "https://sis.novapage.com.co",
+    "videoId": "K00nwtnonVo"
+  }
+}

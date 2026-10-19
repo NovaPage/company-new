@@ -1,0 +1,276 @@
+{
+  "hero": {
+    "title": "Capacidades",
+    "subtitle": "Construimos software para web, cloud e inteligencia artificial. Cada proyecto es una oportunidad de hacer las cosas bien.",
+    "imgAlt": "Capacidades técnicas de NovaPage"
+  },
+  "categories": {
+    "seeMore": "Ver más",
+    "web": {
+      "title": "Desarrollo de Software (Nuestra Especialidad)",
+      "desc": "Construimos aplicaciones web, plataformas y sistemas empresariales con tecnologías modernas. Código limpio, escalable y mantenible."
+    },
+    "ai": {
+      "title": "Investigación en IA (Agentes Inteligentes)",
+      "desc": "Exploramos sistemas multi-agente, asistentes conversacionales y automatización inteligente. Proyectos de investigación aplicada."
+    },
+    "cloud": {
+      "title": "Infraestructura Cloud",
+      "desc": "Diseñamos y operamos infraestructura en la nube. Azure, Supabase, serverless — lo que cada producto necesite para funcionar."
+    },
+    "automation": {
+      "title": "SIS Consultorios — Software & Secretaría Digital Médica",
+      "desc": "Nuestro producto SaaS estrella para consultorios privados y clínicas bajo marca blanca. Agenda 24/7, lista de espera inteligente y recaudo directo."
+    }
+  },
+  "web": {
+    "title": "Desarrollo de Software",
+    "intro": "Construimos aplicaciones web y plataformas completas. El software es nuestro oficio — desde una API hasta un sistema completo con frontend, backend y base de datos.",
+    "sections": [
+      {
+        "title": "Lo que construimos",
+        "items": [
+          {
+            "title": "Aplicaciones web completas",
+            "desc": "Plataformas con frontend, backend, base de datos y autenticación. Listas para usar, listas para escalar."
+          },
+          {
+            "title": "APIs y microservicios",
+            "desc": "Backends diseñados para ser rápidos, seguros y fáciles de mantener. Documentación incluida."
+          },
+          {
+            "title": "Paneles de control y dashboards",
+            "desc": "Interfaces para visualizar datos, monitorear operaciones y tomar decisiones en tiempo real."
+          },
+          {
+            "title": "Landing pages y sitios corporativos",
+            "desc": "Presencia web profesional, optimizada para rendimiento y conversión."
+          },
+          {
+            "title": "Aplicaciones progresivas (PWA)",
+            "desc": "Aplicaciones que funcionan offline, con notificaciones y experiencia nativa desde el navegador."
+          }
+        ]
+      },
+      {
+        "title": "Cómo construimos",
+        "items": [
+          {
+            "title": "Stack moderno",
+            "desc": "React, Next.js, TypeScript, Python/FastAPI, Tailwind CSS, Supabase, Azure. Elegimos la herramienta según el problema."
+          },
+          {
+            "title": "Arquitectura limpia",
+            "desc": "Código modular, tipos estáticos, pruebas automatizadas. Así evitamos deuda técnica desde el inicio."
+          },
+          {
+            "title": "Integraciones",
+            "desc": "APIs, pasarelas de pago, WhatsApp, CRM, ERP. Conectamos tu software con lo que ya usas."
+          },
+          {
+            "title": "Pruebas y calidad",
+            "desc": "Pruebas unitarias, de integración y de interfaz. Cada deploy pasa por validación automatizada."
+          },
+          {
+            "title": "Despliegue y operación",
+            "desc": "Cloud, VPS o el proveedor que prefieras. Nos encargamos de que el producto esté en línea y funcionando."
+          }
+        ]
+      },
+      {
+        "title": "Por qué encargarlo a NovaPage",
+        "items": [
+          {
+            "title": "Experiencia probada",
+            "desc": "Hemos construido plataformas de trading, asistentes con IA, sistemas de gestión y más."
+          },
+          {
+            "title": "Código que escala",
+            "desc": "No hacemos prototipos. Hacemos productos que pueden crecer con el negocio."
+          },
+          {
+            "title": "Sin rodeos",
+            "desc": "Te decimos si algo funciona, si tiene sentido o si hay un mejor enfoque. No vendemos humo."
+          }
+        ]
+      }
+    ],
+    "cta": "¿Necesitas software bien construido?",
+    "ctaButton": "Escríbenos"
+  },
+  "ai": {
+    "title": "Inteligencia Artificial (Investigación Aplicada)",
+    "intro": "Exploramos sistemas multi-agente, asistentes conversacionales y automatización con IA. Investigación aplicada — construimos, probamos y aprendemos.",
+    "desc": "Autogen, CrewAI, LangChain, OpenAI, Gemini. Usamos las herramientas adecuadas para cada experimento.",
+    "sections": [
+      {
+        "title": "Líneas de investigación",
+        "items": [
+          {
+            "title": "Sistemas multi-agente y agentes autónomos",
+            "desc": "Diseñamos agentes de IA especializados que colaboran entre sí para resolver flujos de trabajo complejos, validar información y tomar decisiones supervisadas."
+          },
+          {
+            "title": "Asistentes conversacionales",
+            "desc": "Agentes de IA y asistentes para web, WhatsApp y canales internos. Con lenguaje natural."
+          },
+          {
+            "title": "Automatización inteligente",
+            "desc": "Sistemas que analizan datos, generan reportes y toman decisiones basadas en modelos de IA."
+          }
+        ]
+      },
+      {
+        "title": "Tecnologías que usamos",
+        "items": [
+          {
+            "title": "Frameworks de agentes",
+            "desc": "Autogen, CrewAI, LangChain — para orquestar sistemas multi-agente."
+          },
+          {
+            "title": "Modelos de lenguaje",
+            "desc": "OpenAI (GPT), Gemini, DeepSeek — según lo que cada caso requiera."
+          },
+          {
+            "title": "Infraestructura",
+            "desc": "Azure Functions, FastAPI, contenedores Docker — para ejecutar agentes en producción."
+          }
+        ]
+      },
+      {
+        "title": "Estado actual",
+        "items": [
+          {
+            "title": "Outreach — Agentes de prospección con IA",
+            "desc": "Motor inteligente que rastrea prospectos, analiza su presencia digital y entabla conversaciones naturales por WhatsApp."
+          }
+        ]
+      }
+    ],
+    "cta": "¿Tienes un caso de uso para IA?",
+    "ctaButton": "Hablemos"
+  },
+  "cloud": {
+    "title": "Infraestructura Cloud",
+    "intro": "El software necesita una base sólida. Diseñamos, implementamos y operamos infraestructura en la nube para productos que exigen rendimiento y disponibilidad.",
+    "desc": "Azure, Supabase, serverless, contenedores. La nube correcta para cada producto.",
+    "sections": [
+      {
+        "title": "Qué hacemos",
+        "items": [
+          {
+            "title": "Arquitectura cloud",
+            "desc": "Diseñamos la infraestructura que cada producto necesita. Escalable, segura y optimizada para costos."
+          },
+          {
+            "title": "Migraciones",
+            "desc": "Trasladamos sistemas existentes a la nube con planificación y respaldo. Sin tiempo muerto."
+          },
+          {
+            "title": "Bases de datos",
+            "desc": "Supabase, Cosmos DB, PostgreSQL. Elegimos según el patrón de acceso de cada aplicación."
+          },
+          {
+            "title": "Serverless y contenedores",
+            "desc": "Azure Functions, Docker, CI/CD. Automatizamos deploys y escalamos bajo demanda."
+          },
+          {
+            "title": "Monitoreo y operación",
+            "desc": "Dashboards de rendimiento, alertas, logs centralizados. La infraestructura no se abandona."
+          }
+        ]
+      },
+      {
+        "title": "Para qué casos",
+        "items": [
+          {
+            "title": "Productos nuevos",
+            "desc": "Si estás construyendo desde cero, te ayudamos a elegir y configurar la nube desde el día uno."
+          },
+          {
+            "title": "Sistemas existentes",
+            "desc": "Si tu infraestructura actual no escala, la revisamos y la optimizamos."
+          }
+        ]
+      },
+      {
+        "title": "Por qué confiar",
+        "items": [
+          {
+            "title": "Experiencia en Azure",
+            "desc": "Azure Functions, Service Bus, Cosmos DB, Entra ID. Especialistas en el ecosistema Microsoft."
+          },
+          {
+            "title": "Enfoque en costo",
+            "desc": "No vendemos la nube más cara. Vendemos la que resuelve el problema al menor costo posible."
+          },
+          {
+            "title": "Infraestructura como código",
+            "desc": "Todo se configura con código. Reproducible, versionado, auditable."
+          }
+        ]
+      }
+    ],
+    "cta": "¿Necesitas infraestructura para tu producto?",
+    "ctaButton": "Escríbenos"
+  },
+  "automation": {
+    "title": "SIS Consultorios — Secretaría Digital & Software Médico",
+    "intro": "SIS Consultorios es una plataforma SaaS autónoma diseñada para la consulta privada y clínicas. Se entrega 100% bajo tu marca, eliminando la carga administrativa para que el profesional se concentre exclusivamente en la atención a sus pacientes.",
+    "sections": [
+      {
+        "title": "Capacidades de la plataforma",
+        "items": [
+          {
+            "title": "Agendamiento 24/7 sin fricción",
+            "desc": "Tus pacientes reservan en segundos desde cualquier dispositivo, sin necesidad de contraseñas ni descargar aplicaciones."
+          },
+          {
+            "title": "Lista de espera y confirmación inteligente",
+            "desc": "Recordatorios automáticos en un toque y reasignación de cancelaciones en menos de 3 minutos para eliminar huecos en agenda."
+          },
+          {
+            "title": "Llegada autónoma y fila virtual",
+            "desc": "El paciente marca «Ya llegué» desde su celular al ingresar al centro médico y la fila avanza de forma sincronizada."
+          },
+          {
+            "title": "Fórmulas médicas y órdenes en 1 toque",
+            "desc": "Generación instantánea de recetas y solicitudes de laboratorio en formato PDF con firma digital oficial."
+          },
+          {
+            "title": "Caja directa sin intermediarios",
+            "desc": "100% de los honorarios y recaudos llegan directo a tu cuenta bancaria, con cero comisiones porcentuales a terceros."
+          }
+        ]
+      },
+      {
+        "title": "Diseñado para profesionales de la salud",
+        "items": [
+          {
+            "title": "Consultorios privados",
+            "desc": "Médicos especialistas, psicólogos, fisioterapeutas y profesionales independientes que quieren autonomía total."
+          },
+          {
+            "title": "Clínicas y centros odontológicos",
+            "desc": "Gestión de múltiples agendas y consultorios con experiencia unificada para los pacientes."
+          }
+        ]
+      },
+      {
+        "title": "Modelo de producto e implementación",
+        "items": [
+          {
+            "title": "100% Marca Blanca",
+            "desc": "Tus pacientes ven tu logotipo, tus colores y tu identidad institucional, sin menciones a terceros."
+          },
+          {
+            "title": "Puesta en marcha inmediata",
+            "desc": "Configuración guiada y soporte técnico para que empieces a atender citas desde la primera semana."
+          }
+        ]
+      }
+    ],
+    "cta": "¿Quieres conocer SIS para tu consultorio?",
+    "ctaButton": "Solicitar Demo"
+  }
+}

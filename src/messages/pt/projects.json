@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "title": "Nossos Produtos",
+    "subtitle": "Software que construímos. Cada um resolve um problema diferente com a stack adequada.",
+    "imgAlt": "Produtos de software desenvolvidos pela NovaPage"
+  },
+  "sectionTitle": "Produtos e Projetos",
+  "list": [
+    {
+      "id": "sis",
+      "name": "SIS Consultorios",
+      "tagline": "Seu consultório médico em piloto automático e marca branca",
+      "type": "saas",
+      "typeLabel": "SaaS em pré-lançamento",
+      "statusNote": "Produto próprio voltado ao setor da saúde. Projetado para médicos e clínicas sob marca branca.",
+      "company": "NovaPage",
+      "description": "Secretaria digital e software de gestão médica integrada. Automatiza o agendamento 24 horas por dia sem cadastros burocráticos, elimina o absenteísmo com listas de espera inteligentes, gerencia a fila virtual com chegada autônoma («Já cheguei») e emite receitas em PDF com assinatura digital oficial.",
+      "techs": [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "Tailwind CSS",
+        "Assinatura Digital PDF",
+        "PWA"
+      ],
+      "bullets": [
+        "Agendamento guiado 24/7 sem senhas nem atritos para o paciente.",
+        "Lista de espera automática que realoca cancelamentos em menos de 3 minutos.",
+        "Chegada autônoma: o paciente marca «Já cheguei» pelo celular para avançar na fila virtual.",
+        "Receitas e pedidos de exames em PDF com assinatura digital oficial em 1 toque.",
+        "Módulo financeiro com cobrança 100% direta na sua conta bancária (0% taxas para intermediários)."
+      ],
+      "videoId": "K00nwtnonVo",
+      "video": "https://www.youtube.com/watch?v=K00nwtnonVo",
+      "url": "https://sis.novapage.com.co",
+      "hasPublicUrl": true,
+      "actionText": "Solicitar acesso / demo"
+    },
+    {
+      "id": "orbit",
+      "name": "Orbit",
+      "tagline": "Controle total das suas finanças e múltiplos negócios em tempo real",
+      "type": "beta",
+      "typeLabel": "Beta pública gratuita",
+      "statusNote": "Produto próprio da NovaPage. Acesso livre e completo como produto premium sem custos durante o período beta.",
+      "company": "NovaPage",
+      "description": "Plataforma FinTech para controle financeiro e contabilidade multi-negócios. Permite isolar completamente as finanças pessoais dos seus empreendimentos, convidar sócios com permissões seguras e visualizar saldos, receitas e despesas em tempo real.",
+      "techs": [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "Tailwind CSS",
+        "Recharts",
+        "PWA"
+      ],
+      "bullets": [
+        "Espaços 100% independentes para separar finanças pessoais e corporativas.",
+        "Colaboração em equipe em tempo real com permissões granulares por espaço.",
+        "Registro instantâneo de receitas, despesas e transferências de qualquer dispositivo.",
+        "Métricas vivas, balanços dinâmicos e relatórios transparentes de saúde financeira."
+      ],
+      "videoId": "u5TWCuzIm5U",
+      "video": "https://www.youtube.com/watch?v=u5TWCuzIm5U",
+      "url": "https://orbit.novapage.com.co",
+      "hasPublicUrl": true,
+      "actionText": "Testar beta gratuita"
+    },
+    {
+      "id": "habits",
+      "name": "Habits",
+      "tagline": "Hábitos com metas estratégicas, registro em 1 clique e auditoria de progresso",
+      "type": "beta",
+      "typeLabel": "Beta pública gratuita",
+      "statusNote": "Produto próprio da NovaPage. Acesso livre e completo como produto premium sem custos durante o período beta.",
+      "company": "NovaPage",
+      "description": "Plataforma de engenharia de desempenho humano desenvolvida para fechar a lacuna entre a estratégia e a execução diária. Vincula metas macro divididas por domínios de vida a hábitos diários atômicos, registrando o progresso com zero atrito e telemetria de foco.",
+      "techs": [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "Tailwind CSS",
+        "Framer Motion",
+        "PWA"
+      ],
+      "bullets": [
+        "Metas estratégicas categorizadas por áreas essenciais da vida (negócios, saúde, aprendizado, finanças).",
+        "Vinculação inteligente: cada repetição diária concluída incrementa automaticamente o percentual da meta macro.",
+        "Execução com 1 toque e manutenção de sequências ativas dia após dia.",
+        "Auditoria de foco e telemetria: métricas em tempo real com Focus Score e consistência semanal."
+      ],
+      "videoId": "zNMmYEe8Hc4",
+      "video": "https://www.youtube.com/watch?v=zNMmYEe8Hc4",
+      "url": "https://habits.novapage.com.co",
+      "hasPublicUrl": true,
+      "actionText": "Testar beta gratuita"
+    },
+    {
+      "id": "dagua",
+      "name": "D'AGUA",
+      "tagline": "Pedidos de água em 2 passos, rotas inteligentes e controle do negócio",
+      "type": "custom_private",
+      "typeLabel": "Software sob medida",
+      "statusNote": "Desenvolvido sob medida para empresa distribuidora. Em produção privada para sua clientela e equipe de entregas.",
+      "company": "NovaPage",
+      "description": "Plataforma logística completa para distribuição de água purificada. Os clientes fazem pedidos em apenas dois toques pelo celular com autenticação por PIN seguro sem baixar aplicativos pesados, enquanto a empresa gerencia pedidos, estoque atômico e rotas otimizadas por proximidade.",
+      "techs": [
+        "Next.js",
+        "TypeScript",
+        "FastAPI",
+        "Mapbox / GIS",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ],
+      "bullets": [
+        "Pedidos em apenas 2 passos com acesso por número de telefone e PIN seguro.",
+        "Otimização inteligente de rotas pelo algoritmo Nearest-Neighbor em mapas interativos.",
+        "Controle de estoque atômico em tempo real e conciliação de galões entregues.",
+        "Operação 100% digital: rastreabilidade ponta a ponta e eliminação total de papel."
+      ],
+      "videoId": "GCsZinAk5zQ",
+      "video": "https://www.youtube.com/watch?v=GCsZinAk5zQ",
+      "url": null,
+      "hasPublicUrl": false,
+      "actionText": "Solicitar software sob medida"
+    },
+    {
+      "id": "outreach",
+      "name": "Outreach",
+      "tagline": "Sua prospecção comercial no WhatsApp em piloto automático",
+      "type": "internal",
+      "typeLabel": "Sistema interno",
+      "statusNote": "Ferramenta de uso interno desenvolvida para as operações comerciais e captação de clientes da NovaPage.",
+      "company": "NovaPage",
+      "description": "Motor autônomo de prospecção comercial B2B para WhatsApp. Rastreia potenciais clientes por parâmetros geográficos e de setor, valida canais de contato, redige abordagens hiperpersonalizadas e qualifica com um agente de IA conversacional («Nova») antes de transferir o lead ao consultor comercial.",
+      "techs": [
+        "Python (FastAPI)",
+        "WhatsApp Cloud API",
+        "LLM Agents (Gemini / OpenAI)",
+        "PostgreSQL",
+        "Next.js",
+        "Docker"
+      ],
+      "bullets": [
+        "Busca autônoma por localização e segmento com validação de números em tempo real.",
+        "Redação automatizada de primeira mensagem personalizada para cada empresa.",
+        "Agente conversacional de IA para esclarecer dúvidas frequentes e contornar objeções.",
+        "Handoff inteligente em 1 clique: alerta o consultor humano imediatamente quando há interesse de compra.",
+        "Painel centralizado com métricas de resposta, qualificação e conversão."
+      ],
+      "videoId": "JivU3lsLY2s",
+      "video": "https://www.youtube.com/watch?v=JivU3lsLY2s",
+      "url": null,
+      "hasPublicUrl": false,
+      "actionText": "Solicitar automação sob medida"
+    },
+    {
+      "id": "eduplatform",
+      "name": "EduPlatform",
+      "tagline": "Cursos com streaming protegido, assinaturas e progresso em tempo real",
+      "type": "custom_private",
+      "typeLabel": "Software sob medida",
+      "statusNote": "Software sob medida desenvolvido para academia privada de cursos de trading. Caso de sucesso sem acesso público aberto.",
+      "company": "NovaPage",
+      "description": "Plataforma educacional e LMS moderna desenvolvida sob medida para ensino online com vídeo em alta definição. Apresenta infraestrutura de streaming seguro e criptografado para impedir pirataria ou downloads não autorizados, controle granular de planos e rastreamento de progresso.",
+      "techs": [
+        "Next.js",
+        "Supabase",
+        "TypeScript",
+        "HLS Secure Streaming",
+        "Tailwind CSS",
+        "CDN Edge"
+      ],
+      "bullets": [
+        "Streaming em alta definição com reprodução criptografada e proteção contra downloads.",
+        "Estrutura didática de módulos, aulas e conteúdo complementar passo a passo.",
+        "Gestão granular de assinaturas e liberação de conteúdo em tempo real.",
+        "Telemetria na nuvem: salva o ponto exato do vídeo e a porcentagem concluída em qualquer aparelho."
+      ],
+      "videoId": "dm1U0vyRrmY",
+      "video": "https://www.youtube.com/watch?v=dm1U0vyRrmY",
+      "url": null,
+      "hasPublicUrl": false,
+      "actionText": "Solicitar plataforma sob medida"
+    }
+  ]
+}

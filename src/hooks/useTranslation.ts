@@ -2,7 +2,7 @@ import { useLanguage } from "@/providers/LanguageProvider";
 
 /**
  * Safely retrieves a nested value from a translation object using dot notation.
- * Example: getNestedValue({ navbar: { home: "Home" } }, "navbar.home") → "Home"
+ * Example: getNestedValue({ nav: { home: "Home" } }, "nav.home") → "Home"
  */
 function getNestedValue(obj: unknown, key: string): unknown {
   if (typeof obj !== "object" || obj === null) return undefined;
@@ -16,10 +16,11 @@ function getNestedValue(obj: unknown, key: string): unknown {
 }
 
 /**
- * Translation hook that returns a translation function with optional generic return type.
+ * Backwards-compatible translation hook that returns a translation function
+ * with optional generic return type, powered by the modular next-intl messages.
  */
 export function useTranslation() {
-  const { messages } = useLanguage();
+  const { messages, locale, setLocale } = useLanguage();
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   function t<T = string>(key: string, _options?: { returnObjects?: boolean }): T {
@@ -27,5 +28,13 @@ export function useTranslation() {
     return (val ?? key) as unknown as T;
   }
 
-  return { t };
+  return { t, locale, setLocale };
 }
+
+// Re-export next-intl hooks for modern / gradual adoption
+export {
+  useTranslations,
+  useFormatter,
+  useLocale,
+  useMessages,
+} from "next-intl";

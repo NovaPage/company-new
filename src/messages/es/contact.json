@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "Hablemos",
+    "subtitle": "Si tienes un problema que resolver con software, escríbenos. Sin llamada de ventas, sin presión.",
+    "imgAlt": "Contacto NovaPage"
+  },
+  "cards": {
+    "title": "Contáctanos por tu canal favorito",
+    "whatsapp": {
+      "alt": "WhatsApp NovaPage",
+      "label": "Escríbenos por WhatsApp",
+      "desc": "Abre un chat directo con el equipo.",
+      "defaultMsg": "Hola, tengo un proyecto de software que me gustaría discutir con ustedes."
+    },
+    "email": {
+      "alt": "Email NovaPage",
+      "label": "Contáctanos por Email",
+      "desc": "Envía un correo con tu consulta.",
+      "subject": "Consulta sobre desarrollo de software"
+    },
+    "instagram": {
+      "alt": "Instagram NovaPage",
+      "label": "Síguenos en Instagram",
+      "desc": "Mira nuestro trabajo y contenido en Instagram."
+    },
+    "tiktok": {
+      "alt": "TikTok NovaPage",
+      "label": "Síguenos en TikTok",
+      "desc": "Contenido rápido y directo en TikTok."
+    },
+    "linkedin": {
+      "alt": "LinkedIn NovaPage",
+      "label": "Conecta por LinkedIn",
+      "desc": "Visita nuestro perfil profesional en LinkedIn."
+    }
+  }
+}

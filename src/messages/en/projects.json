@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "title": "Our Products",
+    "subtitle": "Software we have built. Each one solves a different problem with the right stack.",
+    "imgAlt": "Software products developed by NovaPage"
+  },
+  "sectionTitle": "Products and Projects",
+  "list": [
+    {
+      "id": "sis",
+      "name": "SIS Consultorios",
+      "tagline": "Your medical practice on autopilot and white-label",
+      "type": "saas",
+      "typeLabel": "Pre-launch SaaS",
+      "statusNote": "Proprietary product for the healthcare sector. Built for private practices and clinics under white-label.",
+      "company": "NovaPage",
+      "description": "Comprehensive digital secretary and practice management software. Automates 24/7 scheduling without tedious signups, slashes no-shows with smart waitlists, coordinates autonomous arrivals («I have arrived» queue), and generates PDF prescriptions with official digital signatures.",
+      "techs": [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "Tailwind CSS",
+        "PDF Digital Signature",
+        "PWA"
+      ],
+      "bullets": [
+        "Frictionless 24/7 guided appointment booking with no passwords needed.",
+        "Automated smart waitlist reassigning cancellations in under 3 minutes.",
+        "Autonomous arrival check-in: patients tap «I have arrived» to progress the virtual queue.",
+        "1-touch PDF medical prescriptions and lab orders with official digital signature.",
+        "Direct billing module with 100% payout to your bank account (0% third-party fees)."
+      ],
+      "videoId": "K00nwtnonVo",
+      "video": "https://www.youtube.com/watch?v=K00nwtnonVo",
+      "url": "https://sis.novapage.com.co",
+      "hasPublicUrl": true,
+      "actionText": "Request access / demo"
+    },
+    {
+      "id": "orbit",
+      "name": "Orbit",
+      "tagline": "Total control of your finances and business workspaces in real time",
+      "type": "beta",
+      "typeLabel": "Free Public Beta",
+      "statusNote": "Proprietary NovaPage product. Free, full access as a premium product with no fees during the beta period.",
+      "company": "NovaPage",
+      "description": "FinTech platform for multi-business accounting and financial clarity. Keeps personal finances completely isolated from business projects, allows inviting partners with granular permissions, and displays real-time balances, income, and expense telemetry.",
+      "techs": [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "Tailwind CSS",
+        "Recharts",
+        "PWA"
+      ],
+      "bullets": [
+        "100% isolated workspaces to separate personal and business capital.",
+        "Real-time team collaboration with granular role-based permissions.",
+        "Instant recording of income, expenses, and transfers from any device.",
+        "Live financial telemetry, dynamic balances, and transparent health metrics."
+      ],
+      "videoId": "u5TWCuzIm5U",
+      "video": "https://www.youtube.com/watch?v=u5TWCuzIm5U",
+      "url": "https://orbit.novapage.com.co",
+      "hasPublicUrl": true,
+      "actionText": "Try Free Beta"
+    },
+    {
+      "id": "habits",
+      "name": "Habits",
+      "tagline": "Habits connected to strategic goals, 1-click logging, and progress audits",
+      "type": "beta",
+      "typeLabel": "Free Public Beta",
+      "statusNote": "Proprietary NovaPage product. Free, full access as a premium product with no fees during the beta period.",
+      "company": "NovaPage",
+      "description": "Human performance engineering platform engineered to bridge the gap between high-level strategy and daily execution. Connects macro life-domain goals with atomic daily habits, featuring zero-friction tracking and real-time focus audits.",
+      "techs": [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "Tailwind CSS",
+        "Framer Motion",
+        "PWA"
+      ],
+      "bullets": [
+        "Strategic goals structured across key life domains (business, health, learning, finance).",
+        "Tactical habit linking: every daily repetition directly increments your macro goal achievement.",
+        "Zero-friction 1-tap logging to maintain active consistency streaks.",
+        "In-depth focus audits: real-time metrics with Focus Score and weekly consistency analytics."
+      ],
+      "videoId": "zNMmYEe8Hc4",
+      "video": "https://www.youtube.com/watch?v=zNMmYEe8Hc4",
+      "url": "https://habits.novapage.com.co",
+      "hasPublicUrl": true,
+      "actionText": "Try Free Beta"
+    },
+    {
+      "id": "dagua",
+      "name": "D'AGUA",
+      "tagline": "Water delivery orders in 2 steps, smart routing, and total business control",
+      "type": "custom_private",
+      "typeLabel": "Custom Software",
+      "statusNote": "Custom-built for a commercial water delivery distributor. Operating privately in production for their customer base and delivery fleet.",
+      "company": "NovaPage",
+      "description": "End-to-end logistics platform for purified water distribution. Customers place jug orders in two taps from their phone using secure PIN verification with no bulky app installs, while dispatchers manage orders, atomic inventory, and route dispatch via nearest-neighbor optimization.",
+      "techs": [
+        "Next.js",
+        "TypeScript",
+        "FastAPI",
+        "Mapbox / GIS",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ],
+      "bullets": [
+        "2-step customer orders with phone-number and secure PIN login.",
+        "Nearest-Neighbor smart route optimization over interactive maps saving fuel and delivery times.",
+        "Atomic real-time inventory management with instant jug reconciliation.",
+        "100% paperless operation: full dispatch audit trail and automatic daily revenue summaries."
+      ],
+      "videoId": "GCsZinAk5zQ",
+      "video": "https://www.youtube.com/watch?v=GCsZinAk5zQ",
+      "url": null,
+      "hasPublicUrl": false,
+      "actionText": "Inquire about custom software"
+    },
+    {
+      "id": "outreach",
+      "name": "Outreach",
+      "tagline": "Your commercial WhatsApp prospecting engine on autopilot",
+      "type": "internal",
+      "typeLabel": "Internal System",
+      "statusNote": "Proprietary internal system built for NovaPage sales operations and automated client acquisition.",
+      "company": "NovaPage",
+      "description": "Autonomous B2B commercial prospecting motor on WhatsApp. Crawls target businesses by geography and industry parameters, verifies phone lines, crafts hyper-personalized opening messages, and handles conversational qualification via AI agent («Nova») before handing off qualified leads to human advisors.",
+      "techs": [
+        "Python (FastAPI)",
+        "WhatsApp Cloud API",
+        "LLM Agents (Gemini / OpenAI)",
+        "PostgreSQL",
+        "Next.js",
+        "Docker"
+      ],
+      "bullets": [
+        "Autonomous parameter-based search by location and industry with live phone validation.",
+        "AI-crafted personalized opening messages tailored to each prospect's web presence.",
+        "Conversational AI agent answering FAQs and overcoming initial objections naturally.",
+        "1-click human handoff: alerts advisor immediately upon confirmed buying intent.",
+        "Unified dashboard tracking reply rates, qualification scores, and conversion pipelines."
+      ],
+      "videoId": "JivU3lsLY2s",
+      "video": "https://www.youtube.com/watch?v=JivU3lsLY2s",
+      "url": null,
+      "hasPublicUrl": false,
+      "actionText": "Inquire about custom automation"
+    },
+    {
+      "id": "eduplatform",
+      "name": "EduPlatform",
+      "tagline": "Courses with secure encrypted streaming, memberships, and real-time progress",
+      "type": "custom_private",
+      "typeLabel": "Custom Software",
+      "statusNote": "Custom educational platform delivered for a private financial trading academy. Successful case study, not open to the general public.",
+      "company": "NovaPage",
+      "description": "Modern LMS and educational software platform built for high-definition video learning. Features encrypted, tamper-resistant streaming to prevent content piracy or illicit downloads, granular membership level gates, and automated cloud progress tracking.",
+      "techs": [
+        "Next.js",
+        "Supabase",
+        "TypeScript",
+        "HLS Secure Streaming",
+        "Tailwind CSS",
+        "CDN Edge"
+      ],
+      "bullets": [
+        "Encrypted HD streaming playback preventing unauthorized recording or downloads.",
+        "Step-by-step modular curriculum breakdown with interactive exercises.",
+        "Granular membership access control and automatic tier unlocking in real time.",
+        "Cloud student telemetry: saves exact video position and completion percentage across devices."
+      ],
+      "videoId": "dm1U0vyRrmY",
+      "video": "https://www.youtube.com/watch?v=dm1U0vyRrmY",
+      "url": null,
+      "hasPublicUrl": false,
+      "actionText": "Inquire about custom platform"
+    }
+  ]
+}

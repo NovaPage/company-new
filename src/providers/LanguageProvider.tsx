@@ -1,27 +1,40 @@
 "use client";
 
 import React, { createContext, useContext, useEffect, useState } from "react";
+import { NextIntlClientProvider } from "next-intl";
 import { loadLocaleMessages } from "@/utils/loadMessages";
-
-type SupportedLocale = "es" | "en" | "pt";
+import { DEFAULT_LOCALE, LOCALES, type Locale } from "@/i18n/config";
 
 type LanguageContextType = {
-  locale: SupportedLocale;
+  locale: Locale;
   messages: Record<string, unknown>;
-  setLocale: (locale: SupportedLocale) => void;
+  setLocale: (locale: Locale) => void;
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-const DEFAULT_LOCALE: SupportedLocale = "es";
 const LOCAL_STORAGE_KEY = "app_locale";
+const COOKIE_KEY = "NEXT_LOCALE";
 
-export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
-  const [locale, setLocaleState] = useState<SupportedLocale>(DEFAULT_LOCALE);
-  const [messages, setMessages] = useState<Record<string, unknown>>({});
+export const LanguageProvider = ({
+  children,
+  initialLocale = DEFAULT_LOCALE,
+  initialMessages = {},
+}: {
+  children: React.ReactNode;
+  initialLocale?: Locale;
+  initialMessages?: Record<string, unknown>;
+}) => {
+  const [locale, setLocaleState] = useState<Locale>(initialLocale);
+  const [messages, setMessages] = useState<Record<string, unknown>>(initialMessages);
 
-  const setLocale = async (newLocale: SupportedLocale) => {
-    localStorage.setItem(LOCAL_STORAGE_KEY, newLocale);
+  const setLocale = async (newLocale: Locale) => {
+    try {
+      localStorage.setItem(LOCAL_STORAGE_KEY, newLocale);
+      document.cookie = `${COOKIE_KEY}=${newLocale}; path=/; max-age=31536000; SameSite=Lax`;
+    } catch {
+      // safe fallback for environments without storage/cookies
+    }
     setLocaleState(newLocale);
     const loadedMessages = await loadLocaleMessages(newLocale);
     setMessages(loadedMessages);
@@ -29,10 +42,16 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
 
   useEffect(() => {
     const init = async () => {
-      const storedLocale = localStorage.getItem(LOCAL_STORAGE_KEY) as SupportedLocale | null;
-      const initialLocale = storedLocale || DEFAULT_LOCALE;
-      setLocaleState(initialLocale);
-      const loadedMessages = await loadLocaleMessages(initialLocale);
+      let storedLocale: Locale | null = null;
+      try {
+        storedLocale = localStorage.getItem(LOCAL_STORAGE_KEY) as Locale | null;
+      } catch {
+        // safe fallback
+      }
+      const activeLocale =
+        storedLocale && LOCALES.includes(storedLocale) ? storedLocale : DEFAULT_LOCALE;
+      setLocaleState(activeLocale);
+      const loadedMessages = await loadLocaleMessages(activeLocale);
       setMessages(loadedMessages);
     };
     init();
@@ -40,7 +59,9 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
 
   return (
     <LanguageContext.Provider value={{ locale, messages, setLocale }}>
-      {children}
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        {children}
+      </NextIntlClientProvider>
     </LanguageContext.Provider>
   );
 };

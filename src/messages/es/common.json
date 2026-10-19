@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Capacidades",
+    "projects": "Productos",
+    "contact": "Contacto",
+    "profile": "Perfil"
+  },
+  "footer": {
+    "copyright": "© 2026 NovaPage. Todos los derechos reservados."
+  }
+}
